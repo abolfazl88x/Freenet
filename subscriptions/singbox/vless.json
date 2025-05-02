@@ -107,12 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @redfree8 | 2",
-                "🇨🇦CA | 🔴 | vless | @SiNAVM | 3",
                 "🚩CF | 🔴 | vless | @redfree8 | 1",
                 "🚩CF | 🔴 | vless | @DeamNet_Proxy | 1",
-                "🇮🇷IR | 🔴 | vless | @meli_proxyy | 3",
-                "🇺🇸US | 🔴 | vless | @meli_proxyy | 0",
-                "🇩🇪DE | 🔴 | vless | @DeamNet_Proxy | 16"
+                "🇳🇱NL | 🟢 | vless | @TEHRANARGO | 1",
+                "🇺🇸US | 🔴 | vless | @meli_proxyy | 0"
             ]
         },
         {
@@ -120,12 +118,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @redfree8 | 2",
-                "🇨🇦CA | 🔴 | vless | @SiNAVM | 3",
                 "🚩CF | 🔴 | vless | @redfree8 | 1",
                 "🚩CF | 🔴 | vless | @DeamNet_Proxy | 1",
-                "🇮🇷IR | 🔴 | vless | @meli_proxyy | 3",
-                "🇺🇸US | 🔴 | vless | @meli_proxyy | 0",
-                "🇩🇪DE | 🔴 | vless | @DeamNet_Proxy | 16"
+                "🇳🇱NL | 🟢 | vless | @TEHRANARGO | 1",
+                "🇺🇸US | 🔴 | vless | @meli_proxyy | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -165,27 +161,6 @@
                 "path": "\/re5IzbZ9IZZMddtw?ed=2560",
                 "headers": {
                     "Host": "ipsychO.SUEx12.Ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @SiNAVM | 3",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/re5IzbZ9IZZMddtw?ed=2560",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -242,11 +217,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @meli_proxyy | 3",
+            "tag": "🇳🇱NL | 🟢 | vless | @TEHRANARGO | 1",
             "type": "vless",
-            "server": "dl3.xmsd.ir",
-            "server_port": 41019,
-            "uuid": "ab5b3be0-ac1f-4733-b747-4ec45f64b79c",
+            "server": "clientproo.xyz",
+            "server_port": 443,
+            "uuid": "f97af38a-5d88-4f69-b5f9-da254ff23b22",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -258,53 +233,15 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @meli_proxyy | 0",
             "type": "vless",
-            "server": "parspack.com",
-            "server_port": 2052,
-            "uuid": "36fec967-0215-44d3-9c3d-3250b60b492b",
+            "server": "website.acveo.ir",
+            "server_port": 8080,
+            "uuid": "f7286f11-3b13-4342-a829-a8b1563146c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560",
-                "headers": {
-                    "Host": "parspack.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @DeamNet_Proxy | 16",
-            "type": "vless",
-            "server": "50.7.85.221",
-            "server_port": 443,
-            "uuid": "64a125b1-4a57-4a64-bfb2-7dc6866c55bc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kosesher2.nayase6031.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "kosesher2.nayase6031.workers.dev"
-                }
             }
         }
     ],

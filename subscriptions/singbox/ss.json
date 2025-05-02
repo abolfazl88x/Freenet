@@ -106,20 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8",
                 "🇬🇧GB | 🟢 | ss | @ShadowProxy66 | 0",
-                "🇬🇧GB | 🟢 | ss | @meli_proxyy | 14",
-                "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 0"
+                "🇬🇧GB | 🟢 | ss | @meli_proxyy | 15",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8",
                 "🇬🇧GB | 🟢 | ss | @ShadowProxy66 | 0",
-                "🇬🇧GB | 🟢 | ss | @meli_proxyy | 14",
-                "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 0"
+                "🇬🇧GB | 🟢 | ss | @meli_proxyy | 15",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,16 +140,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8",
-            "type": "shadowsocks",
-            "server": "45.87.175.178",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇬🇧GB | 🟢 | ss | @ShadowProxy66 | 0",
             "type": "shadowsocks",
             "server": "series-a2.varzesh360.co",
@@ -162,7 +150,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @meli_proxyy | 14",
+            "tag": "🇬🇧GB | 🟢 | ss | @meli_proxyy | 15",
             "type": "shadowsocks",
             "server": "85.210.120.237",
             "server_port": 443,
@@ -172,12 +160,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 0",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8",
             "type": "shadowsocks",
-            "server": "185.47.254.87",
-            "server_port": 990,
+            "server": "45.87.175.178",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
             "plugin": "",
             "plugin_opts": ""
         }

@@ -105,13 +105,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 10"
+            ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -131,6 +134,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 10",
+            "type": "vless",
+            "server": "o.soskom.ir",
+            "server_port": 11045,
+            "uuid": "06fc08e5-afff-4c4d-a626-f0a1a83d2ac8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM",
+                    "short_id": "20db1be5e1ab118a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel : @NT_Safe",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         }
     ],
     "route": {

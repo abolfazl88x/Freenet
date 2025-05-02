@@ -1,2 +1,7 @@
-trojan://telegram-id-directvpn@3.74.220.39:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 19
+#profile-title: base64:QFNpTkFWTSB8bGl0ZSB8IFJFQUxJVFk=
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+#support-url: https://t.me/SiNAVM
+#profile-web-page-url: https://github.com/sinavm/SVM
+
 vless://06fc08e5-afff-4c4d-a626-f0a1a83d2ac8@o.soskom.ir:11045?mode=gun&security=reality&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&pbk=p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM&fp=chrome&spx=/&type=grpc&serviceName=Tel : @NT_Safe&sni=yahoo.com&sid=20db1be5e1ab118a#🇩🇪DE | 🔴 | vless | @TEHRANARGO | 10

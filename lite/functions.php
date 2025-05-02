@@ -10,44 +10,12 @@ function is_ip($string)
     }
 }
 
-function convertToJson($input) {
-    // Split the input string by newline
-    $lines = explode("\n", $input);
-
-    // Initialize an empty array to store the key-value pairs
-    $data = [];
-
-    // Loop through each line
-    foreach ($lines as $line) {
-        // Split the line by the equals sign
-        $parts = explode("=", $line);
-
-        // If the line has an equals sign and is not empty
-        if (count($parts) == 2 && !empty($parts[0]) && !empty($parts[1])) {
-            // Trim any whitespace from the key and value
-            $key = trim($parts[0]);
-            $value = trim($parts[1]);
-
-            // Add the key-value pair to the data array
-            $data[$key] = $value;
-        }
-    }
-
-    // Convert the data array to a JSON string
-    $json = json_encode($data);
-
-    return $json;
-}
-
 function ip_info($ip)
 {
     // Check if the IP is from Cloudflare
     if (is_cloudflare_ip($ip)) {
-        $traceUrl = "http://$ip/cdn-cgi/trace";
-        $traceData = convertToJson(file_get_contents($traceUrl));
-        $country = $traceData['loc'] ?? "CF";
         return (object) [
-            "country" => $country,
+            "country" => "CF",
         ];
     }
 
@@ -120,7 +88,7 @@ function is_cloudflare_ip($ip)
     $cloudflare_ranges = explode("\n", $cloudflare_ranges);
 
     foreach ($cloudflare_ranges as $range) {
-        if (cidr_match($ip, $range)) {
+        if (ipv4_in_range($ip, $range)) {
             return true;
         }
     }
@@ -128,16 +96,16 @@ function is_cloudflare_ip($ip)
     return false;
 }
 
-function cidr_match($ip, $range) {
-    list($subnet, $bits) = explode('/', $range);
-    if ($bits === null) {
-        $bits = 32;
+function ipv4_in_range($ip, $range)
+{
+    $rangeArray = explode("\n", $range);
+    $ipArray = explode("\n", $ip);
+
+    if ($ipArray[0] === $rangeArray[0] && $ipArray[1] === $rangeArray[1] && $ipArray[2] === $rangeArray[2]) {
+        return true;
     }
-    $ip = ip2long($ip);
-    $subnet = ip2long($subnet);
-    $mask = -1 << (32 - $bits);
-    $subnet &= $mask;
-    return ($ip & $mask) == $subnet;
+
+    return false;
 }
 
 function is_valid($input)
@@ -241,7 +209,7 @@ function configParse($input)
             "params" => $params,
             "hash" => isset($parsedUrl["fragment"])
                 ? $parsedUrl["fragment"]
-                : "SiNAVM" . getRandomName(),
+                : "@@SiNAVM | lite" . getRandomName(),
         ];
 
         if ($configType === "tuic") {
@@ -261,7 +229,7 @@ function configParse($input)
         );
         $server_address = $url["host"];
         $server_port = $url["port"];
-        $name = isset($url["fragment"]) ? urldecode($url["fragment"]) : "SiNAVM" . getRandomName();
+        $name = isset($url["fragment"]) ? urldecode($url["fragment"]) : "@SiNAVM | lite" . getRandomName();
         $server = [
             "encryption_method" => $encryption_method,
             "password" => $password,
@@ -398,7 +366,7 @@ function hiddifyHeader ($subscriptionName) {
     return "#profile-title: base64:" . base64_encode($subscriptionName) . "
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-#support-url: https://t.me/sinavm
+#support-url: https://t.me/SiNAVM
 #profile-web-page-url: https://github.com/sinavm/SVM
 
 ";

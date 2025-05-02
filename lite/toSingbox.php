@@ -338,7 +338,7 @@ function toSingbox ($input) {
     return null;
 }
 
-function processConvertion ($base64ConfigsList, $configsName = "Created By sinavm") {
+function processConvertion ($base64ConfigsList, $configsName = "Created By SiNAVM") {
     $configsArray = explode("\n", base64_decode($base64ConfigsList));
     $structure = json_decode(file_get_contents('structure.json'), true);
     foreach ($configsArray as $config) {
@@ -370,7 +370,7 @@ $directoryOfFiles = [
 ];
 
 foreach ($directoryOfFiles as $directory) {
-    $configsName = "@SiNAVM | " . explode("/", $directory)[3];
+    $configsName = "@SiNAVM |lite | " . strtoupper(explode("/", $directory)[3]);
     $configsData = file_get_contents($directory);
     $convertionResult = processConvertion($configsData, $configsName);
     file_put_contents("subscriptions/singbox/" . explode("/", $directory)[3] . ".json", $convertionResult);

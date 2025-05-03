@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇿🇦ZA | 🔴 | vless | @Outline_Vpn | 12",
-                "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 13",
+                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 12",
+                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
-                "🇹🇷TR | 🔴 | vless | @TEHRANARGO | 10",
-                "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 11",
+                "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8",
+                "🇺🇸US | 🔴 | vless | @TEHRANARGO | 9",
                 "🇳🇱NL | 🟢 | vless | @meli_proxyy | 14",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 18",
@@ -124,12 +124,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇿🇦ZA | 🔴 | vless | @Outline_Vpn | 12",
-                "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 13",
+                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 12",
+                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
-                "🇹🇷TR | 🔴 | vless | @TEHRANARGO | 10",
-                "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 11",
+                "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8",
+                "🇺🇸US | 🔴 | vless | @TEHRANARGO | 9",
                 "🇳🇱NL | 🟢 | vless | @meli_proxyy | 14",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 18",
@@ -158,7 +158,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇿🇦ZA | 🔴 | vless | @Outline_Vpn | 12",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 12",
             "type": "vless",
             "server": "88.218.95.8",
             "server_port": 8880,
@@ -179,7 +179,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
             "type": "vless",
             "server": "104.22.56.77",
             "server_port": 443,
@@ -245,47 +245,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @TEHRANARGO | 10",
-            "type": "vless",
-            "server": "213.142.133.172",
-            "server_port": 7594,
-            "uuid": "2a219df1-a04b-4424-bfd2-cb37aeb10b2c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw",
-                    "short_id": "765e8e700426816c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "7594vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8",
             "type": "vless",
             "server": "o.soskom.ir",
             "server_port": 11045,
-            "uuid": "c2d9dab8-5ab4-4e63-8a05-bcbb785a2689",
+            "uuid": "3babafda-6751-4279-9c7e-c00cb2460504",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -314,6 +278,30 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @TEHRANARGO | 9",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "9b224b07-98c9-4f4c-8360-301ada31dea4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {

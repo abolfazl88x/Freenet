@@ -1,7 +1,7 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowSEZ6eGlsWFJmb1Y=@89.23.103.80:443#🇳🇱NL%20|%20🟢%20|%20ss%20|%20@SiNAVM%20|%201
 vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@104.16.246.132:443?type=ws&host=vless10-9sc.pages.dev&path=%2F%3Fed%3D2560&security=tls&fp=random&sni=vless10-9sc.pages.dev&alpn=h3#🇨🇦CA%20|%20🔴%20|%20vless%20|%20@SiNAVM%20|%202
-trojan://telegram-id-directvpn@18.175.98.26:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇬🇧GB%20|%20🟢%20|%20trojan%20|%20@DirectVPN%20|%2018
-trojan://telegram-id-directvpn@13.36.182.195:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷FR%20|%20🟢%20|%20trojan%20|%20@DirectVPN%20|%2019
+trojan://telegram-id-directvpn@35.179.189.29:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇬🇧GB%20|%20🟢%20|%20trojan%20|%20@DirectVPN%20|%2018
+trojan://telegram-id-directvpn@18.175.98.26:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇬🇧GB%20|%20🟢%20|%20trojan%20|%20@DirectVPN%20|%2019
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.32.9.25:8880?encryption=none&security=none&type=grpc&headertype=none&mode=gun#🇱🇹LT%20|%20🔴%20|%20vless%20|%20@DeamNet_Proxy%20|%2017
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprN3hXNk41U0FWcGdlcWkxd2Q3czd5eEQ3UzhQeGFlaFVNNVc4YXBIclFpM3BTb0RSWFNjb0FQazhTVmE0bUtidlJqcmdFTlUzZFVnelRncDlUM3JyWGluYURlNENYWWs=@mx2.drawnrisha.one:55988#🇫🇮FI%20|%20🟢%20|%20ss%20|%20@DeamNet_Proxy%20|%2018
 vless://c7d543af-1023-4b96-a698-187c190d3f4c@104.22.56.77:443?path=%2F47.89.39.186-39251&security=tls&encryption=none&host=nautica.foolvpn.me&type=ws&sni=nautica.foolvpn.me#🇺🇸US%20|%20🔴%20|%20vless%20|%20@Outline_Vpn%20|%2013

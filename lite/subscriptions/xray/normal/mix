@@ -5,7 +5,7 @@
 #profile-web-page-url: https://github.com/sinavm/SVM
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowSEZ6eGlsWFJmb1Y=@89.23.103.80:443#🇳🇱NL | 🟢 | ss | @SiNAVM | 1
-vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@104.16.246.132:443?type=ws&host=vless10-9sc.pages.dev&path=/?ed=2560&security=tls&fp=random&sni=vless10-9sc.pages.dev&alpn=h3#🇨🇦CA | 🔴 | vless | @SiNAVM | 2
+vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@104.16.246.132:443?type=ws&host=vless10-9sc.pages.dev&path=/?ed=2560&security=tls&fp=random&sni=vless10-9sc.pages.dev&alpn=h3#🇺🇸US | 🔴 | vless | @SiNAVM | 2
 trojan://telegram-id-directvpn@18.203.133.90:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇮🇪IE | 🟢 | trojan | @DirectVPN | 18
 trojan://telegram-id-directvpn@18.200.164.156:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇮🇪IE | 🟢 | trojan | @DirectVPN | 19
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.32.9.25:8880?encryption=none&security=none&type=grpc&headertype=none&mode=gun#🇱🇹LT | 🔴 | vless | @DeamNet_Proxy | 17

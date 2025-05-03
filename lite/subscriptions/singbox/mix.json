@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | 🟢 | ss | @SiNAVM | 1",
-                "🇨🇦CA | 🔴 | vless | @SiNAVM | 2",
+                "🇺🇸US | 🔴 | vless | @SiNAVM | 2",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 18",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18",
@@ -132,7 +132,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | 🟢 | ss | @SiNAVM | 1",
-                "🇨🇦CA | 🔴 | vless | @SiNAVM | 2",
+                "🇺🇸US | 🔴 | vless | @SiNAVM | 2",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 18",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18",
@@ -182,7 +182,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @SiNAVM | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @SiNAVM | 2",
             "type": "vless",
             "server": "104.16.246.132",
             "server_port": 443,

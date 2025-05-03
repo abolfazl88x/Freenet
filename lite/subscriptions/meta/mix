@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇳🇱NL | 🟢 | ss | @SiNAVM | 1","type":"ss","server":"89.23.103.80","port":443,"password":"0HFzxilXRfoV","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @SiNAVM | 2","type":"vless","server":"104.16.246.132","port":443,"udp":false,"uuid":"c98a16e4-0dc5-42f0-b3db-30f04525c123","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vless10-9sc.pages.dev","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless10-9sc.pages.dev"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @SiNAVM | 2","type":"vless","server":"104.16.246.132","port":443,"udp":false,"uuid":"c98a16e4-0dc5-42f0-b3db-30f04525c123","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vless10-9sc.pages.dev","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless10-9sc.pages.dev"}}}
   - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"18.203.133.90","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"18.200.164.156","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"k7xW6N5SAVpgeqi1wd7s7yxD7S8PxaehUM5W8apHrQi3pSoDRXScoAPk8SVa4mKbvRjrgENU3dUgzTgp9T3rrXinaDe4CXYk","cipher":"chacha20-ietf-poly1305"}
@@ -142,7 +142,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇳🇱NL | 🟢 | ss | @SiNAVM | 1'
-      - '🇨🇦CA | 🔴 | vless | @SiNAVM | 2'
+      - '🇺🇸US | 🔴 | vless | @SiNAVM | 2'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 18'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 19'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18'
@@ -163,7 +163,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇳🇱NL | 🟢 | ss | @SiNAVM | 1'
-      - '🇨🇦CA | 🔴 | vless | @SiNAVM | 2'
+      - '🇺🇸US | 🔴 | vless | @SiNAVM | 2'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 18'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 19'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18'
@@ -183,7 +183,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇳🇱NL | 🟢 | ss | @SiNAVM | 1'
-      - '🇨🇦CA | 🔴 | vless | @SiNAVM | 2'
+      - '🇺🇸US | 🔴 | vless | @SiNAVM | 2'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 18'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 19'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18'

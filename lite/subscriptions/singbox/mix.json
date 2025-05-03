@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | 🟢 | ss | @SiNAVM | 1",
-                "🇺🇸US | 🔴 | vless | @SiNAVM | 2",
+                "🇨🇦CA | 🔴 | vless | @SiNAVM | 2",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 18",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18",
@@ -118,7 +118,7 @@
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "🇩🇪DE | 🟢 | vless | @TEHRANARGO | 11",
                 "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 12",
-                "🇦🇪AE | 🔴 | vless | @meli_proxyy | 13",
+                "🇦🇪AE | 🔴 | vless | @meli_proxyy | 15",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 18",
                 "🇺🇸US | 🔴 | vless | @OpenSSTPVpn | 0",
@@ -132,7 +132,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | 🟢 | ss | @SiNAVM | 1",
-                "🇺🇸US | 🔴 | vless | @SiNAVM | 2",
+                "🇨🇦CA | 🔴 | vless | @SiNAVM | 2",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 18",
                 "🇮🇪IE | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18",
@@ -143,7 +143,7 @@
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "🇩🇪DE | 🟢 | vless | @TEHRANARGO | 11",
                 "🇩🇪DE | 🔴 | vless | @TEHRANARGO | 12",
-                "🇦🇪AE | 🔴 | vless | @meli_proxyy | 13",
+                "🇦🇪AE | 🔴 | vless | @meli_proxyy | 15",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ArV2ray | 18",
                 "🇺🇸US | 🔴 | vless | @OpenSSTPVpn | 0",
@@ -182,7 +182,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @SiNAVM | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | @SiNAVM | 2",
             "type": "vless",
             "server": "104.16.246.132",
             "server_port": 443,
@@ -429,7 +429,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🔴 | vless | @meli_proxyy | 13",
+            "tag": "🇦🇪AE | 🔴 | vless | @meli_proxyy | 15",
             "type": "vless",
             "server": "138.128.224.100",
             "server_port": 443,

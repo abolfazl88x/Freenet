@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "37.156.46.65",
-            "server_port": 48740,
-            "uuid": "4b7ddce2-42a2-6435-20b7-6762c63d75f3",
+            "server": "164.90.180.228",
+            "server_port": 443,
+            "uuid": "2c0050c0-9b32-48ee-b46c-16f2844bad6d",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "gr1.tak30zanjan.ir",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -99,8 +99,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A",
-                    "short_id": "d6d54c08fbbf895f"
+                    "public_key": "9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8",
+                    "short_id": "8e5f1d0b"
                 }
             },
             "tag": "@SiNAVM-1"

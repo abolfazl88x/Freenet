@@ -76,6 +76,15 @@
         },
         {
             "type": "vless",
+            "server": "website.acveo.ir",
+            "server_port": 8080,
+            "uuid": "d4bc5118-7158-4755-ad3b-b0b54072bdbb",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
             "server": "104.21.92.162",
             "server_port": 8880,
             "uuid": "e9b29a36-f8dc-48ee-b5f9-e0e5be701d03",
@@ -90,15 +99,6 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "d4bc5118-7158-4755-ad3b-b0b54072bdbb",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-2"
         },
         {

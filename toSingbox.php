@@ -334,8 +334,8 @@ function processConvertion($base64ConfigsList, $configsName = "Created By sinavm
         if ($toSingbox) {
             $toSingbox['tag'] = "@SiNAVM-$index";
             $newOutbounds[] = $toSingbox;
-            $structure['outbounds'][0]['outbounds'][] = $toSingbox['tag'];
-            $structure['outbounds'][1]['outbounds'][] = $toSingbox['tag'];
+            $newOutbounds[0]['outbounds'][] = $toSingbox['tag']; // Add to selector
+            $newOutbounds[1]['outbounds'][] = $toSingbox['tag']; // Add to urltest
             $index++;
         }
     }

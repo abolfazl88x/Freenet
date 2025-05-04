@@ -106,14 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @meli_proxyy | 15"
+                "🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @meli_proxyy | 15"
+                "🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @meli_proxyy | 15",
+            "tag": "🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9",
             "type": "vless",
-            "server": "156.253.234.12",
-            "server_port": 443,
-            "uuid": "f7f284e5-0cc8-4441-b1a0-32b4ace6b280",
+            "server": "infocv.novintec99.ir",
+            "server_port": 21332,
+            "uuid": "31a8c021-4614-4f05-b466-fddb7b36826f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +150,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "myket.ir",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -159,8 +159,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7Nn2ipA73HTAIvueCOLXTHr1EEREz2lv3g8MkAeiMAc",
-                    "short_id": "2c"
+                    "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
+                    "short_id": "866c9d6a17a0ae44"
                 }
             }
         }

@@ -63,49 +63,19 @@
             "tag": "Internet",
             "outbounds": [
                 "Best Latency",
-                "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-1"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
             "outbounds": [
-                "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-1"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "vless",
-            "server": "164.90.180.228",
-            "server_port": 443,
-            "uuid": "2c0050c0-9b32-48ee-b46c-16f2844bad6d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "gr1.tak30zanjan.ir",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8",
-                    "short_id": "8e5f1d0b"
-                }
-            },
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -133,7 +103,7 @@
                     "short_id": "d6d54c08fbbf895f"
                 }
             },
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "direct",

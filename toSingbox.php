@@ -102,7 +102,7 @@ function setTransport($decodedConfig, $configType, $transportType)
             "headers" => [
                 "Host" => $serverNameTypes[$configType]
             ],
-            "max_early_data" => $earlyData[$configType],
+            "的中": $earlyData[$configType],
             "early_data_header_name" => $earlyData[$configType] > 0 ? "Sec-WebSocket-Protocol" : ""
         ],
         "grpc" => [
@@ -327,10 +327,8 @@ function processConvertion($base64ConfigsList, $configsName = "Created By sinavm
     $structure = json_decode(file_get_contents('structure.json'), true);
     $index = 1;
     $newOutbounds = [];
-    // Keep Internet and Best Latency
     $newOutbounds[] = $structure['outbounds'][0]; // Internet
     $newOutbounds[] = $structure['outbounds'][1]; // Best Latency
-    // Add config outbounds
     foreach ($configsArray as $config) {
         $toSingbox = toSingbox($config);
         if ($toSingbox) {
@@ -341,18 +339,12 @@ function processConvertion($base64ConfigsList, $configsName = "Created By sinavm
             $index++;
         }
     }
-    // Add direct at the end
     $newOutbounds[] = [
         "type" => "direct",
         "tag" => "direct"
     ];
     $structure['outbounds'] = $newOutbounds;
-    $headerText = "//profile-title: base64:" . base64_encode($configsName) . "\n" .
-                  "//profile-update-interval: 1\n" .
-                  "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n" .
-                  "//support-url: https://t.me/SiNAVM\n" .
-                  "//profile-web-page-url: https://t.me/SiNAVM\n\n";
-    return $headerText . json_encode($structure, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+    return hiddifyHeader($configsName) . json_encode($structure, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
 }
 
 $directoryOfFiles = [

@@ -122,11 +122,8 @@ dns:
 proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 1","type":"vless","server":"104.21.96.1","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iPsyCHO.SUEx12.iR","ws-opts":{"path":"/RiuadVWEiFmFyL3C?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1","type":"vless","server":"135.148.152.97","port":443,"udp":false,"uuid":"ea286109-d20f-415e-849e-4af20ab04b65","tls":true,"network":"raw","client-fingerprint":"chrome","servername":"147135001195.sec22org.com"}
-  - {"name":"🇳🇱NL | 🔴 | vless | @meli_proxyy | 2","type":"vless","server":"64.227.77.203","port":443,"udp":false,"uuid":"bc3cb742-5b70-40ec-9d14-b4e3ebe7b0c0","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇩🇪DE | 🔴 | vless | @meli_proxyy | 4","type":"vless","server":"164.90.180.228","port":443,"udp":true,"uuid":"2c0050c0-9b32-48ee-b46c-16f2844bad6d","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"gr1.tak30zanjan.ir","flow":"xtls-rprx-vision","reality-opts":{"public-key":"9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8","short-id":"8e5f1d0b"}}
   - {"name":"🇺🇸US | 🔴 | vless | @Outline_Vpn | 0","type":"vless","server":"104.17.148.22","port":2096,"udp":false,"uuid":"96a1b724-68d2-4f4d-ab25-38ecd83577bc","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LgUoZjGr14.hAmEcHiRuHaVaSt.cOm","ws-opts":{"path":"/","headers":{"host":"LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @meli_proxyy | 7","type":"vless","server":"WwW.speedtest.NeT","port":8443,"udp":false,"uuid":"dc28d2e9-e0cb-45ba-a8aa-309ef2b15860","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"cpuhot.boshrachoice.ir.","ws-opts":{"path":"/?ed=1048","headers":{"host":"cpuhot.boshrachoice.ir."}}}
-  - {"name":"🇳🇱NL | 🟢 | vless | @TEHRANARGO | 0","type":"vless","server":"clientproo.xyz","port":443,"udp":false,"uuid":"bc3cb742-5b70-40ec-9d14-b4e3ebe7b0c0","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇩🇪DE | 🔴 | vless | @meli_proxyy | 5","type":"vless","server":"164.90.180.228","port":443,"udp":true,"uuid":"2c0050c0-9b32-48ee-b46c-16f2844bad6d","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"gr1.tak30zanjan.ir","flow":"xtls-rprx-vision","reality-opts":{"public-key":"9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8","short-id":"8e5f1d0b"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,11 +132,8 @@ proxy-groups:
       - FALLBACK
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
-      - '🇳🇱NL | 🔴 | vless | @meli_proxyy | 2'
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 4'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
-      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 7'
-      - '🇳🇱NL | 🟢 | vless | @TEHRANARGO | 0'
+      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 5'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com/
@@ -148,11 +142,8 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
-      - '🇳🇱NL | 🔴 | vless | @meli_proxyy | 2'
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 4'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
-      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 7'
-      - '🇳🇱NL | 🟢 | vless | @TEHRANARGO | 0'
+      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 5'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com/
@@ -160,11 +151,8 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
-      - '🇳🇱NL | 🔴 | vless | @meli_proxyy | 2'
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 4'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
-      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 7'
-      - '🇳🇱NL | 🟢 | vless | @TEHRANARGO | 0'
+      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

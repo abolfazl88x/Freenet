@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇲🇾MY | 🔴 | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"101.99.91.234","port":"36700","cipher":"auto","uuid":"127ff43c-1851-4b2d-ba8c-6afba21ec04d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"🇩🇪DE | 🔴 | vmess | @ShadowProxy66 | 2","type":"vmess","server":"45.12.138.82","port":"54757","cipher":"auto","uuid":"cde9f074-c930-4aa3-a558-46bbc9d0a5a1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -125,6 +126,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇲🇾MY | 🔴 | vmess | @DeamNet_Proxy | 18'
       - '🇩🇪DE | 🔴 | vmess | @ShadowProxy66 | 2'
   - name: URL-TEST
     type: url-test
@@ -132,12 +134,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇲🇾MY | 🔴 | vmess | @DeamNet_Proxy | 18'
       - '🇩🇪DE | 🔴 | vmess | @ShadowProxy66 | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇲🇾MY | 🔴 | vmess | @DeamNet_Proxy | 18'
       - '🇩🇪DE | 🔴 | vmess | @ShadowProxy66 | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

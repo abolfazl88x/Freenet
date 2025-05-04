@@ -65,9 +65,7 @@
                 "Best Latency",
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ]
         },
         {
@@ -76,9 +74,7 @@
             "outbounds": [
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -120,38 +116,14 @@
         },
         {
             "type": "vless",
-            "server": "135.148.152.97",
-            "server_port": 443,
-            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001195.sec22org.com",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "164.90.180.228",
-            "server_port": 443,
-            "uuid": "2c0050c0-9b32-48ee-b46c-16f2844bad6d",
+            "server": "188.166.194.27",
+            "server_port": 7594,
+            "uuid": "2a219df1-a04b-4424-bfd2-cb37aeb10b2c",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "gr1.tak30zanjan.ir",
+                "server_name": "dash.cloudflare.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -164,11 +136,18 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8",
-                    "short_id": "8e5f1d0b"
+                    "public_key": "AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw",
+                    "short_id": "765e8e700426816c"
                 }
             },
-            "tag": "@SiNAVM-3"
+            "transport": {
+                "type": "grpc",
+                "service_name": "7594vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -200,41 +179,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "WwW.speedtest.NeT",
-            "server_port": 8443,
-            "uuid": "dc28d2e9-e0cb-45ba-a8aa-309ef2b15860",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "cpuhot.boshrachoice.ir.",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cpuhot.boshrachoice.ir."
-                },
-                "max_early_data": 1048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

@@ -102,7 +102,7 @@ function setTransport($decodedConfig, $configType, $transportType)
             "headers" => [
                 "Host" => $serverNameTypes[$configType]
             ],
-            "的中": $earlyData[$configType],
+            "max_early_data" => $earlyData[$configType],
             "early_data_header_name" => $earlyData[$configType] > 0 ? "Sec-WebSocket-Protocol" : ""
         ],
         "grpc" => [

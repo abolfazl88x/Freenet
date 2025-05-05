@@ -170,25 +170,15 @@
             "tag": "@SiNAVM-3"
         },
         {
-            "type": "shadowsocks",
-            "server": "mx2.drawnrisha.one",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "wyRjDzZYC9E2aQ9iamj1vuj7ZckYVGLHn9yq92jRUUCdoz1AEKtSJRpiMPxXaiXfpXBJCp3gjsNbM9i2PbqeteCsXUWwDEAc",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-4"
-        },
-        {
             "type": "vless",
-            "server": "172.67.134.218",
+            "server": "172.67.193.39",
             "server_port": 443,
-            "uuid": "1010501a-ca9a-479c-84d0-1308d97789b5",
+            "uuid": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "abbas-boveiry1.kisigen176.workers.dev",
+                "server_name": "bypassfilter.cmyyvat.workers.dev",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -202,13 +192,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@bypass_filter\/",
                 "headers": {
-                    "Host": "abbas-boveiry1.kisigen176.workers.dev"
+                    "Host": "bypassfilter.cmyyvat.workers.dev"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 100,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
+            "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.151",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-5"
         },
         {
@@ -375,12 +375,11 @@
             "tag": "@SiNAVM-13"
         },
         {
-            "type": "shadowsocks",
-            "server": "147.45.70.120",
-            "server_port": 7374,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oN4fR25SwOBj6LFh3WMwb7",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "54.37.79.80",
+            "server_port": 2222,
+            "uuid": "7d5a9596-0dea-4ad7-8de5-18605a0cad39",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-14"
         },

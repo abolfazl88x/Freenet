@@ -75,7 +75,8 @@
                 "@SiNAVM-10",
                 "@SiNAVM-11",
                 "@SiNAVM-12",
-                "@SiNAVM-13"
+                "@SiNAVM-13",
+                "@SiNAVM-14"
             ]
         },
         {
@@ -94,7 +95,8 @@
                 "@SiNAVM-10",
                 "@SiNAVM-11",
                 "@SiNAVM-12",
-                "@SiNAVM-13"
+                "@SiNAVM-13",
+                "@SiNAVM-14"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -103,14 +105,14 @@
         },
         {
             "type": "vless",
-            "server": "172.67.134.218",
+            "server": "172.67.193.39",
             "server_port": 443,
-            "uuid": "1010501a-ca9a-479c-84d0-1308d97789b5",
+            "uuid": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "abbas-boveiry1.kisigen176.workers.dev",
+                "server_name": "bypassfilter.cmyyvat.workers.dev",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -124,11 +126,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@bypass_filter\/",
                 "headers": {
-                    "Host": "abbas-boveiry1.kisigen176.workers.dev"
+                    "Host": "bypassfilter.cmyyvat.workers.dev"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 100,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
@@ -288,6 +290,15 @@
         },
         {
             "type": "vless",
+            "server": "54.37.79.80",
+            "server_port": 2222,
+            "uuid": "7d5a9596-0dea-4ad7-8de5-18605a0cad39",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray1",
@@ -302,7 +313,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
@@ -320,7 +331,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "vless",
@@ -352,7 +363,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-12"
         },
         {
             "type": "vless",
@@ -385,7 +396,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-12"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -418,7 +429,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "direct",

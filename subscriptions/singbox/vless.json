@@ -215,14 +215,14 @@
         },
         {
             "type": "vless",
-            "server": "213.21.245.83",
+            "server": "164.90.180.228",
             "server_port": 443,
-            "uuid": "be2b3c86-a3bf-4111-9968-6162071ac945",
+            "uuid": "2c0050c0-9b32-48ee-b46c-16f2844bad6d",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "gr1.tak30zanjan.ir",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -235,8 +235,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
-                    "short_id": "7e39db0c"
+                    "public_key": "9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8",
+                    "short_id": "8e5f1d0b"
                 }
             },
             "tag": "@SiNAVM-5"
@@ -275,6 +275,24 @@
         },
         {
             "type": "vless",
+            "server": "ov-germany1.09vpn.com",
+            "server_port": 80,
+            "uuid": "5e950790-bf2e-463c-bea5-2e3dcb0cc1d8",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/",
+                "headers": {
+                    "Host": "ov-germany1.09vpn.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-7"
+        },
+        {
+            "type": "vless",
             "server": "162.55.36.107",
             "server_port": 577,
             "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
@@ -298,24 +316,6 @@
                     "public_key": "AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8",
                     "short_id": "9b28132c703433"
                 }
-            },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "vless",
-            "server": "ov-germany1.09vpn.com",
-            "server_port": 80,
-            "uuid": "5e950790-bf2e-463c-bea5-2e3dcb0cc1d8",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/",
-                "headers": {
-                    "Host": "ov-germany1.09vpn.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-8"
         },
@@ -349,29 +349,35 @@
         },
         {
             "type": "vless",
-            "server": "164.90.180.228",
-            "server_port": 443,
-            "uuid": "2c0050c0-9b32-48ee-b46c-16f2844bad6d",
+            "server": "WwW.speedtest.NeT",
+            "server_port": 8443,
+            "uuid": "dc28d2e9-e0cb-45ba-a8aa-309ef2b15860",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
+            "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "gr1.tak30zanjan.ir",
+                "server_name": "cpuhot.boshrachoice.ir.",
                 "insecure": false,
                 "alpn": [
-                    "h3"
+                    "h3",
+                    "h2",
+                    "http\/1.1"
                 ],
                 "min_version": "1.3",
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9kw-s--kXR8_jKj5J0l2HD502FDzxYN9XefdketMlF8",
-                    "short_id": "8e5f1d0b"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cpuhot.boshrachoice.ir."
+                },
+                "max_early_data": 1048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-10"
         },

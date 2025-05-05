@@ -168,13 +168,31 @@
             "tag": "@SiNAVM-3"
         },
         {
-            "type": "vmess",
-            "server": "101.99.91.234",
-            "server_port": 36700,
-            "uuid": "127ff43c-1851-4b2d-ba8c-6afba21ec04d",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
+            "type": "vless",
+            "server": "banana.bitiboot.com",
+            "server_port": 443,
+            "uuid": "4a617961-06bb-405d-b1d8-28abaaaf18e7",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k9oHeYY0hNmcd6BRZQTX9sp0ZQR7Bx85fPMu0v4uvwc",
+                    "short_id": "c5a5eca0d8234375"
+                }
+            },
             "tag": "@SiNAVM-4"
         },
         {

@@ -380,6 +380,16 @@
             "tag": "@SiNAVM-13"
         },
         {
+            "type": "shadowsocks",
+            "server": "147.45.70.120",
+            "server_port": 7374,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oN4fR25SwOBj6LFh3WMwb7",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-14"
+        },
+        {
             "type": "vless",
             "server": "WwW.speedtest.NeT",
             "server_port": 8443,
@@ -411,15 +421,6 @@
                 "max_early_data": 1048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-14"
-        },
-        {
-            "type": "vless",
-            "server": "54.37.79.80",
-            "server_port": 2222,
-            "uuid": "7d5a9596-0dea-4ad7-8de5-18605a0cad39",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-15"
         },
         {

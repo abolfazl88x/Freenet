@@ -76,8 +76,7 @@
                 "@SiNAVM-11",
                 "@SiNAVM-12",
                 "@SiNAVM-13",
-                "@SiNAVM-14",
-                "@SiNAVM-15"
+                "@SiNAVM-14"
             ]
         },
         {
@@ -97,8 +96,7 @@
                 "@SiNAVM-11",
                 "@SiNAVM-12",
                 "@SiNAVM-13",
-                "@SiNAVM-14",
-                "@SiNAVM-15"
+                "@SiNAVM-14"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -375,38 +373,6 @@
         },
         {
             "type": "vless",
-            "server": "104.21.48.1",
-            "server_port": 443,
-            "uuid": "c8d38c10-8973-46d9-bc60-40e9f791d187",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "mEHDiaMA.JAwakI2348.WOrKeRS.DEV",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ZPYo6XE9nKhTQnTE",
-                "headers": {
-                    "Host": "mEHDiaMA.JAwakI2348.WOrKeRS.DEV"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-13"
-        },
-        {
-            "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -436,7 +402,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -469,7 +435,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "direct",

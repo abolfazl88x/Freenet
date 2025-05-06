@@ -83,10 +83,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "5.181.21.194",
-            "server_port": 18660,
+            "server": "77.110.102.235",
+            "server_port": 64864,
             "method": "chacha20-ietf-poly1305",
-            "password": "pV5BAzqLZosOfuIrkyoadT",
+            "password": "uqtPM6fU4yhAYS1v2cIZKb",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-1"
@@ -103,10 +103,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "77.110.102.235",
-            "server_port": 64864,
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
             "method": "chacha20-ietf-poly1305",
-            "password": "uqtPM6fU4yhAYS1v2cIZKb",
+            "password": "rU9jurtJ2zHpTf5CeJ5LCAzGoSc7KCYmzuM8qnQzAXUJA8jfreYWPJtLcHC4dJXSSAQ3mLhJdbVPE1MRop37WkganscRnYv4",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-3"

@@ -329,6 +329,15 @@
         },
         {
             "type": "vless",
+            "server": "clientproo.xyz",
+            "server_port": 443,
+            "uuid": "f97af38a-5d88-4f69-b5f9-da254ff23b22",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
             "server": "o.soskom.ir",
             "server_port": 11045,
             "uuid": "da88c983-3e08-4edc-86bc-bd4607958e0d",
@@ -360,15 +369,6 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 443,
-            "uuid": "e872a768-33c9-4b5a-b04a-aabce97fb1ef",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-13"
         },
         {

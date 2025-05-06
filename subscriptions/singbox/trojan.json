@@ -64,7 +64,9 @@
             "outbounds": [
                 "Best Latency",
                 "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-2",
+                "@SiNAVM-3",
+                "@SiNAVM-4"
             ]
         },
         {
@@ -72,7 +74,9 @@
             "tag": "Best Latency",
             "outbounds": [
                 "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-2",
+                "@SiNAVM-3",
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -113,7 +117,7 @@
         },
         {
             "type": "trojan",
-            "server": "13.60.151.163",
+            "server": "99.80.179.36",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -132,6 +136,50 @@
                 }
             },
             "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "trojan",
+            "server": "18.194.237.232",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "trojan",
+            "server": "13.60.151.163",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "direct",

@@ -344,24 +344,6 @@
         },
         {
             "type": "vless",
-            "server": "104.21.80.1",
-            "server_port": 80,
-            "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha",
-                "headers": {
-                    "Host": "104.21.80.1"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-13"
-        },
-        {
-            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -375,6 +357,41 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-13"
+        },
+        {
+            "type": "vless",
+            "server": "188.166.194.27",
+            "server_port": 7594,
+            "uuid": "2a219df1-a04b-4424-bfd2-cb37aeb10b2c",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw",
+                    "short_id": "765e8e700426816c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "7594vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-14"
         },

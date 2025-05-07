@@ -4,7 +4,7 @@
 #support-url: https://t.me/sinavm
 #profile-web-page-url: https://github.com/sinavm/SVM
 
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@www.speedtest.net:443?type=ws&host=Wv2NhB0hVh.SoLiJoNiTo.CoM&path=/?ed=sinavm&security=tls&fp=chrome&sni=Wv2NhB0hVh.SoLiJoNiTo.CoM&alpn=h3,h2&fragment=10-20,1-2,1-2#🇨🇦CA | 🔴 | vless | @sinavm | 1
+vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@www.speedtest.net:443?type=ws&host=Wv2NhB0hVh.SoLiJoNiTo.CoM&path=/?ed=sinavm&security=tls&fp=chrome&sni=Wv2NhB0hVh.SoLiJoNiTo.CoM&alpn=h3,h2&fragment=10-20,1-2,1-2#🇨🇦CA | 🔴 | vless | @sinavm | 0
 vless://472e2ab2-a7a5-44cf-84b2-158882a108a5@[2a01:4f8:c010:5c29::1]:80?path=/&security=none&encryption=none&host=Speedtest.net&type=httpupgrade#❔XX | 🔴 | vless | @hopev2ray | 2
 vless://8f69b4a6-f8cd-4d11-8248-fde97b250d3b@sea.hopebook75zulawu.online:2095?path=/ed=2082&security=none&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#🇩🇪DE | 🔴 | vless | @hopev2ray | 3
 trojan://telegram-id-directvpn@18.203.133.90:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇮🇪IE | 🟢 | trojan | @DirectVPN | 18
@@ -17,12 +17,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvRlhWWGxHNnY0TmhHTXl4alFxUVFn@193.124.46.196
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1cXRQTTZmVTR5aEFZUzF2MmNJWkti@77.110.102.235:64864#🇳🇱NL | 🟢 | ss | @ShadowProxy66 | 2
 vless://4d8426b2-0af1-4eb5-a231-b62152d7b9b9@cloud.xmsvx.com:443?path=/TorCippyy?ed=2048&security=tls&alpn=h2,http/1.1&encryption=none&host=aft.fi&fp=chrome&type=ws&sni=live.989bull.com#🇺🇸US | 🔴 | vless | @v2raybaz | 14
 vless://7cc88852-6c8c-4ddc-9211-5628824b223d@p4.vixsm.ir:45147?security=none&encryption=none&host=archlinux.org&headerType=http&type=tcp#❔XX | 🔴 | vless | @v2raybaz | 15
-vless://10d9df89-9a20-4110-9711-bca119490ee9@tabrizm137.owner.pages.dev:80?path=/TM@AZAFBAYJAB1flow=-udp443&security=none&encryption=none&host=masaleini.mahsaamini.dpdns.org&type=ws#🇺🇸US | 🔴 | vless | @vpnfail_vless | 18
-vless://10d9df89-9a20-4110-9711-bca119490ee9@104.21.80.1:80?path=/Telegram-@V2ray_Alpha&security=none&encryption=none&host=masaleini.mahsaamini.dpdns.org&type=ws#🇺🇸US | 🔴 | vless | @vpnfail_vless | 19
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@78.47.141.72:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 18
+vless://10d9df89-9a20-4110-9711-bca119490ee9@tabrizm137.owner.pages.dev:80?path=/TM@AZAFBAYJAB1flow=-udp443&security=none&encryption=none&host=masaleini.mahsaamini.dpdns.org&type=ws#🇺🇸US | 🔴 | vless | @vpnfail_vless | 19
 vless://e3eec9d9-ab70-4617-9e19-60860112c634@client.bluwave.ir:80?type=ws&host=Bluewave.ai&path=/?ed=1861&security=none#🇮🇹IT | 🔴 | vless | @V2FETCH | 0
 vless://bc3cb742-5b70-40ec-9d14-b4e3ebe7b0c0@clientproo.xyz:443?security=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&encryption=none&headerType=none&type=tcp#🇳🇱NL | 🟢 | vless | @TEHRANARGO | 8
 vless://f3e2ba7a-9523-4687-82ba-77f775ff0d0e@www.speedtest.net:443?mode=auto&path=/?TELEGRAM-@MARAMBASHI-MARAMBASHI&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=actors.dgclix.ir&type=xhttp#🇺🇸US | 🔴 | vless | @TEHRANARGO | 9
-vless://a685b264-42b6-4ecd-92e2-d8dd402e5f6b@whatismyipaddress.com:2053?security=tls&encryption=none&host=Frall.sabinhosting.ir&type=ws&sni=Frall.sabinhosting.ir#🇺🇸US | 🟢 | vless | @meli_proxyy | 18
+vless://ca75e000-ff1a-4117-a4f1-1d5ebe66e2cf@156.253.222.28:443?type=xhttp&path=/&host=&mode=packet-up&security=reality&pbk=328tJfiuSwrDEPPIpsiT7C4BUUZNGVxdo2DKam7RmBI&fp=chrome&sni=myket.ir&sid=2cecca7813d0c575&spx=/#🇳🇱NL | 🔴 | vless | @meli_proxyy | 17
 vless://telegram-id-ArV2ray1@151.101.64.155:80?path=/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry?ed=2048&security=none&encryption=none&host=mard.ankaboti.com.&type=ws#🇺🇸US | 🔴 | vless | @ArV2ray | 17
 vless://telegram-id-ArV2ray1@www.speedtest.net:2052?path=/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry&security=none&encryption=none&host=www.speedtest.net.b.4.salatinmaccv.ir.&type=ws#🇺🇸US | 🔴 | vless | @ArV2ray | 18
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@zula.ir:443?path=/re5IzbZ9IZZMddtw?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=ipsycho.suex12.ir&fp=randomized&type=ws&sni=ipsychO.SUEx12.Ir#🇺🇸US | 🔴 | vless | @redfree8 | 8

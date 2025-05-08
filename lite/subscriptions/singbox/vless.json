@@ -297,16 +297,30 @@
         },
         {
             "type": "vless",
-            "server": "104.21.80.1",
-            "server_port": 80,
-            "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+            "server": "185.133.35.181",
+            "server_port": 443,
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "sz.ylks0033.dpdns.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-Telegram-mtmvpn---Telegram-mtmvpn",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "104.21.80.1"
+                    "Host": "sz.ylks0033.dpdns.org"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
@@ -315,19 +329,24 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "95.217.206.161",
+            "server_port": 443,
+            "uuid": "01d68a9b-be48-4c7b-b4f9-71b29c4cfaca",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "api.chandplus.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "tag": "@SiNAVM-10"
         },
@@ -351,14 +370,23 @@
         },
         {
             "type": "vless",
-            "server": "156.253.222.28",
+            "server": "clientproo.xyz",
             "server_port": 443,
-            "uuid": "ca75e000-ff1a-4117-a4f1-1d5ebe66e2cf",
+            "uuid": "bc3cb742-5b70-40ec-9d14-b4e3ebe7b0c0",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "f3e2ba7a-9523-4687-82ba-77f775ff0d0e",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "myket.ir",
+                "server_name": "www.speedtest.net",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -368,22 +396,8 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "328tJfiuSwrDEPPIpsiT7C4BUUZNGVxdo2DKam7RmBI",
-                    "short_id": "2cecca7813d0c575"
                 }
             },
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 443,
-            "uuid": "bc3cb742-5b70-40ec-9d14-b4e3ebe7b0c0",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-13"
         },
         {

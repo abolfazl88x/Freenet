@@ -79,9 +79,9 @@
         },
         {
             "type": "vmess",
-            "server": "47.92.152.169",
-            "server_port": 50002,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "37.221.125.159",
+            "server_port": 33940,
+            "uuid": "353e0787-71bc-442d-9c9d-902f90359eb5",
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",

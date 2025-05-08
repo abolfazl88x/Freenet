@@ -154,30 +154,12 @@
         },
         {
             "type": "vless",
-            "server": "[2a01:4f8:c010:5c29::1]",
+            "server": "sea.hopebook75zulawu.online",
             "server_port": 80,
             "uuid": "472e2ab2-a7a5-44cf-84b2-158882a108a5",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "sea.hopebook75zulawu.online",
-            "server_port": 2095,
-            "uuid": "8f69b4a6-f8cd-4d11-8248-fde97b250d3b",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/ed=2082",
-                "headers": {
-                    "Host": "sea.hopebook75zulawu.online"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-3"
         },
         {
             "type": "trojan",
@@ -199,7 +181,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "trojan",
@@ -221,7 +203,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -239,7 +221,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -263,7 +245,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -295,7 +277,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "vless",
@@ -323,7 +305,7 @@
                     "short_id": "9b28132c703433"
                 }
             },
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "shadowsocks",
@@ -333,7 +315,7 @@
             "password": "d275849ebcfcec7e",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "shadowsocks",
@@ -343,7 +325,7 @@
             "password": "oFXVXlG6v4NhGMyxjQqQQg",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
@@ -376,7 +358,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-12"
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "vless",
@@ -385,6 +367,24 @@
             "uuid": "7cc88852-6c8c-4ddc-9211-5628824b223d",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-13"
         },
         {

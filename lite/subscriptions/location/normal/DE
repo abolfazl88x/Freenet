@@ -3,5 +3,4 @@ vless://472e2ab2-a7a5-44cf-84b2-158882a108a5@sea.hopebook75zulawu.online:80?path
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?encryption=none&security=none&type=ws&headertype=none&host=google.com&path=/http#🇩🇪DE | 🔴 | vless | @DeamNet_Proxy | 16
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@167.235.238.146:8880?mode=gun&security=none&encryption=none&type=grpc#🇩🇪DE | 🔴 | vless | @Outline_Vpn | 8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YTA3MjU1MzgyYzM2OWVh@100.42.182.30:16470#🇩🇪DE | 🟢 | ss | @ShadowProxy66 | 0
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@193.9.49.147:8443?path=/&security=tls&encryption=none&alpn=h2,http/1.1&host=NuWoLcZn28.qUiCkOrA.OrG&fp=chrome&type=ws&sni=NuWoLcZn28.qUiCkOrA.OrG#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 18
-vless://2a219df1-a04b-4424-bfd2-cb37aeb10b2c@188.166.194.27:7594?mode=gun&security=reality&encryption=none&pbk=AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw&fp=chrome&type=grpc&serviceName=7594vless&sni=dash.cloudflare.com&sid=765e8e700426816c#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 19
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@78.47.141.72:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 19

@@ -69,7 +69,8 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-7",
+                "@SiNAVM-8"
             ]
         },
         {
@@ -82,7 +83,8 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-7",
+                "@SiNAVM-8"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -142,6 +144,15 @@
         },
         {
             "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "3befa0ef-6582-4bf0-a9c4-31d5d6e5e08f",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
             "server": "172.67.193.39",
             "server_port": 443,
             "uuid": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
@@ -170,43 +181,7 @@
                 "max_early_data": 100,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "3befa0ef-6582-4bf0-a9c4-31d5d6e5e08f",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 443,
-            "uuid": "c69ef4ef-0314-4412-9962-ca6f9a6ea64d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray4",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -238,7 +213,52 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "162.19.228.119",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/http",
+                "headers": {
+                    "Host": "162.19.228.119"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "clientproo.xyz",
+            "server_port": 443,
+            "uuid": "c69ef4ef-0314-4412-9962-ca6f9a6ea64d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-7"
+        },
+        {
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray4",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "direct",

@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | 🔴 | vless | @meli_proxyy | 3","type":"vless","server":"172.67.204.84","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560flow=-udp443flow=-udp443","headers":{"host":"ipsycho.suex12.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @meli_proxyy | 4","type":"vless","server":"172.67.204.84","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560flow=-udp443flow=-udp443","headers":{"host":"ipsycho.suex12.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 1","type":"vless","server":"104.21.96.1","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iPsyCHO.SUEx12.iR","ws-opts":{"path":"/RiuadVWEiFmFyL3C?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 3","type":"vless","server":"172.67.193.39","port":443,"udp":false,"uuid":"b0e6a2c9-e667-4e42-9cb3-77d7db3e736b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"bypassfilter.cmyyvat.workers.dev","ws-opts":{"path":"/@bypass_filter/?ed=100","headers":{"host":"bypassfilter.cmyyvat.workers.dev"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @TEHRANARGO | 2","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"3befa0ef-6582-4bf0-a9c4-31d5d6e5e08f","tls":false,"network":"xhttp","client-fingerprint":"chrome"}
@@ -133,7 +133,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 3'
+      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 4'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 3'
       - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 2'
@@ -146,7 +146,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 3'
+      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 4'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 3'
       - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 2'
@@ -158,7 +158,7 @@ proxy-groups:
     url: http://cp.cloudflare.com/
     interval: 60
     proxies:
-      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 3'
+      - '🇺🇸US | 🔴 | vless | @meli_proxyy | 4'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 3'
       - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 2'

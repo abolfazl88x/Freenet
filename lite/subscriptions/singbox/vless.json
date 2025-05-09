@@ -267,6 +267,24 @@
         },
         {
             "type": "vless",
+            "server": "104.21.80.1",
+            "server_port": 80,
+            "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha",
+                "headers": {
+                    "Host": "104.21.80.1"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-8"
+        },
+        {
+            "type": "vless",
             "server": "tabrizm137.owner.pages.dev",
             "server_port": 80,
             "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
@@ -277,24 +295,6 @@
                 "path": "\/TM@AZAFBAYJAB1flow=-udp443",
                 "headers": {
                     "Host": "tabrizm137.owner.pages.dev"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
-            "server": "104.21.80.1",
-            "server_port": 80,
-            "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-Telegram-mtmvpn---Telegram-mtmvpn",
-                "headers": {
-                    "Host": "104.21.80.1"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

@@ -267,6 +267,29 @@
         },
         {
             "type": "vless",
+            "server": "95.217.206.161",
+            "server_port": 443,
+            "uuid": "01d68a9b-be48-4c7b-b4f9-71b29c4cfaca",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.chandplus.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-8"
+        },
+        {
+            "type": "vless",
             "server": "188.166.194.27",
             "server_port": 7594,
             "uuid": "2a219df1-a04b-4424-bfd2-cb37aeb10b2c",
@@ -297,24 +320,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
-            "server": "104.21.80.1",
-            "server_port": 80,
-            "uuid": "10d9df89-9a20-4110-9711-bca119490ee9",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha",
-                "headers": {
-                    "Host": "104.21.80.1"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-9"
         },
@@ -347,14 +352,14 @@
         },
         {
             "type": "vless",
-            "server": "146.190.226.24",
-            "server_port": 443,
-            "uuid": "63000b22-6e89-456c-b3fc-79aaf8409084",
+            "server": "poland.gamingbazirani.ir",
+            "server_port": 17297,
+            "uuid": "5fb982aa-c10a-4230-989a-c1b5664d9737",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "tgju.org",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -367,18 +372,29 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "KHFGWEKi_QyG4srp-Mn8XghMjBJOFLZ4Djt9dPpn0TM",
-                    "short_id": "7ab5a2bb"
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "85978f35bcf139b5"
                 }
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "stackoverflow.com",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
             "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray2",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -395,24 +411,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-13"
-        },
-        {
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray1",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-14"
         },

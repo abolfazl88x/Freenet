@@ -64,8 +64,7 @@
             "outbounds": [
                 "Best Latency",
                 "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-2"
             ]
         },
         {
@@ -73,23 +72,12 @@
             "tag": "Best Latency",
             "outbounds": [
                 "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-2"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "100.42.182.30",
-            "server_port": 16470,
-            "method": "chacha20-ietf-poly1305",
-            "password": "8a07255382c369ea",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "shadowsocks",
@@ -99,17 +87,17 @@
             "password": "lGqs95QkFHo2NV",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "shadowsocks",
-            "server": "mx2.drawnrisha.one",
-            "server_port": 55988,
+            "server": "100.42.182.30",
+            "server_port": 16470,
             "method": "chacha20-ietf-poly1305",
-            "password": "rU9jurtJ2zHpTf5CeJ5LCAzGoSc7KCYmzuM8qnQzAXUJA8jfreYWPJtLcHC4dJXSSAQ3mLhJdbVPE1MRop37WkganscRnYv4",
+            "password": "8a07255382c369ea",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "direct",

@@ -66,7 +66,9 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ]
         },
         {
@@ -76,7 +78,9 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -117,7 +121,7 @@
         },
         {
             "type": "trojan",
-            "server": "99.80.179.36",
+            "server": "35.178.114.243",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -161,6 +165,50 @@
         },
         {
             "type": "trojan",
+            "server": "63.176.54.26",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "trojan",
+            "server": "13.60.151.163",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "trojan",
             "server": "94.131.20.3",
             "server_port": 443,
             "password": "e6a2e741-0fce-440b-910c-b81325e2263a",
@@ -179,7 +227,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

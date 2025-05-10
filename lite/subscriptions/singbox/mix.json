@@ -81,9 +81,7 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19",
-                "@SiNAVM-20",
-                "@SiNAVM-21"
+                "@SiNAVM-19"
             ]
         },
         {
@@ -108,9 +106,7 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19",
-                "@SiNAVM-20",
-                "@SiNAVM-21"
+                "@SiNAVM-19"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -161,7 +157,7 @@
         },
         {
             "type": "trojan",
-            "server": "56.228.53.24",
+            "server": "13.60.151.163",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -183,7 +179,7 @@
         },
         {
             "type": "trojan",
-            "server": "99.80.179.36",
+            "server": "56.228.53.24",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -354,39 +350,6 @@
         },
         {
             "type": "vless",
-            "server": "104.21.96.1",
-            "server_port": 443,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "iPsyCHO.SUEx12.iR",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RiuadVWEiFmFyL3C",
-                "headers": {
-                    "Host": "iPsyCHO.SUEx12.iR"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "vless",
             "server": "client.bluwave.ir",
             "server_port": 80,
             "uuid": "e3eec9d9-ab70-4617-9e19-60860112c634",
@@ -401,7 +364,7 @@
                 "max_early_data": 1861,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-12"
         },
         {
             "type": "vless",
@@ -410,7 +373,7 @@
             "uuid": "b8282d52-1c7e-47e1-98f4-7a91c01847e7",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -438,18 +401,18 @@
                     "short_id": "afe96c"
                 }
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "vless",
-            "server": "104.21.95.172",
+            "server": "172.67.204.84",
             "server_port": 443,
-            "uuid": "767dfba2-ac34-4507-913d-a70703f81a36",
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "mehdiama.mehdiama840.workers.dev",
+                "server_name": "ipsychO.SUEx12.Ir",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -463,23 +426,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@MTMVPN---MTMVPN\/",
+                "path": "\/re5IzbZ9IZZMddtw",
                 "headers": {
-                    "Host": "mehdiama.mehdiama840.workers.dev"
+                    "Host": "ipsychO.SUEx12.Ir"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-16"
-        },
-        {
-            "type": "vless",
-            "server": "app.digimobile.top",
-            "server_port": 33120,
-            "uuid": "cb9b1410-a29c-4533-dd58-e2d8de4d0f2d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-17"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "vless",
@@ -497,7 +451,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-18"
+            "tag": "@SiNAVM-16"
         },
         {
             "type": "vless",
@@ -515,7 +469,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-19"
+            "tag": "@SiNAVM-17"
         },
         {
             "type": "vless",
@@ -548,7 +502,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-20"
+            "tag": "@SiNAVM-18"
         },
         {
             "type": "vless",
@@ -581,7 +535,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-21"
+            "tag": "@SiNAVM-19"
         },
         {
             "type": "direct",

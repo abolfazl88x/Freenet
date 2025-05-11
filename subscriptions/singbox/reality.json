@@ -120,14 +120,14 @@
         },
         {
             "type": "vless",
-            "server": "91.107.180.49",
-            "server_port": 443,
-            "uuid": "4ee35122-2e2d-4013-a1ba-e2d333d191fc",
+            "server": "marz.fastbest.ir",
+            "server_port": 7865,
+            "uuid": "8968addd-997f-4ecc-aaa1-99329ca3fb53",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "kletterwelt.org",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -140,39 +140,11 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "kPhGi7d7Tjk1Qcq1ShOmeEFLwRI-p4tMHt3s7PTJCn4",
-                    "short_id": "6f9a31"
+                    "public_key": "kGRN677QKZFajGYfM_X2EoI99k8QPxPUnXQLtN8rxx0",
+                    "short_id": "3f2580f5e6a92714"
                 }
             },
             "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "62.60.148.14",
-            "server_port": 25756,
-            "uuid": "b1966903-2fe2-4bce-9de7-64232ed435ce",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QYKUzjbRc3V_-SwJ7DbChBt5nT6miAoFuNCqbflDF2o",
-                    "short_id": "61"
-                }
-            },
-            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -206,6 +178,34 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
+            "server": "marz.fastbest.ir",
+            "server_port": 7865,
+            "uuid": "63ccd83b-ee50-4022-8d5f-42b3fc454d0d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "kletterwelt.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kGRN677QKZFajGYfM_X2EoI99k8QPxPUnXQLtN8rxx0",
+                    "short_id": "3f2580f5e6a92714"
+                }
             },
             "tag": "@SiNAVM-4"
         },

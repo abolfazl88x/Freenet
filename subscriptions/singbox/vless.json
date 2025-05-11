@@ -72,7 +72,8 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10"
+                "@SiNAVM-10",
+                "@SiNAVM-11"
             ]
         },
         {
@@ -88,7 +89,8 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10"
+                "@SiNAVM-10",
+                "@SiNAVM-11"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -147,6 +149,24 @@
         },
         {
             "type": "vless",
+            "server": "45.63.68.191",
+            "server_port": 8080,
+            "uuid": "0097a687-ee3d-48da-bf83-aabcd744fc05",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "45.63.68.191"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
             "server": "104.21.96.1",
             "server_port": 443,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -176,24 +196,6 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "45.63.68.191",
-            "server_port": 8080,
-            "uuid": "0097a687-ee3d-48da-bf83-aabcd744fc05",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.63.68.191"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
             "tag": "@SiNAVM-4"
         },
         {
@@ -204,6 +206,24 @@
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray4",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -235,7 +255,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "vless",
@@ -270,46 +290,18 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "vless",
-            "server": "91.107.180.49",
-            "server_port": 443,
-            "uuid": "4ee35122-2e2d-4013-a1ba-e2d333d191fc",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kPhGi7d7Tjk1Qcq1ShOmeEFLwRI-p4tMHt3s7PTJCn4",
-                    "short_id": "6f9a31"
-                }
-            },
             "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
-            "server": "62.60.148.14",
-            "server_port": 25756,
-            "uuid": "b1966903-2fe2-4bce-9de7-64232ed435ce",
+            "server": "marz.fastbest.ir",
+            "server_port": 7865,
+            "uuid": "8968addd-997f-4ecc-aaa1-99329ca3fb53",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "kletterwelt.org",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -322,8 +314,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "QYKUzjbRc3V_-SwJ7DbChBt5nT6miAoFuNCqbflDF2o",
-                    "short_id": "61"
+                    "public_key": "kGRN677QKZFajGYfM_X2EoI99k8QPxPUnXQLtN8rxx0",
+                    "short_id": "3f2580f5e6a92714"
                 }
             },
             "tag": "@SiNAVM-9"
@@ -362,6 +354,34 @@
                 "permit_without_stream": false
             },
             "tag": "@SiNAVM-10"
+        },
+        {
+            "type": "vless",
+            "server": "marz.fastbest.ir",
+            "server_port": 7865,
+            "uuid": "63ccd83b-ee50-4022-8d5f-42b3fc454d0d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "kletterwelt.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kGRN677QKZFajGYfM_X2EoI99k8QPxPUnXQLtN8rxx0",
+                    "short_id": "3f2580f5e6a92714"
+                }
+            },
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "direct",

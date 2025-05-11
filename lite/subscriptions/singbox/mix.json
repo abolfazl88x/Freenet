@@ -81,7 +81,9 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19"
+                "@SiNAVM-19",
+                "@SiNAVM-20",
+                "@SiNAVM-21"
             ]
         },
         {
@@ -106,7 +108,9 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19"
+                "@SiNAVM-19",
+                "@SiNAVM-20",
+                "@SiNAVM-21"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -157,7 +161,7 @@
         },
         {
             "type": "trojan",
-            "server": "63.176.54.26",
+            "server": "3.254.246.221",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -179,8 +183,8 @@
         },
         {
             "type": "trojan",
-            "server": "15.237.241.92",
-            "server_port": 22222,
+            "server": "63.176.54.26",
+            "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
             "tls": {
@@ -360,6 +364,39 @@
         },
         {
             "type": "vless",
+            "server": "193.9.49.147",
+            "server_port": 8443,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "NuWoLcZn28.qUiCkOrA.OrG",
+                "insecure": false,
+                "alpn": [
+                    "h2",
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "NuWoLcZn28.qUiCkOrA.OrG"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
             "server": "45.12.30.46",
             "server_port": 2096,
             "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -388,7 +425,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-12"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -406,7 +443,7 @@
                 "max_early_data": 1861,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "vless",
@@ -438,18 +475,36 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "vless",
-            "server": "germany.gamingbazirani.ir",
-            "server_port": 600,
-            "uuid": "416bf485-8261-448b-ae76-fb9d93edde13",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "d41c3a84-0dcc-45fd-8b8d-0552197ae314",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws",
+                "headers": {
+                    "Host": "speedtest.net"
+                },
+                "max_early_data": 1024,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-16"
+        },
+        {
+            "type": "vless",
+            "server": "hormozgan.losehismind.ir",
+            "server_port": 443,
+            "uuid": "9a9a8e07-2735-46cb-9a94-686d030ca654",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "marzban.negintel.xyz",
+                "server_name": "hormozgan.losehismind.ir",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -461,7 +516,16 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-15"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hormozgan.losehismind.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-17"
         },
         {
             "type": "vless",
@@ -479,7 +543,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-16"
+            "tag": "@SiNAVM-18"
         },
         {
             "type": "vless",
@@ -497,7 +561,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-17"
+            "tag": "@SiNAVM-19"
         },
         {
             "type": "vless",
@@ -530,7 +594,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-18"
+            "tag": "@SiNAVM-20"
         },
         {
             "type": "vless",
@@ -563,7 +627,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-19"
+            "tag": "@SiNAVM-21"
         },
         {
             "type": "direct",

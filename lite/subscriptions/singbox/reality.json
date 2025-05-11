@@ -109,14 +109,14 @@
         },
         {
             "type": "vless",
-            "server": "212.6.46.45",
-            "server_port": 52441,
-            "uuid": "3ffbeb8a-1fc1-4997-a246-95b563e7421c",
+            "server": "93.127.180.140",
+            "server_port": 443,
+            "uuid": "f8ab3109-b032-494c-816f-0ce638ca8163",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "fafait.net",
+                "server_name": "www.cdn77.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -129,8 +129,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MwNvBhzqIPuvGddb0_QN9MxBZ2TdYYfOjBFLcR0y7no",
-                    "short_id": "6ad9fb1c"
+                    "public_key": "C_e1XJiabYe1InU1R1gTM2fo1pEDETZZsvWr60PgnQw",
+                    "short_id": "164a3b6f05"
                 }
             },
             "tag": "@SiNAVM-2"

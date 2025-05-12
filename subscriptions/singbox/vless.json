@@ -156,6 +156,15 @@
         },
         {
             "type": "vless",
+            "server": "clientproo.xyz",
+            "server_port": 443,
+            "uuid": "72c1e757-6f85-40ed-b149-b059954c3400",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
             "server": "104.17.148.22",
             "server_port": 2096,
             "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -184,15 +193,6 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 443,
-            "uuid": "72c1e757-6f85-40ed-b149-b059954c3400",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
         },
         {
@@ -250,14 +250,14 @@
         },
         {
             "type": "vless",
-            "server": "marz.fastbest.ir",
-            "server_port": 7865,
-            "uuid": "8968addd-997f-4ecc-aaa1-99329ca3fb53",
+            "server": "62.60.148.14",
+            "server_port": 25756,
+            "uuid": "b1966903-2fe2-4bce-9de7-64232ed435ce",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "kletterwelt.org",
+                "server_name": "google.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -270,8 +270,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "kGRN677QKZFajGYfM_X2EoI99k8QPxPUnXQLtN8rxx0",
-                    "short_id": "3f2580f5e6a92714"
+                    "public_key": "QYKUzjbRc3V_-SwJ7DbChBt5nT6miAoFuNCqbflDF2o",
+                    "short_id": "61"
                 }
             },
             "tag": "@SiNAVM-7"

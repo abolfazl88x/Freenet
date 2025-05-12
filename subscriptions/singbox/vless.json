@@ -148,20 +148,11 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "clientproo.xyz",
+            "server_port": 443,
+            "uuid": "9b24cb3f-5f60-4881-9c35-ac46ea158b92",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
             "tag": "@SiNAVM-3"
         },
         {

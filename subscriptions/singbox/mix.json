@@ -192,78 +192,14 @@
             "tag": "@SiNAVM-4"
         },
         {
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2096,
-            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-5"
-        },
-        {
             "type": "shadowsocks",
-            "server": "45.158.171.141",
-            "server_port": 8080,
+            "server": "89.23.103.21",
+            "server_port": 51584,
             "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u",
+            "password": "oYQ8JwEldYn4KT2gfZ6eNl",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
-        },
-        {
-            "type": "trojan",
-            "server": "35.156.70.183",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "23.154.136.132",
-            "server_port": 5499,
-            "method": "aes-256-gcm",
-            "password": "lGqs95QkFHo2NV",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -294,6 +230,64 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 2096,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-7"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "23.154.136.132",
+            "server_port": 5499,
+            "method": "aes-256-gcm",
+            "password": "lGqs95QkFHo2NV",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-8"
+        },
+        {
+            "type": "vless",
+            "server": "157.180.75.119",
+            "server_port": 8880,
+            "uuid": "14fa7d10-ba31-4cc2-9cb3-278902e7946a",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "@cephalon_ai_bot",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -329,8 +323,18 @@
             "tag": "@SiNAVM-10"
         },
         {
+            "type": "shadowsocks",
+            "server": "185.39.204.12",
+            "server_port": 16297,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G0o2hE4eLuR2wwyFao0lsJ",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-11"
+        },
+        {
             "type": "trojan",
-            "server": "13.62.8.215",
+            "server": "15.236.50.197",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -347,22 +351,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "tag": "@SiNAVM-11"
-        },
-        {
-            "type": "vless",
-            "server": "157.180.75.119",
-            "server_port": 8880,
-            "uuid": "14fa7d10-ba31-4cc2-9cb3-278902e7946a",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "@cephalon_ai_bot",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             },
             "tag": "@SiNAVM-12"
         },

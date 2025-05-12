@@ -91,6 +91,24 @@
         },
         {
             "type": "vless",
+            "server": "104.21.42.56",
+            "server_port": 80,
+            "uuid": "baadfec3-75bd-4df0-ad6b-2ecdfdfe9d52",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram channel : @pandavpntc",
+                "headers": {
+                    "Host": "104.21.42.56"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
             "server": "104.21.96.1",
             "server_port": 443,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -120,16 +138,35 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-1"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 443,
-            "uuid": "9b24cb3f-5f60-4881-9c35-ac46ea158b92",
+            "server": "lunavopershian.adas.monster",
+            "server_port": 37828,
+            "uuid": "ef13d0cd-ee08-46e8-8994-4834df9837b5",
             "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "lunavopershiansni369871.adas.monster",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
+                    "short_id": "e559dd"
+                }
+            },
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -147,7 +184,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -182,7 +219,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -214,50 +251,15 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "157.180.75.119",
-            "server_port": 8880,
-            "uuid": "14fa7d10-ba31-4cc2-9cb3-278902e7946a",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "@cephalon_ai_bot",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
             "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
-            "server": "lunavopershian.adas.monster",
-            "server_port": 37828,
-            "uuid": "ef13d0cd-ee08-46e8-8994-4834df9837b5",
+            "server": "clientproo.xyz",
+            "server_port": 443,
+            "uuid": "9b24cb3f-5f60-4881-9c35-ac46ea158b92",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "lunavopershiansni369871.adas.monster",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
-                    "short_id": "e559dd"
-                }
-            },
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-7"
         },
         {

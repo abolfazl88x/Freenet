@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "91.107.180.49",
-            "server_port": 443,
-            "uuid": "4ee35122-2e2d-4013-a1ba-e2d333d191fc",
+            "server": "62.60.148.14",
+            "server_port": 25756,
+            "uuid": "b1966903-2fe2-4bce-9de7-64232ed435ce",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "google.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -99,8 +99,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "kPhGi7d7Tjk1Qcq1ShOmeEFLwRI-p4tMHt3s7PTJCn4",
-                    "short_id": "6f9a31"
+                    "public_key": "QYKUzjbRc3V_-SwJ7DbChBt5nT6miAoFuNCqbflDF2o",
+                    "short_id": "61"
                 }
             },
             "tag": "@SiNAVM-1"

@@ -129,8 +129,8 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @vpnfail_vless | 19","type":"vless","server":"104.21.96.1","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iPsyCHO.SUEx12.iR","ws-opts":{"path":"/RiuadVWEiFmFyL3C?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
   - {"name":"🇮🇹IT | 🔴 | vless | @V2FETCH | 0","type":"vless","server":"client.bluwave.ir","port":80,"udp":false,"uuid":"e3eec9d9-ab70-4617-9e19-60860112c634","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=1861","headers":{"host":"Bluewave.ai"}}}
   - {"name":"🇳🇱NL | 🟢 | vless | @TEHRANARGO | 8","type":"vless","server":"clientproo.xyz","port":443,"udp":false,"uuid":"c69ef4ef-0314-4412-9962-ca6f9a6ea64d","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 355","type":"vless","server":"159.203.57.228","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 356","type":"vless","server":"138.197.168.56","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 362","type":"vless","server":"159.203.22.192","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
+  - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 363","type":"vless","server":"66.42.126.80","port":57530,"udp":false,"uuid":"20ccf78e-b96f-4a84-b075-cab61869107c","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/"}}
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 8","type":"vless","server":"zula.ir","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 9","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
 proxy-groups:
@@ -148,8 +148,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
       - '🇳🇱NL | 🟢 | vless | @TEHRANARGO | 8'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 355'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
+      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 362'
+      - '🇺🇸US | 🔴 | vless | @DailyV2RY | 363'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 8'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 9'
   - name: URL-TEST
@@ -167,8 +167,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
       - '🇳🇱NL | 🟢 | vless | @TEHRANARGO | 8'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 355'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
+      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 362'
+      - '🇺🇸US | 🔴 | vless | @DailyV2RY | 363'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 8'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 9'
   - name: FALLBACK
@@ -185,8 +185,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
       - '🇳🇱NL | 🟢 | vless | @TEHRANARGO | 8'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 355'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
+      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 362'
+      - '🇺🇸US | 🔴 | vless | @DailyV2RY | 363'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 8'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 9'
 rule-providers:

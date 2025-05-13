@@ -81,34 +81,6 @@
         },
         {
             "type": "vless",
-            "server": "v2raymizban2.iranigamepars.ir",
-            "server_port": 443,
-            "uuid": "68c650dd-c103-4054-9129-78f2e371f90d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "F9jUIC4wltrDQQsaOU-dvEQ3jswfScRTbqhZuYyGjF8",
-                    "short_id": "c85d"
-                }
-            },
-            "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
             "server": "Shiraz-Website.acveo.ir",
             "server_port": 443,
             "uuid": "f8ca63e8-4215-4193-bb6d-755c52b01225",
@@ -139,6 +111,34 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
+            "server": "v2raymizban2.iranigamepars.ir",
+            "server_port": 443,
+            "uuid": "68c650dd-c103-4054-9129-78f2e371f90d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F9jUIC4wltrDQQsaOU-dvEQ3jswfScRTbqhZuYyGjF8",
+                    "short_id": "c85d"
+                }
             },
             "tag": "@SiNAVM-2"
         },

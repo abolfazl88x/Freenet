@@ -67,7 +67,8 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ]
         },
         {
@@ -78,7 +79,8 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -138,6 +140,38 @@
         },
         {
             "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 2096,
+            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "T864tJqC3b.SoUbLoTiK.iNfO",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "T864tJqC3b.SoUbLoTiK.iNfO"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray5",
@@ -151,34 +185,6 @@
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "v2raymizban2.iranigamepars.ir",
-            "server_port": 443,
-            "uuid": "68c650dd-c103-4054-9129-78f2e371f90d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "F9jUIC4wltrDQQsaOU-dvEQ3jswfScRTbqhZuYyGjF8",
-                    "short_id": "c85d"
-                }
             },
             "tag": "@SiNAVM-4"
         },
@@ -216,6 +222,34 @@
                 "permit_without_stream": false
             },
             "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "v2raymizban2.iranigamepars.ir",
+            "server_port": 443,
+            "uuid": "68c650dd-c103-4054-9129-78f2e371f90d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F9jUIC4wltrDQQsaOU-dvEQ3jswfScRTbqhZuYyGjF8",
+                    "short_id": "c85d"
+                }
+            },
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "Tabriz-Website.thorav.ir",
-            "server_port": 443,
-            "uuid": "c0f1cac3-5df2-4ee9-8b60-d5f9c58634a9",
+            "server": "lunavopershian.adas.monster",
+            "server_port": 37828,
+            "uuid": "ef13d0cd-ee08-46e8-8994-4834df9837b5",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "lunavopershiansni369871.adas.monster",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -95,20 +95,13 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
-                    "short_id": "b1417d"
+                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
+                    "short_id": "e559dd"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             },
             "tag": "@SiNAVM-1"
         },

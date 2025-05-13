@@ -81,8 +81,7 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-19"
             ]
         },
         {
@@ -107,8 +106,7 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-19"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -169,7 +167,7 @@
         },
         {
             "type": "trojan",
-            "server": "15.236.121.158",
+            "server": "3.74.18.33",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -191,7 +189,7 @@
         },
         {
             "type": "trojan",
-            "server": "13.37.64.182",
+            "server": "15.236.121.158",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -328,33 +326,33 @@
         },
         {
             "type": "vless",
-            "server": "45.131.208.55",
+            "server": "172.64.35.168",
             "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d4b3f2",
+            "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "mypHOtoGRAPICpIctUre.iR",
+                "server_name": "edcck.ambercc.filegear-sg.me",
                 "insecure": false,
                 "alpn": [
-                    "http\/1.1"
+                    "h3"
                 ],
                 "min_version": "1.3",
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/fJBvsL0uR2MtzRig",
+                "path": "\/",
                 "headers": {
-                    "Host": "mypHOtoGRAPICpIctUre.iR"
+                    "Host": "edcck.ambercc.filegear-sg.me"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-12"
         },
@@ -387,49 +385,14 @@
         },
         {
             "type": "vless",
-            "server": "Tabriz-Website.thorav.ir",
-            "server_port": 443,
-            "uuid": "c0f1cac3-5df2-4ee9-8b60-d5f9c58634a9",
+            "server": "lunavopershian.adas.monster",
+            "server_port": 37828,
+            "uuid": "ef13d0cd-ee08-46e8-8994-4834df9837b5",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
-                    "short_id": "b1417d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-15"
-        },
-        {
-            "type": "vless",
-            "server": "germany.gamingbazirani.ir",
-            "server_port": 600,
-            "uuid": "08fefda4-9bec-4f36-b673-8f8e6e60a8ff",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "marzban.negintel.xyz",
+                "server_name": "lunavopershiansni369871.adas.monster",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -439,9 +402,14 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
+                    "short_id": "e559dd"
                 }
             },
-            "tag": "@SiNAVM-16"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "vless",
@@ -459,7 +427,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-17"
+            "tag": "@SiNAVM-16"
         },
         {
             "type": "vless",
@@ -477,7 +445,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-18"
+            "tag": "@SiNAVM-17"
         },
         {
             "type": "vless",
@@ -510,7 +478,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-19"
+            "tag": "@SiNAVM-18"
         },
         {
             "type": "vless",
@@ -543,7 +511,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-20"
+            "tag": "@SiNAVM-19"
         },
         {
             "type": "direct",

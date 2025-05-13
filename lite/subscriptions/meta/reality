@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 7","type":"vless","server":"o.soskom.ir","port":11045,"udp":true,"uuid":"00ab71c4-1e1c-41d2-a9f2-02f763c12ba9","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"Tel : @NT_Safe"},"reality-opts":{"public-key":"p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM","short-id":"20db1be5e1ab118a"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @meli_proxyy | 15","type":"vless","server":"Tabriz-Website.thorav.ir","port":443,"udp":true,"uuid":"4cc8f4a5-89f8-49ff-a0c9-f3000064b7e2","tls":true,"network":"grpc","client-fingerprint":"qq","servername":"www.cdn77.com","grpc-opts":{"grpc-service-name":"telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"},"reality-opts":{"public-key":"S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8","short-id":"b1417d"}}
+  - {"name":"🇦🇪AE | 🟢 | vless | @meli_proxyy | 14","type":"vless","server":"93.127.180.140","port":443,"udp":true,"uuid":"26979b4d-1ff8-4c8f-940e-5eb4c116c8f7","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.cdn77.com","reality-opts":{"public-key":"-eK02lml0SFUynWZEFhxtPth7hS7MWKIOK65aL8-GkY","short-id":"2c"}}
   - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 365","type":"vless","server":"147.182.150.230","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
   - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 366","type":"vless","server":"138.197.168.56","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
 proxy-groups:
@@ -131,7 +131,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 7'
-      - '🇩🇪DE | 🟢 | vless | @meli_proxyy | 15'
+      - '🇦🇪AE | 🟢 | vless | @meli_proxyy | 14'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 365'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 366'
   - name: URL-TEST
@@ -141,7 +141,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 7'
-      - '🇩🇪DE | 🟢 | vless | @meli_proxyy | 15'
+      - '🇦🇪AE | 🟢 | vless | @meli_proxyy | 14'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 365'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 366'
   - name: FALLBACK
@@ -150,7 +150,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 7'
-      - '🇩🇪DE | 🟢 | vless | @meli_proxyy | 15'
+      - '🇦🇪AE | 🟢 | vless | @meli_proxyy | 14'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 365'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 366'
 rule-providers:

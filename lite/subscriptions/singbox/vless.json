@@ -77,8 +77,7 @@
                 "@SiNAVM-12",
                 "@SiNAVM-13",
                 "@SiNAVM-14",
-                "@SiNAVM-15",
-                "@SiNAVM-16"
+                "@SiNAVM-15"
             ]
         },
         {
@@ -99,8 +98,7 @@
                 "@SiNAVM-12",
                 "@SiNAVM-13",
                 "@SiNAVM-14",
-                "@SiNAVM-15",
-                "@SiNAVM-16"
+                "@SiNAVM-15"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -224,46 +222,32 @@
         },
         {
             "type": "vless",
-            "server": "45.131.208.55",
-            "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d4b3f2",
+            "server": "172.67.204.84",
+            "server_port": 8880,
+            "uuid": "f3b7552c-d4f6-43c9-b87b-2990c3063a6b",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "mypHOtoGRAPICpIctUre.iR",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/fJBvsL0uR2MtzRig",
+                "path": "\/",
                 "headers": {
-                    "Host": "mypHOtoGRAPICpIctUre.iR"
+                    "Host": "172.67.204.84"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
-            "server": "104.16.12.247",
-            "server_port": 2053,
-            "uuid": "de537efd-4d7c-4f3c-aea5-19d3f36c7b1b",
+            "server": "172.64.35.168",
+            "server_port": 443,
+            "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "txmt.conetcdata.dpdns.org",
+                "server_name": "edcck.ambercc.filegear-sg.me",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -272,14 +256,14 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "txmt.conetcdata.dpdns.org"
+                    "Host": "edcck.ambercc.filegear-sg.me"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -315,34 +299,6 @@
         },
         {
             "type": "vless",
-            "server": "lunavopershian.adas.monster",
-            "server_port": 37828,
-            "uuid": "ef13d0cd-ee08-46e8-8994-4834df9837b5",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "lunavopershiansni369871.adas.monster",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
-                    "short_id": "e559dd"
-                }
-            },
-            "tag": "@SiNAVM-10"
-        },
-        {
-            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
             "uuid": "telegram-id-ArV2ray",
@@ -357,7 +313,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
@@ -375,7 +331,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-12"
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "vless",
@@ -403,7 +359,7 @@
                     "short_id": "acf7d7"
                 }
             },
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-12"
         },
         {
             "type": "vless",
@@ -431,7 +387,7 @@
                     "short_id": "acf7d7"
                 }
             },
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -464,7 +420,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "vless",
@@ -497,7 +453,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-16"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "direct",

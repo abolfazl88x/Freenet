@@ -120,7 +120,6 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | 🔴 | vless | @meli_proxyy | 15","type":"vless","server":"lunavopershian.adas.monster","port":37828,"udp":true,"uuid":"ef13d0cd-ee08-46e8-8994-4834df9837b5","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"lunavopershiansni369871.adas.monster","reality-opts":{"public-key":"YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM","short-id":"e559dd"}}
   - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 355","type":"vless","server":"159.203.57.228","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
   - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 356","type":"vless","server":"138.197.168.56","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
 proxy-groups:
@@ -129,7 +128,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 15'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 355'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
   - name: URL-TEST
@@ -138,7 +136,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 15'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 355'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
   - name: FALLBACK
@@ -146,7 +143,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 15'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 355'
       - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
 rule-providers:

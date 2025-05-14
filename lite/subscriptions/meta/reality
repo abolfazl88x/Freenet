@@ -122,7 +122,7 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8","type":"vless","server":"o.soskom.ir","port":11045,"udp":true,"uuid":"00ab71c4-1e1c-41d2-a9f2-02f763c12ba9","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"Tel : @NT_Safe"},"reality-opts":{"public-key":"p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM","short-id":"20db1be5e1ab118a"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @meli_proxyy | 16","type":"vless","server":"Shiraz-Website.acveo.ir","port":443,"udp":true,"uuid":"09017df7-ddb8-4c21-9e95-f4be1f36daf5","tls":true,"network":"grpc","client-fingerprint":"qq","servername":"www.cdn77.com","grpc-opts":{"grpc-service-name":"MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN"},"reality-opts":{"public-key":"pWvBPhxqJjzAUrKKHI9rQtokKAHGtSLHZ_wrl-ArERg","short-id":"76"}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 356","type":"vless","server":"159.203.11.94","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 352","type":"vless","server":"165.22.234.158","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +131,7 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8'
       - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 16'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
+      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 352'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -140,7 +140,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8'
       - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 16'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
+      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 352'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -148,7 +148,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 8'
       - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 16'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 356'
+      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 352'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

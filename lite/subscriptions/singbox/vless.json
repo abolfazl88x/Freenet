@@ -280,35 +280,37 @@
         },
         {
             "type": "vless",
-            "server": "88.218.95.12",
-            "server_port": 8880,
-            "uuid": "7d6c8e28-8f81-5a74-9257-24b1e0a841a9",
+            "server": "151.101.194.219",
+            "server_port": 80,
+            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/olem\/ws",
+                "headers": {
+                    "Host": "151.101.194.219"
+                },
+                "max_early_data": 1024,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
-            "server": "156.238.18.111",
-            "server_port": 8880,
+            "server": "www.speedtest.net",
+            "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳",
+                "path": "\/re5IzbZ9IZZMddtw",
                 "headers": {
-                    "Host": "156.238.18.111"
+                    "Host": "www.speedtest.net"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-9"
         },
@@ -447,7 +449,35 @@
         },
         {
             "type": "vless",
-            "server": "159.203.11.94",
+            "server": "134.122.43.236",
+            "server_port": 39493,
+            "uuid": "26fc8b18-8f9a-4960-8686-3c00cf027280",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A_KkC4kfUn6JpQjDaz5nBaTepXG7eQP3uGnAh60ri14",
+                    "short_id": "3b191bba"
+                }
+            },
+            "tag": "@SiNAVM-16"
+        },
+        {
+            "type": "vless",
+            "server": "165.22.234.158",
             "server_port": 5376,
             "uuid": "217b2806-44e6-4d84-bd1e-8431a9dcfba5",
             "packet_encoding": "xudp",
@@ -470,24 +500,6 @@
                     "public_key": "pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI",
                     "short_id": "acf7d7"
                 }
-            },
-            "tag": "@SiNAVM-16"
-        },
-        {
-            "type": "vless",
-            "server": "45.63.68.191",
-            "server_port": 8080,
-            "uuid": "0097a687-ee3d-48da-bf83-aabcd744fc05",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.63.68.191"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-17"
         },

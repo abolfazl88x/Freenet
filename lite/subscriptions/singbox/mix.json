@@ -144,7 +144,7 @@
         },
         {
             "type": "trojan",
-            "server": "3.74.76.122",
+            "server": "51.44.187.248",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -166,7 +166,7 @@
         },
         {
             "type": "trojan",
-            "server": "18.199.43.148",
+            "server": "3.74.76.122",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -354,37 +354,37 @@
         },
         {
             "type": "vless",
-            "server": "151.101.194.219",
-            "server_port": 80,
-            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws",
-                "headers": {
-                    "Host": "151.101.194.219"
-                },
-                "max_early_data": 1024,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "vless",
-            "server": "104.24.229.98",
+            "server": "44.31.62.3",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/TM@AZAFBAYJAB1",
+                "path": "\/Telegram🇨🇳 @WangCai2 \/",
                 "headers": {
-                    "Host": "104.24.229.98"
+                    "Host": "44.31.62.3"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/re5IzbZ9IZZMddtw",
+                "headers": {
+                    "Host": "104.17.148.22"
+                },
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-13"
         },

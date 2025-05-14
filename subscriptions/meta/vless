@@ -121,7 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1","type":"vless","server":"135.148.74.158","port":443,"udp":false,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"network":"raw","client-fingerprint":"chrome","servername":"147135004002.sec20org.com"}
-  - {"name":"🇹🇷TR | 🔴 | vless | @meli_proxyy | 4","type":"vless","server":"ajbauhduhaefw.alcatelindan.com","port":39948,"udp":false,"uuid":"2558c819-1363-4859-8fb9-f8cb104d49d2","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @TEHRANARGO | 0","type":"vless","server":"104.16.189.41","port":443,"udp":false,"uuid":"d6a1143b-cdf0-41f8-a646-bd8f11663786","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"d6.medicalhistory.ir","ws-opts":{"path":"/Join_Bade_Channel@JOKERRVPN?ed=2560","headers":{"host":"d6.medicalhistory.ir"}}}
+  - {"name":"🇹🇷TR | 🔴 | vless | @meli_proxyy | 9","type":"vless","server":"ajbauhduhaefw.alcatelindan.com","port":39948,"udp":false,"uuid":"2558c819-1363-4859-8fb9-f8cb104d49d2","tls":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +130,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
-      - '🇹🇷TR | 🔴 | vless | @meli_proxyy | 4'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 0'
+      - '🇹🇷TR | 🔴 | vless | @meli_proxyy | 9'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com/
@@ -137,14 +139,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
-      - '🇹🇷TR | 🔴 | vless | @meli_proxyy | 4'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 0'
+      - '🇹🇷TR | 🔴 | vless | @meli_proxyy | 9'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com/
     interval: 60
     proxies:
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
-      - '🇹🇷TR | 🔴 | vless | @meli_proxyy | 4'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 0'
+      - '🇹🇷TR | 🔴 | vless | @meli_proxyy | 9'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

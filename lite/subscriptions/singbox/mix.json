@@ -352,14 +352,46 @@
         },
         {
             "type": "vless",
-            "server": "172.64.35.168",
+            "server": "45.131.208.55",
             "server_port": 443,
-            "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d4b3f2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "edcck.ambercc.filegear-sg.me",
+                "server_name": "mypHOtoGRAPICpIctUre.iR",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fJBvsL0uR2MtzRig",
+                "headers": {
+                    "Host": "mypHOtoGRAPICpIctUre.iR"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
+            "server": "45.12.30.46",
+            "server_port": 2096,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "LhCgBjGr29.vElTrIxS.OrG",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -368,33 +400,17 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "edcck.ambercc.filegear-sg.me"
+                    "Host": "LhCgBjGr29.vElTrIxS.OrG"
                 },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "vless",
-            "server": "103.97.88.93",
-            "server_port": 2052,
-            "uuid": "f2d1b51c-6624-4f31-8496-d9bc67cf49fe",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-13"
         },

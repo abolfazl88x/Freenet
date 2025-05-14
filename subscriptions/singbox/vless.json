@@ -167,14 +167,14 @@
         },
         {
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "104.17.148.22",
             "server_port": 2096,
-            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "T864tJqC3b.SoUbLoTiK.iNfO",
+                "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -190,7 +190,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "T864tJqC3b.SoUbLoTiK.iNfO"
+                    "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
@@ -287,14 +287,14 @@
         },
         {
             "type": "vless",
-            "server": "104.17.148.22",
+            "server": "104.17.147.22",
             "server_port": 2096,
-            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
+                "server_name": "T864tJqC3b.SoUbLoTiK.iNfO",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -310,7 +310,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
+                    "Host": "T864tJqC3b.SoUbLoTiK.iNfO"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

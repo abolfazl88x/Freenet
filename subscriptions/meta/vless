@@ -120,8 +120,9 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1","type":"vless","server":"135.148.74.158","port":443,"udp":false,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"network":"raw","client-fingerprint":"chrome","servername":"147135004002.sec20org.com"}
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 1","type":"vless","server":"104.21.96.1","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iPsyCHO.SUEx12.iR","ws-opts":{"path":"/RiuadVWEiFmFyL3C?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1","type":"vless","server":"135.148.74.158","port":443,"udp":false,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"network":"raw","client-fingerprint":"chrome","servername":"147135004002.sec20org.com"}
+  - {"name":"🇷🇺RU | 🔴 | vless | @meli_proxyy | 8","type":"vless","server":"89.23.118.93","port":443,"udp":false,"uuid":"588f094b-431b-422c-b80b-007945037072","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ru01.abvpn.ru","ws-opts":{"path":"/websocket","headers":{"host":"ru01.abvpn.ru"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Outline_Vpn | 0","type":"vless","server":"104.17.148.22","port":2096,"udp":false,"uuid":"96a1b724-68d2-4f4d-ab25-38ecd83577bc","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LgUoZjGr14.hAmEcHiRuHaVaSt.cOm","ws-opts":{"path":"/","headers":{"host":"LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"}}}
 proxy-groups:
   - name: MANUAL
@@ -129,8 +130,9 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
+      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
+      - '🇷🇺RU | 🔴 | vless | @meli_proxyy | 8'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
   - name: URL-TEST
     type: url-test
@@ -138,16 +140,18 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
+      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
+      - '🇷🇺RU | 🔴 | vless | @meli_proxyy | 8'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com/
     interval: 60
     proxies:
-      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 1'
+      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 1'
+      - '🇷🇺RU | 🔴 | vless | @meli_proxyy | 8'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}

@@ -282,7 +282,25 @@
         },
         {
             "type": "vless",
-            "server": "44.31.62.3",
+            "server": "156.238.18.111",
+            "server_port": 8880,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram🇨🇳",
+                "headers": {
+                    "Host": "156.238.18.111"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-8"
+        },
+        {
+            "type": "vless",
+            "server": "45.120.178.115",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
@@ -291,25 +309,7 @@
                 "type": "ws",
                 "path": "\/Telegram🇨🇳 @WangCai2 \/",
                 "headers": {
-                    "Host": "44.31.62.3"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/re5IzbZ9IZZMddtw",
-                "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "45.120.178.115"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -479,7 +479,7 @@
         },
         {
             "type": "vless",
-            "server": "159.203.11.74",
+            "server": "159.203.11.94",
             "server_port": 5376,
             "uuid": "217b2806-44e6-4d84-bd1e-8431a9dcfba5",
             "packet_encoding": "xudp",
@@ -507,16 +507,16 @@
         },
         {
             "type": "vless",
-            "server": "45.77.120.195",
+            "server": "45.63.68.191",
             "server_port": 8080,
-            "uuid": "044ea0d1-309e-42a3-b9b0-a9fab400929e",
+            "uuid": "0097a687-ee3d-48da-bf83-aabcd744fc05",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "45.77.120.195"
+                    "Host": "45.63.68.191"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

@@ -142,7 +142,7 @@
         },
         {
             "type": "trojan",
-            "server": "35.156.70.183",
+            "server": "51.44.228.29",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -164,7 +164,7 @@
         },
         {
             "type": "trojan",
-            "server": "63.178.93.14",
+            "server": "35.156.70.183",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -352,37 +352,35 @@
         },
         {
             "type": "vless",
-            "server": "151.101.194.219",
-            "server_port": 80,
-            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws",
-                "headers": {
-                    "Host": "151.101.194.219"
-                },
-                "max_early_data": 1024,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "vless",
-            "server": "44.31.62.3",
+            "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/",
+                "path": "\/re5IzbZ9IZZMddtw",
                 "headers": {
-                    "Host": "44.31.62.3"
+                    "Host": "www.speedtest.net"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "vless",
+            "server": "88.218.95.12",
+            "server_port": 8880,
+            "uuid": "7d6c8e28-8f81-5a74-9257-24b1e0a841a9",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-13"
         },
@@ -424,14 +422,14 @@
         },
         {
             "type": "vless",
-            "server": "V2RayMizban.iranigamepars.ir",
-            "server_port": 443,
-            "uuid": "8b476015-d0c5-48d3-8009-dfaea0d3f565",
+            "server": "38.180.61.83",
+            "server_port": 25529,
+            "uuid": "7e38fa80-6cf3-4013-b576-5b3be737fb43",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "vultr.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -444,8 +442,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
-                    "short_id": "7e39db0c"
+                    "public_key": "0grZUQjpy-Y2iQ_QaKJm2MTgJANaxew0iOSQMBffGiU",
+                    "short_id": "c4bf2058763803b1"
                 }
             },
             "tag": "@SiNAVM-17"

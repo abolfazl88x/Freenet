@@ -121,7 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇳🇱NL | 🟢 | vless | @meli_proxyy | 17","type":"vless","server":"V2RayMizban.iranigamepars.ir","port":443,"udp":true,"uuid":"8b476015-d0c5-48d3-8009-dfaea0d3f565","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.cdn77.com","reality-opts":{"public-key":"TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c","short-id":"7e39db0c"}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @DailyV2RY | 352","type":"vless","server":"165.22.234.158","port":5376,"udp":true,"uuid":"217b2806-44e6-4d84-bd1e-8431a9dcfba5","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yoast.com","reality-opts":{"public-key":"pAkjrjLJqt7c3xA-hkNJlDNUZGut9H8ZpUej1zMoAFI","short-id":"acf7d7"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +128,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇳🇱NL | 🟢 | vless | @meli_proxyy | 17'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 352'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +135,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇳🇱NL | 🟢 | vless | @meli_proxyy | 17'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 352'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇳🇱NL | 🟢 | vless | @meli_proxyy | 17'
-      - '🇨🇦CA | 🔴 | vless | @DailyV2RY | 352'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

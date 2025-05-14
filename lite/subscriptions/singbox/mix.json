@@ -354,16 +354,16 @@
         },
         {
             "type": "vless",
-            "server": "156.238.18.111",
-            "server_port": 8880,
+            "server": "104.24.229.98",
+            "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳",
+                "path": "\/TM@AZAFBAYJAB1",
                 "headers": {
-                    "Host": "156.238.18.111"
+                    "Host": "104.24.229.98"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
@@ -372,16 +372,16 @@
         },
         {
             "type": "vless",
-            "server": "44.31.62.3",
+            "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/",
+                "path": "\/re5IzbZ9IZZMddtw",
                 "headers": {
-                    "Host": "44.31.62.3"
+                    "Host": "www.speedtest.net"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"

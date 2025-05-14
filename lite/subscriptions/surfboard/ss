@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇹🇷TR | 🟢 | ss | @sinavm | 0 = ss, 185.39.204.12, 16297, encrypt-method = chacha20-ietf-poly1305, password = G0o2hE4eLuR2wwyFao0lsJ
-🇺🇸US | 🟢 | ss | @DailyV2RY | 338 = ss, 149.28.106.134, 31444, encrypt-method = chacha20-ietf-poly1305, password = 46e67f5a-63e4-4566-870c-76eaa9cf76fe
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇹🇷TR | 🟢 | ss | @sinavm | 0,🇺🇸US | 🟢 | ss | @DailyV2RY | 338
-URL-TEST = url-test,🇹🇷TR | 🟢 | ss | @sinavm | 0,🇺🇸US | 🟢 | ss | @DailyV2RY | 338
-FALLBACK = fallback,🇹🇷TR | 🟢 | ss | @sinavm | 0,🇺🇸US | 🟢 | ss | @DailyV2RY | 338
+MANUAL = select,URL-TEST,FALLBACK,🇹🇷TR | 🟢 | ss | @sinavm | 0
+URL-TEST = url-test,🇹🇷TR | 🟢 | ss | @sinavm | 0
+FALLBACK = fallback,🇹🇷TR | 🟢 | ss | @sinavm | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

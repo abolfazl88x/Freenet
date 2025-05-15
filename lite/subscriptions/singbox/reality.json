@@ -79,9 +79,9 @@
         },
         {
             "type": "vless",
-            "server": "uae.ir.iranigamepars.ir",
-            "server_port": 38929,
-            "uuid": "b28d06c6-c817-42bc-babc-f3be48fe0eeb",
+            "server": "213.21.245.83",
+            "server_port": 443,
+            "uuid": "6f6adc8f-1dbb-4bde-af84-a30d71032d2f",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -99,8 +99,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "GlDn49KS_W3t3VC6kNYB4e2bsv1rx0_zg_uQ-SYPaw8",
-                    "short_id": "988897"
+                    "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
+                    "short_id": "7e39db0c"
                 }
             },
             "tag": "@SiNAVM-1"

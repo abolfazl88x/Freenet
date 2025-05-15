@@ -249,19 +249,19 @@
         },
         {
             "type": "vless",
-            "server": "44.31.62.3",
+            "server": "45.131.7.59",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/",
+                "path": "\/",
                 "headers": {
-                    "Host": "44.31.62.3"
+                    "Host": "45.131.7.59"
                 },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-6"
         },
@@ -321,6 +321,15 @@
         },
         {
             "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-236",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-11"
+        },
+        {
+            "type": "vless",
             "server": "uae.ir.iranigamepars.ir",
             "server_port": 38929,
             "uuid": "b28d06c6-c817-42bc-babc-f3be48fe0eeb",
@@ -345,15 +354,6 @@
                     "short_id": "988897"
                 }
             },
-            "tag": "@SiNAVM-11"
-        },
-        {
-            "type": "vless",
-            "server": "lv01.abvpn.ru",
-            "server_port": 443,
-            "uuid": "588f094b-431b-422c-b80b-007945037072",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-12"
         },
         {

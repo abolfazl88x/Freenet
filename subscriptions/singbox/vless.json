@@ -66,9 +66,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-4"
             ]
         },
         {
@@ -78,9 +76,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -112,39 +108,12 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "dl1.safedata.space",
+            "server_port": 41566,
+            "uuid": "eb1107fb-e952-46da-84ea-8ae4361cb91b",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
             "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "V2RAXX-channel.cataba.ir",
-            "server_port": 2053,
-            "uuid": "V2RAXX",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX\/@V2RAXX",
-                "headers": {
-                    "Host": "V2RAXX-channel.cataba.ir"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -172,7 +141,7 @@
                     "short_id": "42e28b4179d2a0df"
                 }
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -181,25 +150,7 @@
             "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "a6e0280d-5df8-4de7-811a-db42402867a2",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/spdnet",
-                "headers": {
-                    "Host": "151.101.3.8"
-                },
-                "max_early_data": 1024,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "direct",

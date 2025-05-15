@@ -64,8 +64,7 @@
             "outbounds": [
                 "Best Latency",
                 "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-2"
             ]
         },
         {
@@ -73,8 +72,7 @@
             "tag": "Best Latency",
             "outbounds": [
                 "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-2"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -124,23 +122,6 @@
                 }
             },
             "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "trojan",
-            "server": "cloudgetservice.mcloudservice.site",
-            "server_port": 443,
-            "password": "aTArbZ2F0E",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvkws",
-                "headers": {
-                    "Host": "uSa-vp-27.bLAzECLOUD.SITE"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

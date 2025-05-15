@@ -64,7 +64,8 @@
             "outbounds": [
                 "Best Latency",
                 "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-2",
+                "@SiNAVM-3"
             ]
         },
         {
@@ -72,7 +73,8 @@
             "tag": "Best Latency",
             "outbounds": [
                 "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-2",
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -81,7 +83,7 @@
         },
         {
             "type": "trojan",
-            "server": "13.49.1.177",
+            "server": "52.58.144.133",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -103,7 +105,7 @@
         },
         {
             "type": "trojan",
-            "server": "15.236.61.44",
+            "server": "13.49.1.177",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -122,6 +124,23 @@
                 }
             },
             "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "trojan",
+            "server": "cloudgetservice.mcloudservice.site",
+            "server_port": 443,
+            "password": "aTArbZ2F0E",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvkws",
+                "headers": {
+                    "Host": "uSa-vp-27.bLAzECLOUD.SITE"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

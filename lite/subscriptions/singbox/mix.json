@@ -323,6 +323,22 @@
         },
         {
             "type": "vless",
+            "server": "88.218.95.12",
+            "server_port": 8880,
+            "uuid": "7d6c8e28-8f81-5a74-9257-24b1e0a841a9",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-10"
+        },
+        {
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -333,24 +349,6 @@
                 "path": "\/re5IzbZ9IZZMddtw",
                 "headers": {
                     "Host": "www.speedtest.net"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-10"
-        },
-        {
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/re5IzbZ9IZZMddtw",
-                "headers": {
-                    "Host": "104.17.148.22"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -395,8 +393,8 @@
         },
         {
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
+            "server": "[2a01:4f8:1c1b:e1d0::1]",
+            "server_port": 8888,
             "uuid": "Parsashonam-236",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
@@ -404,30 +402,11 @@
         },
         {
             "type": "vless",
-            "server": "uae.ir.iranigamepars.ir",
-            "server_port": 38929,
-            "uuid": "b28d06c6-c817-42bc-babc-f3be48fe0eeb",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-236",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GlDn49KS_W3t3VC6kNYB4e2bsv1rx0_zg_uQ-SYPaw8",
-                    "short_id": "988897"
-                }
-            },
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-16"
         },
         {

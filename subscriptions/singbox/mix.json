@@ -70,7 +70,8 @@
                 "@SiNAVM-5",
                 "@SiNAVM-6",
                 "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-8",
+                "@SiNAVM-9"
             ]
         },
         {
@@ -84,7 +85,8 @@
                 "@SiNAVM-5",
                 "@SiNAVM-6",
                 "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-8",
+                "@SiNAVM-9"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -110,6 +112,28 @@
             "tag": "@SiNAVM-1"
         },
         {
+            "type": "trojan",
+            "server": "15.236.33.140",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-2"
+        },
+        {
             "type": "shadowsocks",
             "server": "62.60.231.81",
             "server_port": 59945,
@@ -117,7 +141,7 @@
             "password": "VfaEatGj7iXncVpijKFC1e",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "trojan",
@@ -139,7 +163,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -156,41 +180,6 @@
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "88.218.60.136",
-            "server_port": 2053,
-            "uuid": "35eaae35-6a9e-4b92-aa9a-1aa0c175fbf3",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ssIDty9ZLxCi_Ups8bQ75_apSDC2nJZRljRhfto0jXQ",
-                    "short_id": "8034"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             },
             "tag": "@SiNAVM-5"
         },
@@ -227,6 +216,41 @@
             "tag": "@SiNAVM-6"
         },
         {
+            "type": "vless",
+            "server": "88.218.60.136",
+            "server_port": 2053,
+            "uuid": "35eaae35-6a9e-4b92-aa9a-1aa0c175fbf3",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ssIDty9ZLxCi_Ups8bQ75_apSDC2nJZRljRhfto0jXQ",
+                    "short_id": "8034"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-7"
+        },
+        {
             "type": "shadowsocks",
             "server": "mx2.drawnrisha.one",
             "server_port": 55988,
@@ -234,7 +258,7 @@
             "password": "5QMZKZoXMsCbhE8GHAg7Lixi7tVMmw3xH2A3biivUTgs3uo9ntbH685jA8pj98n4pJji3yw6ajzn2qzJUa4dFij1upacCtKW",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "shadowsocks",
@@ -244,7 +268,7 @@
             "password": "G0o2hE4eLuR2wwyFao0lsJ",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "direct",

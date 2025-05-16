@@ -65,8 +65,7 @@
                 "Best Latency",
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-3"
             ]
         },
         {
@@ -75,8 +74,7 @@
             "outbounds": [
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -85,24 +83,19 @@
         },
         {
             "type": "vless",
-            "server": "135.148.74.158",
-            "server_port": 443,
-            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray5",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135004002.sec20org.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
         },
@@ -143,24 +136,6 @@
         },
         {
             "type": "vless",
-            "server": "5.61.35.27",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram🇮🇷Channel id: @ShadowProxy66 \/",
-                "headers": {
-                    "Host": "5.61.35.27"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
             "server": "88.218.60.136",
             "server_port": 2053,
             "uuid": "35eaae35-6a9e-4b92-aa9a-1aa0c175fbf3",
@@ -192,7 +167,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

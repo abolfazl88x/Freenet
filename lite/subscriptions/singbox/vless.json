@@ -281,24 +281,6 @@
         },
         {
             "type": "vless",
-            "server": "103.245.228.99",
-            "server_port": 8880,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram🇨🇳@WangCai2\/",
-                "headers": {
-                    "Host": "103.245.228.99"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
             "server": "client.bluwave.ir",
             "server_port": 80,
             "uuid": "e3eec9d9-ab70-4617-9e19-60860112c634",
@@ -313,7 +295,7 @@
                 "max_early_data": 1861,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
@@ -322,18 +304,18 @@
             "uuid": "ace02497-cfd2-4cac-8617-2037fc2020b3",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "vless",
-            "server": "V2RayMizban.iranigamepars.ir",
-            "server_port": 443,
-            "uuid": "6f6adc8f-1dbb-4bde-af84-a30d71032d2f",
+            "server": "server.siasia.ir",
+            "server_port": 2083,
+            "uuid": "7ec4816b-4f10-47e7-9d7b-d55e1d86ed2c",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "www.whatsapp.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -342,13 +324,29 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
-                    "short_id": "7e39db0c"
+                    "public_key": "a6zyALTLMps9JFOeGiTgdiAwGdO0Qu9buLSwMZ9cpww",
+                    "short_id": "42e28b4179d2a0df"
                 }
+            },
+            "tag": "@SiNAVM-10"
+        },
+        {
+            "type": "vless",
+            "server": "5.253.30.9",
+            "server_port": 8880,
+            "uuid": "dfcf379e-2d92-514e-84ca-77cdb1bd73c6",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-11"
         },

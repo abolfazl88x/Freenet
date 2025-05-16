@@ -433,13 +433,21 @@
             "tag": "@SiNAVM-16"
         },
         {
-            "type": "shadowsocks",
-            "server": "series-a2.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "104.16.38.60",
+            "server_port": 80,
+            "uuid": "2ab04aa0-5f28-432f-96c7-d168d09973d8",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.16.38.60"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-17"
         },
         {

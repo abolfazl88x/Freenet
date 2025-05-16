@@ -76,9 +76,7 @@
                 "@SiNAVM-11",
                 "@SiNAVM-12",
                 "@SiNAVM-13",
-                "@SiNAVM-14",
-                "@SiNAVM-15",
-                "@SiNAVM-16"
+                "@SiNAVM-14"
             ]
         },
         {
@@ -98,9 +96,7 @@
                 "@SiNAVM-11",
                 "@SiNAVM-12",
                 "@SiNAVM-13",
-                "@SiNAVM-14",
-                "@SiNAVM-15",
-                "@SiNAVM-16"
+                "@SiNAVM-14"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -199,6 +195,38 @@
         },
         {
             "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 2096,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-7"
+        },
+        {
+            "type": "vless",
             "server": "Tabriz-Website.thorav.ir",
             "server_port": 443,
             "uuid": "eade0b85-d52f-44df-90e9-bceea0fbb59a",
@@ -230,30 +258,20 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "vless",
-            "server": "722309294.web-manage.com.tr",
-            "server_port": 1520,
-            "uuid": "b12624a6-25d0-484d-8725-3eca4544d522",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-8"
         },
         {
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2096,
-            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
-            "packet_encoding": "xudp",
+            "type": "trojan",
+            "server": "13.62.15.8",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": false,
                 "alpn": [
-                    "h3"
+                    "http\/1.1"
                 ],
                 "min_version": "1.3",
                 "max_version": "1.3",
@@ -261,15 +279,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-9"
         },
@@ -292,58 +301,13 @@
             "tag": "@SiNAVM-10"
         },
         {
-            "type": "trojan",
-            "server": "13.62.15.8",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
+            "type": "vless",
+            "server": "722309294.web-manage.com.tr",
+            "server_port": 1520,
+            "uuid": "b12624a6-25d0-484d-8725-3eca4544d522",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "tag": "@SiNAVM-11"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "mx2.drawnrisha.one",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5QMZKZoXMsCbhE8GHAg7Lixi7tVMmw3xH2A3biivUTgs3uo9ntbH685jA8pj98n4pJji3yw6ajzn2qzJUa4dFij1upacCtKW",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "trojan",
-            "server": "3.76.237.63",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "@SiNAVM-13"
         },
         {
             "type": "shadowsocks",
@@ -353,7 +317,7 @@
             "password": "G0o2hE4eLuR2wwyFao0lsJ",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-12"
         },
         {
             "type": "vless",
@@ -388,17 +352,17 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "shadowsocks",
-            "server": "160.19.78.75",
-            "server_port": 443,
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
             "method": "chacha20-ietf-poly1305",
-            "password": "Nk9asglDzHzjktVzTkvhaA",
+            "password": "5QMZKZoXMsCbhE8GHAg7Lixi7tVMmw3xH2A3biivUTgs3uo9ntbH685jA8pj98n4pJji3yw6ajzn2qzJUa4dFij1upacCtKW",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-16"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "direct",

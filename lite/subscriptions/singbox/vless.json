@@ -261,19 +261,19 @@
         },
         {
             "type": "vless",
-            "server": "103.245.228.99",
-            "server_port": 8880,
+            "server": "80.211.194.250",
+            "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳@WangCai2\/",
+                "path": "\/Telegram🇮🇷 @ShadowProxy66 \/?ed",
                 "headers": {
-                    "Host": "103.245.228.99"
+                    "Host": "80.211.194.250"
                 },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-7"
         },

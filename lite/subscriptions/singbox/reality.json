@@ -79,7 +79,7 @@
         },
         {
             "type": "vless",
-            "server": "213.21.245.83",
+            "server": "V2RayMizban.iranigamepars.ir",
             "server_port": 443,
             "uuid": "6f6adc8f-1dbb-4bde-af84-a30d71032d2f",
             "packet_encoding": "xudp",

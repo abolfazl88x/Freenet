@@ -1,5 +1,6 @@
 vless://8f69b4a6-f8cd-4d11-8248-fde97b250d3b@sea.hopebook75zulawu.online:2095?path=/ed=2082&security=none&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#🇩🇪DE | 🔴 | vless | @hopev2ray | 6
-trojan://telegram-id-directvpn@3.79.133.0:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 18
+trojan://telegram-id-directvpn@3.64.181.93:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 18
+trojan://telegram-id-directvpn@3.79.133.0:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 19
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@128.140.120.60:2087?encryption=none&security=tls&sni=CiHsFuEf76.nExTvIsIoNaRy.org&fp=chrome&type=grpc&headertype=none&mode=gun#🇩🇪DE | 🔴 | vless | @DeamNet_Proxy | 18
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQQnJ0czVBdTRHTTlhcjdiVE55WkV1@85.208.139.69:63861#🇩🇪DE | 🟢 | ss | @ShadowProxy66 | 1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@78.47.141.72:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 18

@@ -11,14 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | 🟢 | ss | @meli_proxyy | 1 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇬🇧GB | 🟢 | ss | @meli_proxyy | 2 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇸🇪SE | 🟢 | ss | @meli_proxyy | 12 = ss, 62.60.231.81, 59945, encrypt-method = chacha20-ietf-poly1305, password = VfaEatGj7iXncVpijKFC1e
 🇸🇪SE | 🟢 | trojan | @DirectVPN | 7 = trojan, 13.48.244.101, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | 🟢 | ss | @meli_proxyy | 11 = ss, 62.60.231.81, 59945, encrypt-method = chacha20-ietf-poly1305, password = VfaEatGj7iXncVpijKFC1e
-🇹🇷TR | 🟢 | ss | @ShadowProxy66 | 1 = ss, 185.39.204.12, 16297, encrypt-method = chacha20-ietf-poly1305, password = G0o2hE4eLuR2wwyFao0lsJ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | ss | @meli_proxyy | 1,🇸🇪SE | 🟢 | trojan | @DirectVPN | 7,🇸🇪SE | 🟢 | ss | @meli_proxyy | 11,🇹🇷TR | 🟢 | ss | @ShadowProxy66 | 1
-URL-TEST = url-test,🇬🇧GB | 🟢 | ss | @meli_proxyy | 1,🇸🇪SE | 🟢 | trojan | @DirectVPN | 7,🇸🇪SE | 🟢 | ss | @meli_proxyy | 11,🇹🇷TR | 🟢 | ss | @ShadowProxy66 | 1
-FALLBACK = fallback,🇬🇧GB | 🟢 | ss | @meli_proxyy | 1,🇸🇪SE | 🟢 | trojan | @DirectVPN | 7,🇸🇪SE | 🟢 | ss | @meli_proxyy | 11,🇹🇷TR | 🟢 | ss | @ShadowProxy66 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | ss | @meli_proxyy | 2,🇸🇪SE | 🟢 | ss | @meli_proxyy | 12,🇸🇪SE | 🟢 | trojan | @DirectVPN | 7
+URL-TEST = url-test,🇬🇧GB | 🟢 | ss | @meli_proxyy | 2,🇸🇪SE | 🟢 | ss | @meli_proxyy | 12,🇸🇪SE | 🟢 | trojan | @DirectVPN | 7
+FALLBACK = fallback,🇬🇧GB | 🟢 | ss | @meli_proxyy | 2,🇸🇪SE | 🟢 | ss | @meli_proxyy | 12,🇸🇪SE | 🟢 | trojan | @DirectVPN | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

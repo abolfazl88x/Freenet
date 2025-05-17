@@ -91,10 +91,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "62.60.231.81",
-            "server_port": 59945,
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "VfaEatGj7iXncVpijKFC1e",
+            "password": "mps3FwmDjLrWaOVg",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-2"

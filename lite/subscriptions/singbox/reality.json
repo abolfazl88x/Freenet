@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "Tabriz-Website.thorav.ir",
-            "server_port": 443,
-            "uuid": "eade0b85-d52f-44df-90e9-bceea0fbb59a",
+            "server": "free.hellray-server.fun",
+            "server_port": 56229,
+            "uuid": "7e5c827b-45f3-46df-80cd-c203bc94c267",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "canva.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -95,20 +95,13 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
-                    "short_id": "b1417d"
+                    "public_key": "3VekXWs-HD05zRdqhvpnFt2SeJRGnO7ntV-TkMyevnA",
+                    "short_id": "c403dbc5"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             },
             "tag": "@SiNAVM-1"
         },

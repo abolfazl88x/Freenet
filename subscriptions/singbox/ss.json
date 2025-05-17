@@ -64,7 +64,8 @@
             "outbounds": [
                 "Best Latency",
                 "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-2",
+                "@SiNAVM-3"
             ]
         },
         {
@@ -72,7 +73,8 @@
             "tag": "Best Latency",
             "outbounds": [
                 "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-2",
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -81,10 +83,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "185.39.204.12",
-            "server_port": 16297,
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "G0o2hE4eLuR2wwyFao0lsJ",
+            "password": "mps3FwmDjLrWaOVg",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-1"
@@ -98,6 +100,16 @@
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "185.39.204.12",
+            "server_port": 16297,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G0o2hE4eLuR2wwyFao0lsJ",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

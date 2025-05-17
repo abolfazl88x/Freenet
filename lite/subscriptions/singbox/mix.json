@@ -345,19 +345,19 @@
         },
         {
             "type": "vless",
-            "server": "80.211.194.250",
+            "server": "23.134.82.2",
             "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇮🇷 @ShadowProxy66 \/?ed",
+                "path": "\/Telegram🇨🇳 @WangCai2 \/",
                 "headers": {
-                    "Host": "80.211.194.250"
+                    "Host": "23.134.82.2"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-11"
         },
@@ -390,46 +390,34 @@
         },
         {
             "type": "vless",
-            "server": "Tabriz-Website.thorav.ir",
-            "server_port": 443,
-            "uuid": "eade0b85-d52f-44df-90e9-bceea0fbb59a",
+            "server": "188.245.120.39",
+            "server_port": 1519,
+            "uuid": "b12624a6-25d0-484d-8725-3eca4544d522",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-14"
+        },
+        {
+            "type": "vless",
+            "server": "89.144.25.236",
+            "server_port": 443,
+            "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "kavir.lnmarketplace.net",
                 "insecure": false,
                 "alpn": [
-                    "h3"
+                    "h2"
                 ],
                 "min_version": "1.3",
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
-                    "short_id": "b1417d"
+                    "fingerprint": "firefox"
                 }
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-14"
-        },
-        {
-            "type": "vless",
-            "server": "djfdd.nexavps.ir",
-            "server_port": 8880,
-            "uuid": "b99590df-eda0-4e34-e1a9-3d1118faed83",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-15"
         },
         {
@@ -469,13 +457,35 @@
             "tag": "@SiNAVM-17"
         },
         {
-            "type": "shadowsocks",
-            "server": "103.243.215.17",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "Y8wSaBz7Xj.MySpDmMeTi.CoM",
+                "insecure": false,
+                "alpn": [
+                    "h3h2"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Y8wSaBz7Xj.MySpDmMeTi.CoM"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-18"
         },
         {

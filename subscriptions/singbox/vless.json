@@ -85,6 +85,24 @@
         },
         {
             "type": "vless",
+            "server": "lnservice.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "84ce5157-4867-4bea-8ae9-f1d7afe3b0ed",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Pak91jqn-Mehskl.ir.shop.com",
+                "headers": {
+                    "Host": "lnservice.fastly80-2.hosting-ip.com"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
             "server": "135.148.74.158",
             "server_port": 443,
             "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
@@ -103,24 +121,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "lnservice.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "84ce5157-4867-4bea-8ae9-f1d7afe3b0ed",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Pak91jqn-Mehskl.ir.shop.com",
-                "headers": {
-                    "Host": "lnservice.fastly80-2.hosting-ip.com"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-2"
         },

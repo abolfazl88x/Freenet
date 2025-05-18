@@ -109,7 +109,7 @@
         },
         {
             "type": "vless",
-            "server": "89.208.104.70",
+            "server": "159.65.57.51",
             "server_port": 443,
             "uuid": "e2286c5e-d910-405f-9bcb-b0e81188ad53",
             "packet_encoding": "xudp",

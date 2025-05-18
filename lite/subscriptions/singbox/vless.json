@@ -272,19 +272,17 @@
         },
         {
             "type": "vless",
-            "server": "23.134.82.2",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "88.218.95.12",
+            "server_port": 8880,
+            "uuid": "7d6c8e28-8f81-5a74-9257-24b1e0a841a9",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/",
-                "headers": {
-                    "Host": "23.134.82.2"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-8"
         },

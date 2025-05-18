@@ -149,34 +149,48 @@
         },
         {
             "type": "vless",
-            "server": "104.21.32.1",
-            "server_port": 80,
-            "uuid": "b775ec56-b44d-473a-9e8e-99ef575d832a",
+            "server": "23.227.60.7",
+            "server_port": 443,
+            "uuid": "3fefc100-faed-43ad-b087-d47ddfe75121",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@freevirgoolnet\/",
                 "headers": {
-                    "Host": "104.21.32.1"
+                    "Host": "s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev"
                 },
-                "max_early_data": 2560,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
-            "server": "www.epicgames.com",
-            "server_port": 2095,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "104.24.132.5",
+            "server_port": 80,
+            "uuid": "946b3994-cbcc-402c-bd93-c7f9df4d1c3b",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.epicgames.com"
+                    "Host": "104.24.132.5"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -281,19 +295,17 @@
         },
         {
             "type": "vless",
-            "server": "23.134.82.2",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "88.218.95.12",
+            "server_port": 8880,
+            "uuid": "7d6c8e28-8f81-5a74-9257-24b1e0a841a9",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/",
-                "headers": {
-                    "Host": "23.134.82.2"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-9"
         },
@@ -317,11 +329,30 @@
         },
         {
             "type": "vless",
-            "server": "gr-tcp-mci.connectix-d1.info",
-            "server_port": 8081,
-            "uuid": "ab3faf7c-4452-4f34-938f-6dcee3b406a2",
+            "server": "134.209.205.173",
+            "server_port": 4000,
+            "uuid": "4de73a98-0f31-4d2c-b845-fcb7a2bbe9bb",
             "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WvWpvjm0ynTr6YCICH5TmTEKicAq0JNGEZDWZvApgRM",
+                    "short_id": "d9ed58fe"
+                }
+            },
             "tag": "@SiNAVM-11"
         },
         {

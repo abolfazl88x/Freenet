@@ -81,8 +81,7 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-19"
             ]
         },
         {
@@ -107,8 +106,7 @@
                 "@SiNAVM-16",
                 "@SiNAVM-17",
                 "@SiNAVM-18",
-                "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-19"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -427,31 +425,21 @@
         },
         {
             "type": "vless",
-            "server": "160.79.104.33",
-            "server_port": 443,
-            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+            "server": "137.220.62.126",
+            "server_port": 59377,
+            "uuid": "17186b4e-f33e-468b-bb7e-8ce69da493fd",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "nl.ylka.dpdns.org"
+                    "Host": "137.220.62.126"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
             "tag": "@SiNAVM-17"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "series-a2.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-18"
         },
         {
             "type": "vless",
@@ -484,7 +472,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-19"
+            "tag": "@SiNAVM-18"
         },
         {
             "type": "vless",
@@ -517,7 +505,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-20"
+            "tag": "@SiNAVM-19"
         },
         {
             "type": "direct",

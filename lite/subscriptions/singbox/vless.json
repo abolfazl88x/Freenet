@@ -353,16 +353,16 @@
         },
         {
             "type": "vless",
-            "server": "160.79.104.33",
-            "server_port": 443,
-            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+            "server": "137.220.62.126",
+            "server_port": 59377,
+            "uuid": "17186b4e-f33e-468b-bb7e-8ce69da493fd",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "nl.ylka.dpdns.org"
+                    "Host": "137.220.62.126"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

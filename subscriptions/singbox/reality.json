@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "32892393.web-manage.com.tr",
-            "server_port": 2172,
-            "uuid": "94b7bd2b-f373-4c5b-9892-5e16fde812bf",
+            "server": "79.110.51.52",
+            "server_port": 55555,
+            "uuid": "1799b29e-d587-4ad7-b58e-5ef51c158173",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.chess.com",
+                "server_name": "stackoverflow.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -99,16 +99,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I",
-                    "short_id": ""
+                    "public_key": "1zxVP27bDf_TlHFEbBne26fdhCFPftpB9zt7-nCd8HQ",
+                    "short_id": "867599a1433d8a1e"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "chessgame",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             },
             "tag": "@SiNAVM-1"
         },

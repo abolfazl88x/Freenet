@@ -153,7 +153,7 @@
         },
         {
             "type": "trojan",
-            "server": "13.38.246.141",
+            "server": "63.178.61.248",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -175,7 +175,7 @@
         },
         {
             "type": "trojan",
-            "server": "52.58.168.251",
+            "server": "13.38.246.141",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -336,19 +336,19 @@
         },
         {
             "type": "vless",
-            "server": "103.245.228.99",
-            "server_port": 8880,
+            "server": "80.211.194.250",
+            "server_port": 80,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳@WangCai2\/",
+                "path": "\/Telegram🇮🇷 @ShadowProxy66 \/?ed",
                 "headers": {
-                    "Host": "103.245.228.99"
+                    "Host": "80.211.194.250"
                 },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-11"
         },
@@ -409,24 +409,6 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-15"
-        },
-        {
-            "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray4",
@@ -440,6 +422,24 @@
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-15"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-16"
         },

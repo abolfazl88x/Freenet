@@ -79,10 +79,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "103.106.1.92",
-            "server_port": 23492,
+            "server": "62.60.231.81",
+            "server_port": 59945,
             "method": "chacha20-ietf-poly1305",
-            "password": "yMX9WGPgUEcRZmlaa0YHHC",
+            "password": "VfaEatGj7iXncVpijKFC1e",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-1"

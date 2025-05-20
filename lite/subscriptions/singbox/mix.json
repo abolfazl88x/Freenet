@@ -198,26 +198,48 @@
             "tag": "@SiNAVM-5"
         },
         {
-            "type": "shadowsocks",
-            "server": "134.209.147.198",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
-        },
-        {
-            "type": "vmess",
-            "server": "104.17.148.22",
+            "type": "vless",
+            "server": "ppal03.mr-lola-raynor.workers.dev",
             "server_port": 443,
-            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "bitter-boat-6004.samineh-sfri-95.workers.dev",
+                "server_name": "ppaL03.mr-lOlA-rAyNoR.WORKErs.dEV",
+                "insecure": false,
+                "alpn": [
+                    "h2",
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/qeIk5TeCFGaSnfP9",
+                "headers": {
+                    "Host": "ppaL03.mr-lOlA-rAyNoR.WORKErs.dEV"
+                },
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "51.81.36.243",
+            "server_port": 443,
+            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135001178.sec22org.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -228,15 +250,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/beyonddsz.cfd\/linkws",
-                "headers": {
-                    "Host": "bitter-boat-6004.samineh-sfri-95.workers.dev"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-7"
         },

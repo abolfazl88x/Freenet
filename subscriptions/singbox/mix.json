@@ -72,8 +72,7 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10",
-                "@SiNAVM-11"
+                "@SiNAVM-10"
             ]
         },
         {
@@ -89,8 +88,7 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10",
-                "@SiNAVM-11"
+                "@SiNAVM-10"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -121,16 +119,6 @@
             "tag": "@SiNAVM-1"
         },
         {
-            "type": "shadowsocks",
-            "server": "69.50.93.113",
-            "server_port": 5004,
-            "method": "aes-256-gcm",
-            "password": "g5MeD6Ft3CWlJId",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
-        },
-        {
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -146,7 +134,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -164,7 +152,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -180,7 +168,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -196,7 +184,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -231,6 +219,15 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
+            "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "176.223.66.8",
+            "server_port": 39948,
+            "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-7"
         },
         {
@@ -266,15 +263,25 @@
             "tag": "@SiNAVM-8"
         },
         {
-            "type": "vless",
-            "server": "103.231.73.214",
-            "server_port": 443,
-            "uuid": "588f094b-431b-422c-b80b-007945037072",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "69.50.93.113",
+            "server_port": 5004,
+            "method": "aes-256-gcm",
+            "password": "g5MeD6Ft3CWlJId",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "vless",
+            "server": "79.110.51.52",
+            "server_port": 55555,
+            "uuid": "1799b29e-d587-4ad7-b58e-5ef51c158173",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "lv01.abvpn.ru",
+                "server_name": "stackoverflow.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -284,37 +291,14 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1zxVP27bDf_TlHFEbBne26fdhCFPftpB9zt7-nCd8HQ",
+                    "short_id": "867599a1433d8a1e"
                 }
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/websocket",
-                "headers": {
-                    "Host": "lv01.abvpn.ru"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-9"
-        },
-        {
-            "type": "vless",
-            "server": "176.223.66.8",
-            "server_port": 39948,
-            "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-10"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "185.5.38.111",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tRVH6ZVjtjWCvREPvSgTx6jwmensa6of9w26NwnZ5n1V3bWeNBsq2A86K3RWGRyjA89Tqibnri4HuDtvE24KU2Sb65RUeVJz",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-11"
         },
         {
             "type": "direct",

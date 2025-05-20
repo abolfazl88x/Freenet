@@ -62,17 +62,48 @@
             "type": "selector",
             "tag": "Internet",
             "outbounds": [
-                "Best Latency"
+                "Best Latency",
+                "@SiNAVM-1"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
-            "outbounds": [],
+            "outbounds": [
+                "@SiNAVM-1"
+            ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
+        },
+        {
+            "type": "vless",
+            "server": "91.107.152.74",
+            "server_port": 42262,
+            "uuid": "83d0965d-d983-478b-ba71-1f457b6f3595",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "par30games.net",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x80R4CbE1btCxtuqGKzwVN6npsQuumLluSBnj-SedWg",
+                    "short_id": "2390"
+                }
+            },
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "direct",

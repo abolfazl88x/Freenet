@@ -72,11 +72,7 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10",
-                "@SiNAVM-11",
-                "@SiNAVM-12",
-                "@SiNAVM-13",
-                "@SiNAVM-14"
+                "@SiNAVM-10"
             ]
         },
         {
@@ -92,11 +88,7 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10",
-                "@SiNAVM-11",
-                "@SiNAVM-12",
-                "@SiNAVM-13",
-                "@SiNAVM-14"
+                "@SiNAVM-10"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -104,26 +96,13 @@
             "idle_timeout": "9m0s"
         },
         {
-            "type": "vless",
-            "server": "135.148.14.5",
-            "server_port": 443,
-            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "45.87.175.10",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001178.sec22org.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "tag": "@SiNAVM-1"
         },
         {
@@ -146,10 +125,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "67.220.95.80",
-            "server_port": 8090,
-            "method": "aes-256-gcm",
-            "password": "PCnnH6SQSnfoS27",
+            "server": "89.23.103.21",
+            "server_port": 51584,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oYQ8JwEldYn4KT2gfZ6eNl",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-3"
@@ -183,30 +162,10 @@
             "tag": "@SiNAVM-4"
         },
         {
-            "type": "shadowsocks",
-            "server": "89.23.103.21",
-            "server_port": 51584,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oYQ8JwEldYn4KT2gfZ6eNl",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.150.32.13",
-            "server_port": 38707,
-            "method": "chacha20-ietf-poly1305",
-            "password": "NMiJKeh4yMumfyYVvjq0LR",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
-        },
-        {
             "type": "vless",
-            "server": "Tabriz-Website.thorav.ir",
+            "server": "de-vpnmizban.gamingbazirani.ir",
             "server_port": 443,
-            "uuid": "0d53bc23-3e4a-48b3-b94b-271649e29735",
+            "uuid": "e312a92d-fdc7-49be-adfc-94c5f2a282ee",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -220,50 +179,25 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
-                    "short_id": "b1417d"
+                    "public_key": "SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "shadowsocks",
-            "server": "103.104.247.49",
-            "server_port": 8080,
+            "server": "45.150.32.13",
+            "server_port": 38707,
             "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "password": "NMiJKeh4yMumfyYVvjq0LR",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws",
-                "headers": {
-                    "Host": "speedtest.net"
-                },
-                "max_early_data": 1024,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -281,17 +215,25 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-7"
         },
         {
-            "type": "shadowsocks",
-            "server": "38.54.45.129",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-11"
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws",
+                "headers": {
+                    "Host": "speedtest.net"
+                },
+                "max_early_data": 1024,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
@@ -300,17 +242,7 @@
             "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-12"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "193.42.36.207",
-            "server_port": 1125,
-            "method": "chacha20-ietf-poly1305",
-            "password": "gqPly6s1BNaMlFnh9Uxcau",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "shadowsocks",
@@ -320,7 +252,7 @@
             "password": "f8f7aCzcPKbsF8p3",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "direct",

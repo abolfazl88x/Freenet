@@ -10,14 +10,14 @@ vless://472e2ab2-a7a5-44cf-84b2-158882a108a5@[2a01:4f8:c010:5c29::1]:80?path=/&s
 vless://8f69b4a6-f8cd-4d11-8248-fde97b250d3b@sea.hopebook75zulawu.online:2095?path=/ed=2082&security=none&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#🇩🇪DE | 🔴 | vless | @hopev2ray | 6
 trojan://telegram-id-directvpn@18.159.93.88:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 16
 trojan://telegram-id-directvpn@13.60.153.19:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇸🇪SE | 🟢 | trojan | @DirectVPN | 17
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@69.50.93.47:5003#🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.188:8080#🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@67.220.95.102:3389#🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.32.9.37:8880?encryption=none&security=none&type=grpc&headertype=none&mode=gun#🇱🇹LT | 🔴 | vless | @DeamNet_Proxy | 19
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@104.17.148.22:2096?path=/&security=tls&encryption=none&host=LgUoZjGr14.hAmEcHiRuHaVaSt.cOm&fp=chrome&type=ws&sni=LgUoZjGr14.hAmEcHiRuHaVaSt.cOm#🇺🇸US | 🔴 | vless | @Outline_Vpn | 0
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWVE4SndFbGRZbjRLVDJnZlo2ZU5s@89.23.103.21:51584#🇳🇱NL | 🟢 | ss | @ShadowProxy66 | 0
 vless://Joinin--ZEDMODEON@zmaoz.faculty.ucdavis.edu:443?path=/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048&security=tls&encryption=none&host=niopdc.ir&type=ws&sni=zmaoz.faculty.ucdavis.edu#🇺🇸US | 🔴 | vless | @v2raybaz | 12
 vless://7ec285db-d1c4-4b0f-a8e1-b7c3d93d2853@hajlab.ucdavis.edu:443?path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048&security=tls&encryption=none&host=joinshhproxybedeeeee.ir&type=ws&sni=hajlab.ucdavis.edu#🇺🇸US | 🔴 | vless | @v2raybaz | 13
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@78.47.141.72:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 18
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.95:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇫🇷FR | 🔴 | vless | @vpnfail_vless | 19
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.32.25.200:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇱🇹LT | 🔴 | vless | @vpnfail_vless | 18
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@78.47.141.72:8880?mode=gun&security=none&encryption=none&type=grpc&serviceName=#🇩🇪DE | 🔴 | vless | @vpnfail_vless | 19
 vless://e3eec9d9-ab70-4617-9e19-60860112c634@client.bluwave.ir:80?type=ws&host=Bluewave.ai&path=/?ed=1861&security=none#🇮🇹IT | 🔴 | vless | @V2FETCH | 0
 vless://d36672f7-ba83-44e2-8ba0-4a6477311bbd@o.soskom.ir:11045?mode=gun&security=reality&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&pbk=p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM&fp=chrome&spx=/&type=grpc&serviceName=Tel : @NT_Safe&sni=yahoo.com&sid=20db1be5e1ab118a#🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14
 vless://623bdeec-aa45-4463-87d4-52398fbe12b6@www.speedtest.net:80?mode=auto&path=/&security=none&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=mother29.dgclix.ir&type=xhttp#🇺🇸US | 🔴 | vless | @TEHRANARGO | 15

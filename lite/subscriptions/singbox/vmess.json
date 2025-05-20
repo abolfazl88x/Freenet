@@ -79,15 +79,15 @@
         },
         {
             "type": "vmess",
-            "server": "172.67.170.13",
+            "server": "104.17.148.22",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "bitter-boat-6004.samineh-sfri-95.workers.dev",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -101,9 +101,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/beyonddsz.cfd\/linkws",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "bitter-boat-6004.samineh-sfri-95.workers.dev"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

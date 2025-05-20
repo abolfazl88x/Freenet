@@ -66,7 +66,8 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5"
             ]
         },
         {
@@ -76,7 +77,8 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -85,7 +87,7 @@
         },
         {
             "type": "shadowsocks",
-            "server": "45.87.175.10",
+            "server": "45.87.175.58",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A",
@@ -95,13 +97,23 @@
         },
         {
             "type": "shadowsocks",
-            "server": "81.19.140.31",
-            "server_port": 65305,
+            "server": "4.158.66.191",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "nlVqIVyKwWoDsD7dVYT9Y0",
+            "password": "69MUii7VDwMqh7Hz",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.132",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "shadowsocks",
@@ -111,17 +123,17 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "shadowsocks",
-            "server": "145.14.131.37",
-            "server_port": 990,
+            "server": "193.42.36.207",
+            "server_port": 1125,
             "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
+            "password": "gqPly6s1BNaMlFnh9Uxcau",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "direct",

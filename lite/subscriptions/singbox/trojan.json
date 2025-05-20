@@ -81,7 +81,7 @@
         },
         {
             "type": "trojan",
-            "server": "13.39.152.74",
+            "server": "35.181.19.90",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -103,7 +103,7 @@
         },
         {
             "type": "trojan",
-            "server": "18.193.175.187",
+            "server": "13.39.152.74",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",

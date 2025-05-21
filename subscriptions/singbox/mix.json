@@ -70,8 +70,7 @@
                 "@SiNAVM-5",
                 "@SiNAVM-6",
                 "@SiNAVM-7",
-                "@SiNAVM-8",
-                "@SiNAVM-9"
+                "@SiNAVM-8"
             ]
         },
         {
@@ -85,8 +84,7 @@
                 "@SiNAVM-5",
                 "@SiNAVM-6",
                 "@SiNAVM-7",
-                "@SiNAVM-8",
-                "@SiNAVM-9"
+                "@SiNAVM-8"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -95,36 +93,30 @@
         },
         {
             "type": "vless",
-            "server": "172.67.168.93",
-            "server_port": 80,
-            "uuid": "8169cd18-e824-47a4-a4d4-96433b1a519d",
+            "server": "104.18.15.19",
+            "server_port": 2082,
+            "uuid": "b111c17d-c8a4-4d4d-a417-fa40a020bcc8",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "172.67.168.93"
+                    "Host": "104.18.15.19"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
         },
         {
-            "type": "vless",
-            "server": "n1.boutiqueman.shop",
-            "server_port": 80,
-            "uuid": "jointelegram@V2rayvpn_official",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "69.50.93.47",
+            "server_port": 7002,
+            "method": "aes-256-gcm",
+            "password": "RexnBgU7EV5ADxG",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "n1.boutiqueman.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
             "tag": "@SiNAVM-2"
         },
         {
@@ -136,6 +128,16 @@
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.146",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -170,17 +172,23 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-5"
         },
         {
-            "type": "shadowsocks",
-            "server": "45.87.175.65",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "45.144.51.195",
+            "server_port": 35036,
+            "uuid": "b9e98405-0454-474e-a5b3-1d6e164ba40d",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -198,7 +206,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "vless",
@@ -207,26 +215,7 @@
             "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "193.42.36.207",
-            "server_port": 1125,
-            "method": "chacha20-ietf-poly1305",
-            "password": "gqPly6s1BNaMlFnh9Uxcau",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
-            "server": "arvos.crehistory.org",
-            "server_port": 27000,
-            "uuid": "23651a65-bef3-431a-b040-5e8c158a9867",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-9"
         },
         {
             "type": "direct",

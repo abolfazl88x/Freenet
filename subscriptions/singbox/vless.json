@@ -67,8 +67,7 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-5"
             ]
         },
         {
@@ -79,8 +78,7 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-5"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -89,37 +87,21 @@
         },
         {
             "type": "vless",
-            "server": "172.67.168.93",
-            "server_port": 80,
-            "uuid": "8169cd18-e824-47a4-a4d4-96433b1a519d",
+            "server": "104.18.15.19",
+            "server_port": 2082,
+            "uuid": "b111c17d-c8a4-4d4d-a417-fa40a020bcc8",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "172.67.168.93"
+                    "Host": "104.18.15.19"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "n1.boutiqueman.shop",
-            "server_port": 80,
-            "uuid": "jointelegram@V2rayvpn_official",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "n1.boutiqueman.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -154,6 +136,22 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
+            "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "vless",
+            "server": "45.144.51.195",
+            "server_port": 35036,
+            "uuid": "b9e98405-0454-474e-a5b3-1d6e164ba40d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
             "tag": "@SiNAVM-3"
         },
         {
@@ -182,15 +180,6 @@
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "arvos.crehistory.org",
-            "server_port": 27000,
-            "uuid": "23651a65-bef3-431a-b040-5e8c158a9867",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

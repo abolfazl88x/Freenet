@@ -161,7 +161,7 @@
             "vmess",
             "ss"
         ],
-        "title": "𝐎𝐩𝐞𝐧𝐒𝐒𝐓𝐏𝐂𝐡𝐚𝐧𝐧𝐞𝐥 | 𝐕𝐏𝐍™",
+        "title": null,
         "logo": "https:\/\/raw.githubusercontent.com\/sinavm\/SVM\/main\/channelsData\/logos\/OpenSSTPVpn.jpg"
     },
     "redfree8": {
@@ -170,7 +170,7 @@
             "vless",
             "trojan"
         ],
-        "title": "redfree8",
+        "title": null,
         "logo": "https:\/\/raw.githubusercontent.com\/sinavm\/SVM\/main\/channelsData\/logos\/redfree8.jpg"
     }
 }

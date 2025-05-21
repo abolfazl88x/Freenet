@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "nl-vpnmizban.gamingbazirani.ir",
-            "server_port": 443,
-            "uuid": "d37f3a97-8690-41a8-8ad9-1967239b1b6c",
+            "server": "91.107.152.74",
+            "server_port": 42262,
+            "uuid": "83d0965d-d983-478b-ba71-1f457b6f3595",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "par30games.net",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -99,8 +99,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "x80R4CbE1btCxtuqGKzwVN6npsQuumLluSBnj-SedWg",
+                    "short_id": "2390"
                 }
             },
             "tag": "@SiNAVM-1"

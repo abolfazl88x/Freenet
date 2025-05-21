@@ -72,7 +72,8 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10"
+                "@SiNAVM-10",
+                "@SiNAVM-11"
             ]
         },
         {
@@ -88,12 +89,41 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10"
+                "@SiNAVM-10",
+                "@SiNAVM-11"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
+        },
+        {
+            "type": "vless",
+            "server": "104.21.56.44",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI",
+                "headers": {
+                    "Host": "104.21.56.44"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "23.154.136.132",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -116,34 +146,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "23.154.136.132",
-            "server_port": 8008,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "104.21.56.44",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI",
-                "headers": {
-                    "Host": "104.21.56.44"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-3"
         },
@@ -171,6 +173,32 @@
             "tag": "@SiNAVM-4"
         },
         {
+            "type": "vless",
+            "server": "n1.boutiqueman.shop",
+            "server_port": 80,
+            "uuid": "jointelegram@V2rayvpn_official",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "n1.boutiqueman.shop",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.151",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-6"
+        },
+        {
             "type": "shadowsocks",
             "server": "103.106.1.92",
             "server_port": 23492,
@@ -178,7 +206,7 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "shadowsocks",
@@ -188,7 +216,7 @@
             "password": "NMiJKeh4yMumfyYVvjq0LR",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
@@ -206,7 +234,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "vless",
@@ -215,7 +243,7 @@
             "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
@@ -233,17 +261,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-9"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "185.47.253.227",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "direct",

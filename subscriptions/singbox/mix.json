@@ -113,17 +113,29 @@
         },
         {
             "type": "vless",
-            "server": "n1.boutiqueman.shop",
-            "server_port": 80,
-            "uuid": "jointelegram@V2rayvpn_official",
+            "server": "146.190.237.125",
+            "server_port": 21332,
+            "uuid": "387620fc-e932-4767-abeb-b16953c3b256",
             "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "n1.boutiqueman.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
+                    "short_id": "866c9d6a17a0ae44"
+                }
             },
             "tag": "@SiNAVM-2"
         },
@@ -138,32 +150,32 @@
             "tag": "@SiNAVM-3"
         },
         {
-            "type": "vless",
-            "server": "de-vpnmizban.gamingbazirani.ir",
-            "server_port": 443,
-            "uuid": "50c017ff-4271-4e22-8e16-7e4367898af8",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            },
+            "type": "shadowsocks",
+            "server": "45.87.175.65",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray7",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -198,24 +210,6 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray7",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
             "tag": "@SiNAVM-6"
         },
         {
@@ -229,10 +223,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "45.87.175.65",
-            "server_port": 8080,
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
             "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "password": "2Wc6z8aR2kTL5hi2mALeHVNzbbMVfhSRvPJXu8yoYjYTsdooV7AZrLKL7Hxybr9qhFD3AB9K439WYprQNovYK3W7eYT2L5DF",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-8"

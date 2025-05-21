@@ -68,8 +68,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-6"
             ]
         },
         {
@@ -81,8 +80,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -109,30 +107,14 @@
         },
         {
             "type": "vless",
-            "server": "n1.boutiqueman.shop",
-            "server_port": 80,
-            "uuid": "jointelegram@V2rayvpn_official",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "n1.boutiqueman.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "de-vpnmizban.gamingbazirani.ir",
-            "server_port": 443,
-            "uuid": "50c017ff-4271-4e22-8e16-7e4367898af8",
+            "server": "146.190.237.125",
+            "server_port": 21332,
+            "uuid": "387620fc-e932-4767-abeb-b16953c3b256",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "refersion.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -145,9 +127,27 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
+                    "short_id": "866c9d6a17a0ae44"
                 }
+            },
+            "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray7",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-3"
         },
@@ -188,30 +188,12 @@
         },
         {
             "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray7",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
             "server": "176.223.66.8",
             "server_port": 39948,
             "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -220,7 +202,7 @@
             "uuid": "23651a65-bef3-431a-b040-5e8c158a9867",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

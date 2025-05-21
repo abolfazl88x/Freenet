@@ -1,3 +1,2 @@
 vless://e607e472-cee3-4ea7-c731-4a041a961a05@91.107.253.168:8880?type=grpc&mode=gun&security=none#🇩🇪DE | 🔴 | vless | @sinavm | 1
 trojan://telegram-id-directvpn@3.126.52.228:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 16
-vless://join@V2rayvpn_official@n1.boutiqueman.shop:80?mode=gun&security=none&encryption=none&type=grpc&serviceName=n1.boutiqueman.shop#🇩🇪DE | 🔴 | vless | @meli_proxyy | 17

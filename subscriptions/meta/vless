@@ -122,7 +122,6 @@ dns:
 proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0","type":"vless","server":"172.67.168.93","port":80,"udp":false,"uuid":"8169cd18-e824-47a4-a4d4-96433b1a519d","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"testdvpnhub69.95f425b718.workers.dev"}}}
   - {"name":"🇹🇷TR | 🔴 | vless | @sinavm | 2","type":"vless","server":"176.223.66.8","port":39948,"udp":false,"uuid":"2558c819-1363-4859-8fb9-f8cb104d49d2","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇮🇷IR | 🔴 | vless | @meli_proxyy | 13","type":"vless","server":"arvos.crehistory.org","port":27000,"udp":false,"uuid":"23651a65-bef3-431a-b040-5e8c158a9867","tls":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +130,6 @@ proxy-groups:
       - FALLBACK
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0'
       - '🇹🇷TR | 🔴 | vless | @sinavm | 2'
-      - '🇮🇷IR | 🔴 | vless | @meli_proxyy | 13'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com/
@@ -140,7 +138,6 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0'
       - '🇹🇷TR | 🔴 | vless | @sinavm | 2'
-      - '🇮🇷IR | 🔴 | vless | @meli_proxyy | 13'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com/
@@ -148,7 +145,6 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0'
       - '🇹🇷TR | 🔴 | vless | @sinavm | 2'
-      - '🇮🇷IR | 🔴 | vless | @meli_proxyy | 13'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

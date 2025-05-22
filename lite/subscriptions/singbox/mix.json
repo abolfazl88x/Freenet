@@ -373,6 +373,22 @@
         },
         {
             "type": "vless",
+            "server": "88.218.95.12",
+            "server_port": 8880,
+            "uuid": "7d6c8e28-8f81-5a74-9257-24b1e0a841a9",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-13"
+        },
+        {
+            "type": "vless",
             "server": "103.245.228.99",
             "server_port": 8880,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -387,7 +403,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "vless",
@@ -405,7 +421,7 @@
                 "max_early_data": 1861,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "vless",
@@ -433,39 +449,30 @@
                     "short_id": "0f917152a871e9c0"
                 }
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-16"
         },
         {
             "type": "vless",
-            "server": "188.114.97.1",
-            "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d4b5f4",
+            "server": "ns.cloudflare.com",
+            "server_port": 2053,
+            "uuid": "562b6618-1e9c-434f-f970-252cfd81da2e",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "MYPhoTOgrapICPictURe.IR",
+                "server_name": "WWW.fashOARt749.COM",
                 "insecure": false,
                 "alpn": [
-                    "http\/1.1"
+                    ""
                 ],
                 "min_version": "1.3",
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": ""
                 }
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/E4FqomT5e0mKm2nh\/MTU5LjY5LjE0LjEzOA",
-                "headers": {
-                    "Host": "MYPhoTOgrapICPictURe.IR"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-16"
+            "tag": "@SiNAVM-17"
         },
         {
             "type": "vless",
@@ -492,24 +499,6 @@
                     "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
                     "short_id": "866c9d6a17a0ae44"
                 }
-            },
-            "tag": "@SiNAVM-17"
-        },
-        {
-            "type": "vless",
-            "server": "104.26.15.85",
-            "server_port": 8080,
-            "uuid": "690ab90e-3f21-422b-8cb1-bc9845c7af1e",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.26.15.85"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-18"
         },

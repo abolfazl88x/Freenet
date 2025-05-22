@@ -427,13 +427,21 @@
             "tag": "@SiNAVM-15"
         },
         {
-            "type": "shadowsocks",
-            "server": "4.158.66.191",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "69MUii7VDwMqh7Hz",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "104.26.15.85",
+            "server_port": 8080,
+            "uuid": "690ab90e-3f21-422b-8cb1-bc9845c7af1e",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.26.15.85"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-16"
         },
         {

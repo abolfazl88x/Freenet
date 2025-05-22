@@ -97,6 +97,24 @@
         },
         {
             "type": "vless",
+            "server": "104.21.56.44",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI",
+                "headers": {
+                    "Host": "104.21.56.44"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
             "server": "15.204.151.43",
             "server_port": 443,
             "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
@@ -116,24 +134,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "104.21.56.44",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI",
-                "headers": {
-                    "Host": "104.21.56.44"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-2"
         },
@@ -158,6 +158,26 @@
             "tag": "@SiNAVM-4"
         },
         {
+            "type": "shadowsocks",
+            "server": "45.150.32.13",
+            "server_port": 38707,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NMiJKeh4yMumfyYVvjq0LR",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.151",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-6"
+        },
+        {
             "type": "vless",
             "server": "n1.boutiqueman.shop",
             "server_port": 80,
@@ -171,17 +191,16 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-7"
         },
         {
-            "type": "shadowsocks",
-            "server": "45.150.32.13",
-            "server_port": 38707,
-            "method": "chacha20-ietf-poly1305",
-            "password": "NMiJKeh4yMumfyYVvjq0LR",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "176.223.66.8",
+            "server_port": 39948,
+            "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
@@ -199,16 +218,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "vless",
-            "server": "176.223.66.8",
-            "server_port": 39948,
-            "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "vless",
@@ -226,16 +236,6 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-9"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.158.171.151",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-10"
         },
         {

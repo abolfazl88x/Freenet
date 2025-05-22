@@ -109,14 +109,14 @@
         },
         {
             "type": "vless",
-            "server": "146.190.237.125",
-            "server_port": 21332,
-            "uuid": "387620fc-e932-4767-abeb-b16953c3b256",
+            "server": "de-vpnmizban.gamingbazirani.ir",
+            "server_port": 443,
+            "uuid": "50c017ff-4271-4e22-8e16-7e4367898af8",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "www.cdn77.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -129,8 +129,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI",
-                    "short_id": "866c9d6a17a0ae44"
+                    "public_key": "SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             },
             "tag": "@SiNAVM-2"

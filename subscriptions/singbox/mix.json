@@ -71,7 +71,8 @@
                 "@SiNAVM-6",
                 "@SiNAVM-7",
                 "@SiNAVM-8",
-                "@SiNAVM-9"
+                "@SiNAVM-9",
+                "@SiNAVM-10"
             ]
         },
         {
@@ -86,7 +87,8 @@
                 "@SiNAVM-6",
                 "@SiNAVM-7",
                 "@SiNAVM-8",
-                "@SiNAVM-9"
+                "@SiNAVM-9",
+                "@SiNAVM-10"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -126,16 +128,6 @@
             "tag": "@SiNAVM-1"
         },
         {
-            "type": "shadowsocks",
-            "server": "23.154.136.132",
-            "server_port": 8008,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
-        },
-        {
             "type": "vless",
             "server": "15.204.151.43",
             "server_port": 443,
@@ -157,7 +149,26 @@
                     "fingerprint": "chrome"
                 }
             },
+            "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "23.154.136.132",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
+            "server": "1xult.hifromir1.site",
+            "server_port": 2053,
+            "uuid": "7455dc11-4417-49f2-9d99-4269394ec40d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "shadowsocks",
@@ -167,7 +178,7 @@
             "password": "NMiJKeh4yMumfyYVvjq0LR",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "shadowsocks",
@@ -175,16 +186,6 @@
             "server_port": 23492,
             "method": "chacha20-ietf-poly1305",
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.158.171.151",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-6"
@@ -208,19 +209,29 @@
             "tag": "@SiNAVM-7"
         },
         {
+            "type": "shadowsocks",
+            "server": "185.47.253.227",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-8"
+        },
+        {
             "type": "vless",
             "server": "176.223.66.8",
             "server_port": 39948,
             "uuid": "2558c819-1363-4859-8fb9-f8cb104d49d2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "ec0ea606-b8a9-4a33-8cd7-a8b442feb5c8",
+            "uuid": "7859c198-d072-4395-92f1-2d400dc5341f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
@@ -232,7 +243,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "direct",

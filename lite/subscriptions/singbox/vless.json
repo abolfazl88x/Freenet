@@ -309,65 +309,29 @@
         },
         {
             "type": "vless",
-            "server": "o.soskom.ir",
-            "server_port": 11045,
-            "uuid": "72e64fd7-c2a4-47d7-93f7-39f2abc1a5f8",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "e83ae325-e11c-45b7-901e-37cb7d312471",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM",
-                    "short_id": "20db1be5e1ab118a"
-                }
-            },
+            "domain_strategy": "prefer_ipv4",
             "transport": {
-                "type": "grpc",
-                "service_name": "Tel : @NT_Safe",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/ISVvpn",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
-            "server": "lunavopershian.adas.monster",
-            "server_port": 38290,
-            "uuid": "d4e36d8c-623b-4413-b461-a99d786c4b55",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "e83ae325-e11c-45b7-901e-37cb7d312471",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "lunavopershiansni369871.adas.monster",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
-                    "short_id": "e559dd"
-                }
-            },
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-11"
         },
         {

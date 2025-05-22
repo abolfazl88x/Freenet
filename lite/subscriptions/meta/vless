@@ -127,8 +127,8 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @vpnfail_vless | 18","type":"vless","server":"23.134.82.2","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2560","headers":{"host":"reedfree8mahsang2.redorg.ir"}}}
   - {"name":"🇿🇦ZA | 🔴 | vless | @vpnfail_vless | 19","type":"vless","server":"88.218.95.12","port":8880,"udp":false,"uuid":"7d6c8e28-8f81-5a74-9257-24b1e0a841a9","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"vless-grpc"}}
   - {"name":"🇮🇹IT | 🔴 | vless | @V2FETCH | 0","type":"vless","server":"client.bluwave.ir","port":80,"udp":false,"uuid":"e3eec9d9-ab70-4617-9e19-60860112c634","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=1861","headers":{"host":"Bluewave.ai"}}}
-  - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14","type":"vless","server":"o.soskom.ir","port":11045,"udp":true,"uuid":"72e64fd7-c2a4-47d7-93f7-39f2abc1a5f8","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"Tel : @NT_Safe"},"reality-opts":{"public-key":"p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM","short-id":"20db1be5e1ab118a"}}
-  - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15","type":"vless","server":"lunavopershian.adas.monster","port":38290,"udp":true,"uuid":"d4e36d8c-623b-4413-b461-a99d786c4b55","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"lunavopershiansni369871.adas.monster","reality-opts":{"public-key":"YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM","short-id":"e559dd"}}
+  - {"name":"🇺🇸US | 🔴 | vless | @TEHRANARGO | 12","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"e83ae325-e11c-45b7-901e-37cb7d312471","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/ISVvpn?ed=2048","headers":{"host":"www.speedtest.net.jk.argonet.online."}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @TEHRANARGO | 13","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"e83ae325-e11c-45b7-901e-37cb7d312471","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 310","type":"vless","server":"hajlab.ucdavis.edu","port":80,"udp":false,"uuid":"2404f667-5969-4883-a71a-ea2e0db2d25b","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v12.networkpro.net"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 311","type":"vless","server":"hajlab.ucdavis.edu","port":80,"udp":false,"uuid":"2404f667-5969-4883-a71a-ea2e0db2d25b","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v01.networkpro.net"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 8","type":"vless","server":"zula.ir","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
@@ -146,8 +146,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 18'
       - '🇿🇦ZA | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 12'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 13'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 310'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 311'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 8'
@@ -165,8 +165,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 18'
       - '🇿🇦ZA | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 12'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 13'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 310'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 311'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 8'
@@ -183,8 +183,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 18'
       - '🇿🇦ZA | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 12'
+      - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 13'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 310'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 311'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 8'

@@ -122,7 +122,6 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14","type":"vless","server":"o.soskom.ir","port":11045,"udp":true,"uuid":"72e64fd7-c2a4-47d7-93f7-39f2abc1a5f8","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"Tel : @NT_Safe"},"reality-opts":{"public-key":"p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM","short-id":"20db1be5e1ab118a"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15","type":"vless","server":"lunavopershian.adas.monster","port":38290,"udp":true,"uuid":"d4e36d8c-623b-4413-b461-a99d786c4b55","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"lunavopershiansni369871.adas.monster","reality-opts":{"public-key":"YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM","short-id":"e559dd"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @meli_proxyy | 19","type":"vless","server":"3982390233.torob.com.tr","port":2182,"udp":true,"uuid":"3a6d2cc9-a464-4ebc-9b14-cd53ae8c3e65","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.chess.com","grpc-opts":{"grpc-service-name":"chessgame"},"reality-opts":{"public-key":"hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +130,6 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15'
-      - '🇩🇪DE | 🟢 | vless | @meli_proxyy | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -140,7 +138,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15'
-      - '🇩🇪DE | 🟢 | vless | @meli_proxyy | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -148,7 +145,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 15'
-      - '🇩🇪DE | 🟢 | vless | @meli_proxyy | 19'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

@@ -63,16 +63,14 @@
             "tag": "Internet",
             "outbounds": [
                 "Best Latency",
-                "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-1"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
             "outbounds": [
-                "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-1"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -81,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "23.88.52.103",
-            "server_port": 443,
-            "uuid": "3558dd78-e965-4c37-816c-9077c1218a7b",
+            "server": "Mashhad-Website.thorav.ir",
+            "server_port": 2087,
+            "uuid": "a7f573cf-f042-4133-8fa5-b24088621d83",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "www.cdn77.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -101,39 +99,18 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FPLFy7fZyzEZf519e_ExsQlMvhbdaaAWRvryM6eV7SU",
-                    "short_id": "2b"
+                    "public_key": "yXSBn5-hiNy4K9Lg_w2E0cGXSkcwXtwGn6r46UJ96HU",
+                    "short_id": "55"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "65.21.4.165",
-            "server_port": 1617,
-            "uuid": "acd71a14-6f45-4451-b150-daa59dcbe36a",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6yZ8-IlEvF_ylSIB1SZhg-ml5ROaQoOLcfS3F__OZ2k",
-                    "short_id": "2f948dcdcef25420"
-                }
-            },
-            "tag": "@SiNAVM-2"
         },
         {
             "type": "direct",

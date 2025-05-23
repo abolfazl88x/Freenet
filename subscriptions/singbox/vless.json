@@ -66,8 +66,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ]
         },
         {
@@ -77,8 +76,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -159,56 +157,21 @@
         },
         {
             "type": "vless",
-            "server": "Mashhad-Website.thorav.ir",
-            "server_port": 2087,
-            "uuid": "a7f573cf-f042-4133-8fa5-b24088621d83",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yXSBn5-hiNy4K9Lg_w2E0cGXSkcwXtwGn6r46UJ96HU",
-                    "short_id": "55"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "6549c909-af8f-460e-8758-902b2a291d70",
+            "uuid": "telegram-id-ArV2ray7",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/ISVvpn",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "151.101.64.155"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "direct",

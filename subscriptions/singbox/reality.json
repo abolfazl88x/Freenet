@@ -63,14 +63,16 @@
             "tag": "Internet",
             "outbounds": [
                 "Best Latency",
-                "@SiNAVM-1"
+                "@SiNAVM-1",
+                "@SiNAVM-2"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
             "outbounds": [
-                "@SiNAVM-1"
+                "@SiNAVM-1",
+                "@SiNAVM-2"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -79,8 +81,36 @@
         },
         {
             "type": "vless",
-            "server": "116.203.140.209",
-            "server_port": 1615,
+            "server": "23.88.52.103",
+            "server_port": 443,
+            "uuid": "3558dd78-e965-4c37-816c-9077c1218a7b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FPLFy7fZyzEZf519e_ExsQlMvhbdaaAWRvryM6eV7SU",
+                    "short_id": "2b"
+                }
+            },
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
+            "server": "65.21.4.165",
+            "server_port": 1617,
             "uuid": "acd71a14-6f45-4451-b150-daa59dcbe36a",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
@@ -99,11 +129,11 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hGWQLRX3fXhy649AM9QbmRBlDs4DU-trXDal_F5pCjI",
-                    "short_id": "f387eb8185414508"
+                    "public_key": "6yZ8-IlEvF_ylSIB1SZhg-ml5ROaQoOLcfS3F__OZ2k",
+                    "short_id": "2f948dcdcef25420"
                 }
             },
-            "tag": "@SiNAVM-1"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "direct",

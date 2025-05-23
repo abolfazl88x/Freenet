@@ -70,7 +70,9 @@
                 "@SiNAVM-5",
                 "@SiNAVM-6",
                 "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-8",
+                "@SiNAVM-9",
+                "@SiNAVM-10"
             ]
         },
         {
@@ -84,7 +86,9 @@
                 "@SiNAVM-5",
                 "@SiNAVM-6",
                 "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-8",
+                "@SiNAVM-9",
+                "@SiNAVM-10"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -93,19 +97,33 @@
         },
         {
             "type": "vless",
-            "server": "104.21.56.44",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "supercars.gobexor577.workers.dev",
+            "server_port": 2087,
+            "uuid": "e5b9b393-bac0-4bea-ad96-53acc299e622",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "SUPerCaRS.gobeXOR577.workErs.deV",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI",
+                "path": "\/9cIedl69CKURumzI",
                 "headers": {
-                    "Host": "104.21.56.44"
+                    "Host": "SUPerCaRS.gobeXOR577.workErs.deV"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
         },
@@ -160,15 +178,25 @@
             "tag": "@SiNAVM-4"
         },
         {
-            "type": "vless",
-            "server": "whatismyipaddress.com",
-            "server_port": 2096,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "45.150.32.13",
+            "server_port": 38707,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NMiJKeh4yMumfyYVvjq0LR",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "23.88.52.103",
+            "server_port": 443,
+            "uuid": "3558dd78-e965-4c37-816c-9077c1218a7b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s15.yozpalangserver.ir",
+                "server_name": "refersion.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -177,24 +205,20 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": ""
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FPLFy7fZyzEZf519e_ExsQlMvhbdaaAWRvryM6eV7SU",
+                    "short_id": "2b"
                 }
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s15.yozpalangserver.ir"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
-            "server": "116.203.140.209",
-            "server_port": 1615,
+            "server": "65.21.4.165",
+            "server_port": 1617,
             "uuid": "acd71a14-6f45-4451-b150-daa59dcbe36a",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
@@ -213,21 +237,29 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hGWQLRX3fXhy649AM9QbmRBlDs4DU-trXDal_F5pCjI",
-                    "short_id": "f387eb8185414508"
+                    "public_key": "6yZ8-IlEvF_ylSIB1SZhg-ml5ROaQoOLcfS3F__OZ2k",
+                    "short_id": "2f948dcdcef25420"
                 }
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-7"
         },
         {
-            "type": "shadowsocks",
-            "server": "45.150.32.13",
-            "server_port": 38707,
-            "method": "chacha20-ietf-poly1305",
-            "password": "NMiJKeh4yMumfyYVvjq0LR",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray7",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
@@ -245,7 +277,17 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.151",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "direct",

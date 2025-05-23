@@ -2,3 +2,4 @@ vless://e607e472-cee3-4ea7-c731-4a041a961a05@91.107.253.168:8880?type=grpc&mode=
 trojan://telegram-id-directvpn@35.157.224.206:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 12
 trojan://telegram-id-directvpn@3.76.52.178:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪DE | 🟢 | trojan | @DirectVPN | 13
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOTWlKS2VoNHlNdW1meVlWdmpxMExS@45.150.32.13:38707#🇩🇪DE | 🟢 | ss | @ShadowProxy66 | 0
+vless://3a6d2cc9-a464-4ebc-9b14-cd53ae8c3e65@3982390233.torob.com.tr:2182?security=reality&type=grpc&headerType=&serviceName=chessgame&authority=&mode=gun&sni=www.chess.com&fp=chrome&pbk=hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I&sid=#🇩🇪DE | 🟢 | vless | @meli_proxyy | 19

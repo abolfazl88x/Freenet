@@ -117,8 +117,8 @@
         {
             "type": "vless",
             "server": "lunavopershian.adas.monster",
-            "server_port": 57065,
-            "uuid": "e8b49992-62a9-4e5e-a6b4-1503a5c4353c",
+            "server_port": 38290,
+            "uuid": "7504785f-21b3-4385-bcba-4d8606ed9f9c",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {

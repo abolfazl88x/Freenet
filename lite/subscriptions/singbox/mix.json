@@ -82,7 +82,8 @@
                 "@SiNAVM-17",
                 "@SiNAVM-18",
                 "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-20",
+                "@SiNAVM-21"
             ]
         },
         {
@@ -108,7 +109,8 @@
                 "@SiNAVM-17",
                 "@SiNAVM-18",
                 "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-20",
+                "@SiNAVM-21"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -223,20 +225,20 @@
         },
         {
             "type": "shadowsocks",
-            "server": "185.39.204.12",
-            "server_port": 16297,
+            "server": "103.106.1.92",
+            "server_port": 23492,
             "method": "chacha20-ietf-poly1305",
-            "password": "G0o2hE4eLuR2wwyFao0lsJ",
+            "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-6"
         },
         {
             "type": "shadowsocks",
-            "server": "45.150.32.13",
-            "server_port": 38707,
+            "server": "185.39.204.12",
+            "server_port": 16297,
             "method": "chacha20-ietf-poly1305",
-            "password": "NMiJKeh4yMumfyYVvjq0LR",
+            "password": "G0o2hE4eLuR2wwyFao0lsJ",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-7"
@@ -307,6 +309,70 @@
         },
         {
             "type": "vless",
+            "server": "172.67.24.121",
+            "server_port": 443,
+            "uuid": "f56c315c-a8a6-4f15-b8e0-fcc2afe13b29",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "abrarvan1.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY",
+                "headers": {
+                    "Host": "abrarvan1.com"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-10"
+        },
+        {
+            "type": "vless",
+            "server": "104.19.222.79",
+            "server_port": 2096,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s18.africacloud1.ir",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s18.africacloud1.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-11"
+        },
+        {
+            "type": "vless",
             "server": "client.bluwave.ir",
             "server_port": 80,
             "uuid": "e3eec9d9-ab70-4617-9e19-60860112c634",
@@ -321,7 +387,7 @@
                 "max_early_data": 1861,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-12"
         },
         {
             "type": "vless",
@@ -330,7 +396,7 @@
             "uuid": "ec0ea606-b8a9-4a33-8cd7-a8b442feb5c8",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -365,7 +431,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-12"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "vless",
@@ -393,39 +459,7 @@
                     "short_id": "e559dd"
                 }
             },
-            "tag": "@SiNAVM-13"
-        },
-        {
-            "type": "vless",
-            "server": "140.248.128.69",
-            "server_port": 443,
-            "uuid": "f56c315c-a8a6-4f15-b8e0-fcc2afe13b29",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "Channel-ELiV2.RAY.neT",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY",
-                "headers": {
-                    "Host": "Channel-ELiV2.RAY.neT"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "vless",
@@ -443,7 +477,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-16"
         },
         {
             "type": "vless",
@@ -457,24 +491,6 @@
                 "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
                 "headers": {
                     "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-16"
-        },
-        {
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -498,6 +514,24 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-18"
+        },
+        {
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-19"
         },
         {
             "type": "vless",
@@ -530,7 +564,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-19"
+            "tag": "@SiNAVM-20"
         },
         {
             "type": "vless",
@@ -563,7 +597,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-20"
+            "tag": "@SiNAVM-21"
         },
         {
             "type": "direct",

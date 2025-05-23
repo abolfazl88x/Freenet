@@ -124,7 +124,8 @@ proxies:
   - {"name":"❔XX | 🔴 | vless | @hopev2ray | 6","type":"vless","server":"[2a01:4f8:c010:5c29::1]","port":2095,"udp":false,"uuid":"dcf6aba6-df8e-451c-a9a6-f3684845494d","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/ed=2082","headers":{"host":"Da8.speedtest.hopeserver1.tech."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 16","type":"vless","server":"172.66.45.24","port":443,"udp":false,"uuid":"f744c2dc-1359-494c-9808-d81ce7665d58","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"reAl-madrID9248.pagEs.dEv","ws-opts":{"path":"/LQlBRp7bKt33t0q2?ed=2560","headers":{"host":"real-madrid9248.pages.dev"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @v2raybaz | 13","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"7ec285db-d1c4-4b0f-a8e1-b7c3d93d2853","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048","headers":{"host":"joinshhproxybedeeeee.ir"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @vpnfail_vless | 18","type":"vless","server":"172.67.24.121","port":443,"udp":false,"uuid":"f56c315c-a8a6-4f15-b8e0-fcc2afe13b29","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"abrarvan1.com","ws-opts":{"path":"/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY?ed=2048","headers":{"host":"abrarvan1.com"}}}
+  - {"name":"🇬🇧GB | 🔴 | vless | @vpnfail_vless | 18","type":"vless","server":"45.12.31.10","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"Telegram:@vpnAndroid2/?ed=2560","headers":{"host":"reedfree8mahsang2.redorg.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @vpnfail_vless | 19","type":"vless","server":"190.93.247.172","port":443,"udp":false,"uuid":"f055d270-0e76-4a41-a53f-871bbb51b003","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"what.zhonghuoxing.top","ws-opts":{"path":"/","headers":{"host":"what.zhonghuoxing.top"}}}
   - {"name":"🇮🇹IT | 🔴 | vless | @V2FETCH | 0","type":"vless","server":"client.bluwave.ir","port":80,"udp":false,"uuid":"e3eec9d9-ab70-4617-9e19-60860112c634","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=1861","headers":{"host":"Bluewave.ai"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @TEHRANARGO | 13","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"ec0ea606-b8a9-4a33-8cd7-a8b442feb5c8","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14","type":"vless","server":"o.soskom.ir","port":11045,"udp":true,"uuid":"74720018-cf5d-4f2b-84a4-6b94bb9cf3ef","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"Tel : @NT_Safe"},"reality-opts":{"public-key":"p-FNeH1T5de5nmwI7iT16MQKWspQ0b6C9GGSRwGtlnM","short-id":"20db1be5e1ab118a"}}
@@ -143,7 +144,8 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @hopev2ray | 6'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 16'
       - '🇺🇸US | 🔴 | vless | @v2raybaz | 13'
-      - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 18'
+      - '🇬🇧GB | 🔴 | vless | @vpnfail_vless | 18'
+      - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
       - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 13'
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
@@ -162,7 +164,8 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @hopev2ray | 6'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 16'
       - '🇺🇸US | 🔴 | vless | @v2raybaz | 13'
-      - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 18'
+      - '🇬🇧GB | 🔴 | vless | @vpnfail_vless | 18'
+      - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
       - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 13'
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'
@@ -180,7 +183,8 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @hopev2ray | 6'
       - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 16'
       - '🇺🇸US | 🔴 | vless | @v2raybaz | 13'
-      - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 18'
+      - '🇬🇧GB | 🔴 | vless | @vpnfail_vless | 18'
+      - '🇺🇸US | 🔴 | vless | @vpnfail_vless | 19'
       - '🇮🇹IT | 🔴 | vless | @V2FETCH | 0'
       - '🇺🇸US | 🔴 | vless | @TEHRANARGO | 13'
       - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 14'

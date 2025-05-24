@@ -65,9 +65,7 @@
                 "Best Latency",
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ]
         },
         {
@@ -76,9 +74,7 @@
             "outbounds": [
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -119,34 +115,6 @@
         },
         {
             "type": "vless",
-            "server": "lunavopershian.adas.monster",
-            "server_port": 38290,
-            "uuid": "e2d82258-fc6b-40e7-a292-d8991d9d2ec0",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "lunavopershiansni369871.adas.monster",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
-                    "short_id": "e559dd"
-                }
-            },
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
             "server": "Mashhad-Website.thorav.ir",
             "server_port": 2087,
             "uuid": "df0a7c22-83e7-4580-a123-ce4e1010ba4a",
@@ -178,7 +146,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -196,23 +164,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "fergalvpnmod.sbs",
-            "server_port": 443,
-            "uuid": "2dae986a-04ce-4588-a6e2-652ac921c091",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram:fergalvpnmod",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

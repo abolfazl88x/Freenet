@@ -69,7 +69,10 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-7",
+                "@SiNAVM-8",
+                "@SiNAVM-9",
+                "@SiNAVM-10"
             ]
         },
         {
@@ -82,7 +85,10 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-7",
+                "@SiNAVM-8",
+                "@SiNAVM-9",
+                "@SiNAVM-10"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -123,45 +129,73 @@
         },
         {
             "type": "vless",
-            "server": "135.148.211.86",
+            "server": "92.243.74.3",
             "server_port": 443,
-            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "147135004002.sec20org.com",
+                "server_name": "carlotta.shorekeeper.cloudns.org",
                 "insecure": false,
                 "alpn": [
-                    "h3"
+                    "http\/1.1"
                 ],
                 "min_version": "1.3",
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/proxyip=zani.yaemiko.ggff.net\/?Join_Bade_Channel@JOKERRVPN",
+                "headers": {
+                    "Host": "carlotta.shorekeeper.cloudns.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-2"
         },
         {
-            "type": "shadowsocks",
-            "server": "admin.c1.webramz.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1xO2cqPazqjGfCfd",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "104.21.7.193",
+            "server_port": 8880,
+            "uuid": "f3562b04-2f2b-433a-80b4-45f60d659004",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.7.193"
+                },
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
             "tag": "@SiNAVM-3"
         },
         {
-            "type": "vless",
-            "server": "94.130.225.156",
-            "server_port": 38795,
-            "uuid": "c7b3d8ea-8c6e-4091-b87e-5876b715b9b3",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "38.89.70.208",
+            "server_port": 8090,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.146",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "shadowsocks",
@@ -171,7 +205,7 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -206,7 +240,16 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-7"
+        },
+        {
+            "type": "vless",
+            "server": "94.130.225.156",
+            "server_port": 38795,
+            "uuid": "c7b3d8ea-8c6e-4091-b87e-5876b715b9b3",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "vless",
@@ -224,7 +267,23 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "vless",
+            "server": "45.144.51.195",
+            "server_port": 35036,
+            "uuid": "b9e98405-0454-474e-a5b3-1d6e164ba40d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "direct",

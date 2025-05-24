@@ -208,30 +208,38 @@
         },
         {
             "type": "vless",
-            "server": "104.26.12.101",
-            "server_port": 2052,
-            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
+            "server": "www.visa.com",
+            "server_port": 80,
+            "uuid": "54029e43-0588-418d-b102-dbf30f091788",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.26.12.101"
+                    "Host": "www.visa.com"
                 },
-                "max_early_data": 1080,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-5"
         },
         {
-            "type": "shadowsocks",
-            "server": "23.154.136.132",
-            "server_port": 8008,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "172.67.187.251",
+            "server_port": 8880,
+            "uuid": "f3562b04-2f2b-433a-80b4-45f60d659004",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.187.251"
+                },
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
             "tag": "@SiNAVM-6"
         },
         {
@@ -320,14 +328,46 @@
         },
         {
             "type": "vless",
-            "server": "45.87.102.244",
-            "server_port": 21851,
-            "uuid": "ee317e25-4c44-4b3f-81fd-93420678bd34",
+            "server": "172.67.24.121",
+            "server_port": 443,
+            "uuid": "f56c315c-a8a6-4f15-b8e0-fcc2afe13b29",
             "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
+            "domain_strategy": "prefer_ipv4",
             "tls": {
                 "enabled": true,
-                "server_name": "one-piece.com",
+                "server_name": "abrarvan1.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY",
+                "headers": {
+                    "Host": "abrarvan1.com"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-11"
+        },
+        {
+            "type": "vless",
+            "server": "190.93.247.172",
+            "server_port": 443,
+            "uuid": "f055d270-0e76-4a41-a53f-871bbb51b003",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "what.zhonghuoxing.top",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -337,30 +377,16 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EcToF-48rTWeedF6qD5yUrJ3AC_Y3FrzGUE5UP5bg2A",
-                    "short_id": "6ba85179e30d4fc2"
                 }
             },
-            "tag": "@SiNAVM-11"
-        },
-        {
-            "type": "vless",
-            "server": "45.12.31.10",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vpnAndroid2\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "45.12.31.10"
+                    "Host": "what.zhonghuoxing.top"
                 },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "max_early_data": 0,
+                "early_data_header_name": ""
             },
             "tag": "@SiNAVM-12"
         },

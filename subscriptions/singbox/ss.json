@@ -64,8 +64,7 @@
             "outbounds": [
                 "Best Latency",
                 "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-2"
             ]
         },
         {
@@ -73,8 +72,7 @@
             "tag": "Best Latency",
             "outbounds": [
                 "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-2"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -83,23 +81,13 @@
         },
         {
             "type": "shadowsocks",
-            "server": "api.namasha.co",
+            "server": "admin.c1.webramz.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "1xO2cqPazqjGfCfd",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.87.175.164",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "QCXDxuDlTTMD7jtgHUjIoj",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
         },
         {
             "type": "shadowsocks",
@@ -109,7 +97,7 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "direct",

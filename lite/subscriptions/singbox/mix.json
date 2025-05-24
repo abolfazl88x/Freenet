@@ -82,7 +82,8 @@
                 "@SiNAVM-17",
                 "@SiNAVM-18",
                 "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-20",
+                "@SiNAVM-21"
             ]
         },
         {
@@ -108,7 +109,8 @@
                 "@SiNAVM-17",
                 "@SiNAVM-18",
                 "@SiNAVM-19",
-                "@SiNAVM-20"
+                "@SiNAVM-20",
+                "@SiNAVM-21"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -286,6 +288,24 @@
         },
         {
             "type": "vless",
+            "server": "151.101.66.228",
+            "server_port": 80,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "151.101.66.228"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "vless",
             "server": "45.87.102.244",
             "server_port": 21851,
             "uuid": "ee317e25-4c44-4b3f-81fd-93420678bd34",
@@ -310,7 +330,7 @@
                     "short_id": "6ba85179e30d4fc2"
                 }
             },
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
@@ -328,7 +348,7 @@
                 "max_early_data": 1861,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "vless",
@@ -346,7 +366,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-12"
         },
         {
             "type": "vless",
@@ -355,7 +375,7 @@
             "uuid": "ec0ea606-b8a9-4a33-8cd7-a8b442feb5c8",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-12"
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "vless",
@@ -371,7 +391,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-13"
+            "tag": "@SiNAVM-14"
         },
         {
             "type": "vless",
@@ -403,7 +423,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-14"
+            "tag": "@SiNAVM-15"
         },
         {
             "type": "vless",
@@ -421,7 +441,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-15"
+            "tag": "@SiNAVM-16"
         },
         {
             "type": "vless",
@@ -438,24 +458,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-16"
-        },
-        {
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-17"
         },
@@ -476,6 +478,24 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-18"
+        },
+        {
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-19"
         },
         {
             "type": "vless",
@@ -508,7 +528,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-19"
+            "tag": "@SiNAVM-20"
         },
         {
             "type": "vless",
@@ -541,7 +561,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-20"
+            "tag": "@SiNAVM-21"
         },
         {
             "type": "direct",

@@ -79,12 +79,21 @@
         },
         {
             "type": "vmess",
-            "server": "120.26.55.225",
-            "server_port": 50002,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "pq-brazil1.09vpn.com",
+            "server_port": 80,
+            "uuid": "24b6bbfb-9b27-4f17-bd32-67523bf487d9",
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess\/",
+                "headers": {
+                    "Host": "pq-brazil1.09vpn.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-1"
         },
         {

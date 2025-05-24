@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇧🇷BR | 🔴 | vmess | @DeamNet_Proxy | 18 = vmess, pq-brazil1.09vpn.com, 80, username = 24b6bbfb-9b27-4f17-bd32-67523bf487d9, ws = true, tls = , vmess-aead = true, ws-path = /vmess/, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇧🇷BR | 🔴 | vmess | @DeamNet_Proxy | 18
+URL-TEST = url-test,🇧🇷BR | 🔴 | vmess | @DeamNet_Proxy | 18
+FALLBACK = fallback,🇧🇷BR | 🔴 | vmess | @DeamNet_Proxy | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

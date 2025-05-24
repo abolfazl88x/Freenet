@@ -73,7 +73,9 @@
                 "@SiNAVM-8",
                 "@SiNAVM-9",
                 "@SiNAVM-10",
-                "@SiNAVM-11"
+                "@SiNAVM-11",
+                "@SiNAVM-12",
+                "@SiNAVM-13"
             ]
         },
         {
@@ -90,7 +92,9 @@
                 "@SiNAVM-8",
                 "@SiNAVM-9",
                 "@SiNAVM-10",
-                "@SiNAVM-11"
+                "@SiNAVM-11",
+                "@SiNAVM-12",
+                "@SiNAVM-13"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -220,6 +224,38 @@
         },
         {
             "type": "vless",
+            "server": "188.245.104.160",
+            "server_port": 1717,
+            "uuid": "20cdfe1f-832f-4e81-9be4-38b8f7898a6c",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "1717vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-7"
+        },
+        {
+            "type": "vless",
+            "server": "fergalvpnmod.sbs",
+            "server_port": 443,
+            "uuid": "223f2447-843e-4e70-a2c5-50cbb35782e3",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram:fergalvpnmod",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-8"
+        },
+        {
+            "type": "vless",
             "server": "Mashhad-Website.thorav.ir",
             "server_port": 2087,
             "uuid": "a7f573cf-f042-4133-8fa5-b24088621d83",
@@ -251,23 +287,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "vless",
-            "server": "188.245.104.160",
-            "server_port": 1717,
-            "uuid": "20cdfe1f-832f-4e81-9be4-38b8f7898a6c",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "1717vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-9"
         },
         {
             "type": "shadowsocks",
@@ -277,7 +297,7 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-9"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "vless",
@@ -295,23 +315,27 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-11"
         },
         {
-            "type": "vless",
-            "server": "fergalvpnmod.sbs",
-            "server_port": 443,
-            "uuid": "223f2447-843e-4e70-a2c5-50cbb35782e3",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "185.47.253.227",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram:fergalvpnmod",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-12"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "185.39.204.12",
+            "server_port": 16297,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G0o2hE4eLuR2wwyFao0lsJ",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-13"
         },
         {
             "type": "direct",

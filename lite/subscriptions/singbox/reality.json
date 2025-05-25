@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "45.87.102.244",
-            "server_port": 21851,
-            "uuid": "ee317e25-4c44-4b3f-81fd-93420678bd34",
+            "server": "lunavopershian.adas.monster",
+            "server_port": 38290,
+            "uuid": "e2d82258-fc6b-40e7-a292-d8991d9d2ec0",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "one-piece.com",
+                "server_name": "lunavopershiansni369871.adas.monster",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -99,8 +99,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EcToF-48rTWeedF6qD5yUrJ3AC_Y3FrzGUE5UP5bg2A",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "YwovOka4bw_cog0WRI_245U9NC4I26TaGxhAKfGSskM",
+                    "short_id": "e559dd"
                 }
             },
             "tag": "@SiNAVM-1"

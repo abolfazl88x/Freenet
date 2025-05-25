@@ -122,7 +122,6 @@ dns:
 proxies:
   - {"name":"🇰🇭KH | 🔴 | vless | @meli_proxyy | 10","type":"vless","server":"92.243.74.3","port":443,"udp":false,"uuid":"30f2d443-af46-4dd6-83c9-b5e17299ebd2","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"carlotta.shorekeeper.cloudns.org","ws-opts":{"path":"/proxyip=zani.yaemiko.ggff.net/?Join_Bade_Channel@JOKERRVPN","headers":{"host":"carlotta.shorekeeper.cloudns.org"}}}
   - {"name":"❔XX | 🟢 | vless | @meli_proxyy | 0","type":"vless","server":"france.iranigamebaz.ir","port":600,"udp":false,"uuid":"666c8b48-72b8-43bb-8482-b7ba47008a1a","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"marzban.negintel.xyz"}
-  - {"name":"🇩🇪DE | 🔴 | vless | @TEHRANARGO | 1","type":"vless","server":"fergalvpnmod.sbs","port":443,"udp":false,"uuid":"2dae986a-04ce-4588-a6e2-652ac921c091","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"telegram:fergalvpnmod"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +130,6 @@ proxy-groups:
       - FALLBACK
       - '🇰🇭KH | 🔴 | vless | @meli_proxyy | 10'
       - '❔XX | 🟢 | vless | @meli_proxyy | 0'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 1'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com/
@@ -140,7 +138,6 @@ proxy-groups:
     proxies:
       - '🇰🇭KH | 🔴 | vless | @meli_proxyy | 10'
       - '❔XX | 🟢 | vless | @meli_proxyy | 0'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 1'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com/
@@ -148,7 +145,6 @@ proxy-groups:
     proxies:
       - '🇰🇭KH | 🔴 | vless | @meli_proxyy | 10'
       - '❔XX | 🟢 | vless | @meli_proxyy | 0'
-      - '🇩🇪DE | 🔴 | vless | @TEHRANARGO | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

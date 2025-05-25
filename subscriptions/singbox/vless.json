@@ -65,7 +65,8 @@
                 "Best Latency",
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-3",
+                "@SiNAVM-4"
             ]
         },
         {
@@ -74,7 +75,8 @@
             "outbounds": [
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3"
+                "@SiNAVM-3",
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -101,18 +103,11 @@
         },
         {
             "type": "vless",
-            "server": "159.223.28.7",
-            "server_port": 443,
-            "uuid": "91140646-4ee6-40d4-8103-69f79c8aebb5",
+            "server": "85.133.236.4",
+            "server_port": 6163,
+            "uuid": "1541cc38-7be8-4271-9822-bf554d4dc75a",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram:fergalvpnmod",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
             "tag": "@SiNAVM-2"
         },
         {
@@ -132,6 +127,22 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
+            "server": "159.223.28.7",
+            "server_port": 443,
+            "uuid": "91140646-4ee6-40d4-8103-69f79c8aebb5",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram:fergalvpnmod",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "direct",

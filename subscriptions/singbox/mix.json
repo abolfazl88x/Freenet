@@ -66,7 +66,8 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5"
             ]
         },
         {
@@ -76,7 +77,8 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -102,30 +104,13 @@
             "tag": "@SiNAVM-1"
         },
         {
-            "type": "shadowsocks",
-            "server": "45.158.171.132",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
-        },
-        {
             "type": "vless",
-            "server": "159.223.28.7",
-            "server_port": 443,
-            "uuid": "91140646-4ee6-40d4-8103-69f79c8aebb5",
+            "server": "85.133.236.4",
+            "server_port": 6163,
+            "uuid": "1541cc38-7be8-4271-9822-bf554d4dc75a",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram:fergalvpnmod",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -143,7 +128,33 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.158.171.132",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "vless",
+            "server": "159.223.28.7",
+            "server_port": 443,
+            "uuid": "91140646-4ee6-40d4-8103-69f79c8aebb5",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram:fergalvpnmod",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "direct",

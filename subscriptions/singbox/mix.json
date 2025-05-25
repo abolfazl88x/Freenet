@@ -66,8 +66,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ]
         },
         {
@@ -77,8 +76,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -104,11 +102,12 @@
             "tag": "@SiNAVM-1"
         },
         {
-            "type": "vless",
-            "server": "85.133.236.4",
-            "server_port": 6163,
-            "uuid": "1541cc38-7be8-4271-9822-bf554d4dc75a",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "45.158.171.132",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-2"
         },
@@ -145,16 +144,6 @@
                 "permit_without_stream": false
             },
             "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.158.171.132",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
         },
         {
             "type": "direct",

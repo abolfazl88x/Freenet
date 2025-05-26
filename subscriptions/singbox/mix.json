@@ -66,8 +66,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ]
         },
         {
@@ -77,45 +76,12 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "vless",
-            "server": "140.248.180.60",
-            "server_port": 443,
-            "uuid": "b530bc20-47ec-495f-b19d-a3ae32ab3743",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "JOIN-ELiV2RAY.IR",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY",
-                "headers": {
-                    "Host": "JOIN-ELiV2RAY.IR"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "shadowsocks",
@@ -125,6 +91,28 @@
             "password": "mps3FwmDjLrWaOVg",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "trojan",
+            "server": "15.188.12.36",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "tag": "@SiNAVM-2"
         },
         {
@@ -189,24 +177,6 @@
                 "permit_without_stream": false
             },
             "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray8",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-5"
         },
         {
             "type": "direct",

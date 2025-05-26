@@ -88,29 +88,6 @@
             "idle_timeout": "9m0s"
         },
         {
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2053,
-            "uuid": "562b6618-1e9c-434f-f970-252cfd81da2e",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "WWW.fashOARt749.COM",
-                "insecure": false,
-                "alpn": [
-                    ""
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": ""
-                }
-            },
-            "tag": "@SiNAVM-1"
-        },
-        {
             "type": "shadowsocks",
             "server": "series-a2.varzesh360.co",
             "server_port": 443,
@@ -118,29 +95,7 @@
             "password": "mps3FwmDjLrWaOVg",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "trojan",
-            "server": "15.188.224.253",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -175,7 +130,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -198,7 +153,30 @@
                     "fingerprint": "firefox"
                 }
             },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2053,
+            "uuid": "562b6618-1e9c-434f-f970-252cfd81da2e",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.fashOARt749.COM",
+                "insecure": false,
+                "alpn": [
+                    ""
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": ""
+                }
+            },
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -215,6 +193,22 @@
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "n1.boutiqueman.shop",
+            "server_port": 80,
+            "uuid": "tel@V2rayvpn_official",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "n1.boutiqueman.shop",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-6"
         },

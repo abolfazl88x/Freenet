@@ -79,14 +79,14 @@
         },
         {
             "type": "vless",
-            "server": "45.87.102.244",
-            "server_port": 21851,
-            "uuid": "ee317e25-4c44-4b3f-81fd-93420678bd34",
+            "server": "116.203.140.209",
+            "server_port": 1615,
+            "uuid": "acd71a14-6f45-4451-b150-daa59dcbe36a",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "one-piece.com",
+                "server_name": "refersion.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -99,8 +99,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EcToF-48rTWeedF6qD5yUrJ3AC_Y3FrzGUE5UP5bg2A",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "hGWQLRX3fXhy649AM9QbmRBlDs4DU-trXDal_F5pCjI",
+                    "short_id": "f387eb8185414508"
                 }
             },
             "tag": "@SiNAVM-1"

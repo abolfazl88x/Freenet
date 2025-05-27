@@ -79,9 +79,9 @@
         },
         {
             "type": "vless",
-            "server": "193.46.81.83",
+            "server": "95.164.16.166",
             "server_port": 3567,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "9fdef857-437d-40af-82ca-2c76de893eb6",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -99,13 +99,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "_5Hw5RRcDyCnW7H3Ubmp9UnqNiQUaKfB5rPTDqI_kAA",
-                    "short_id": "c14b9292de5a8d6f"
+                    "public_key": "3iP1kIE9A4r0dbC6OoERB95RKv6tZmCHUaNq4tf90lo",
+                    "short_id": "86"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

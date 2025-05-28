@@ -87,63 +87,12 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d4b9f4",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "9c02f303-84ec-462b-af82-aeed303faea7",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "mypHOtoGRapIcPictURe.ir",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/CY6EnyeHmgNASXJI\/MTU5LjY5LjE0LjEzOA==",
-                "headers": {
-                    "Host": "mypHOtoGRapIcPictURe.ir"
-                },
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
             "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "138.199.212.144",
-            "server_port": 65531,
-            "uuid": "469e2694-da00-410a-87e9-051d81a741fc",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SyFxcn1HOj_g6IK7Pn-VS9tHr7_FGQm55tAGQWwR8Tw",
-                    "short_id": "843af58709db"
-                }
-            },
-            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -169,6 +118,34 @@
                     "enabled": true,
                     "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
                     "short_id": ""
+                }
+            },
+            "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "vless",
+            "server": "138.199.212.144",
+            "server_port": 65531,
+            "uuid": "469e2694-da00-410a-87e9-051d81a741fc",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SyFxcn1HOj_g6IK7Pn-VS9tHr7_FGQm55tAGQWwR8Tw",
+                    "short_id": "843af58709db"
                 }
             },
             "tag": "@SiNAVM-3"

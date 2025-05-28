@@ -68,8 +68,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-6"
             ]
         },
         {
@@ -81,8 +80,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -91,12 +89,49 @@
         },
         {
             "type": "vless",
-            "server": "104.17.148.22",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "9c02f303-84ec-462b-af82-aeed303faea7",
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
             "tag": "@SiNAVM-1"
+        },
+        {
+            "type": "vless",
+            "server": "vpnmizban.systemgamingirani.ir",
+            "server_port": 443,
+            "uuid": "b27adc11-c7d7-4eef-9ef5-633ee951759b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
+            },
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -131,13 +166,13 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
-            "server": "vpnmizban.systemgamingirani.ir",
+            "server": "public.misvn.ir",
             "server_port": 443,
-            "uuid": "b27adc11-c7d7-4eef-9ef5-633ee951759b",
+            "uuid": "SVNTEAM-2",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -151,15 +186,15 @@
                 "max_version": "1.3",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
+                    "short_id": ""
                 }
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "shadowsocks",
@@ -169,34 +204,6 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "tr.lunarmc.ir",
-            "server_port": 30561,
-            "uuid": "d37d1df5-1422-4e59-a187-47cc37a1ff4b",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "H1HfMqwks7GIdi-LoswMO4xxR7fJihqN_xLolycIWX8",
-                    "short_id": "95ac1a9f19"
-                }
-            },
             "tag": "@SiNAVM-5"
         },
         {
@@ -216,28 +223,6 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-6"
-        },
-        {
-            "type": "trojan",
-            "server": "18.199.45.203",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "@SiNAVM-7"
         },
         {
             "type": "direct",

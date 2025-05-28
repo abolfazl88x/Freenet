@@ -347,35 +347,22 @@
         },
         {
             "type": "shadowsocks",
+            "server": "45.150.32.13",
+            "server_port": 38707,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NMiJKeh4yMumfyYVvjq0LR",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-13"
+        },
+        {
+            "type": "shadowsocks",
             "server": "45.139.24.24",
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "360e21d21977dc11",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-13"
-        },
-        {
-            "type": "vless",
-            "server": "finland.my-iranparspack.ir",
-            "server_port": 600,
-            "uuid": "9d9e217d-2b32-46eb-8a69-9735f5e1f92e",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "marzban.negintel.xyz",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "tag": "@SiNAVM-14"
         },
         {

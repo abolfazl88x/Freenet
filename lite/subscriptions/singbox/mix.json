@@ -169,7 +169,7 @@
         },
         {
             "type": "trojan",
-            "server": "13.38.223.72",
+            "server": "15.188.12.36",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -191,7 +191,7 @@
         },
         {
             "type": "trojan",
-            "server": "3.64.195.250",
+            "server": "13.38.223.72",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -287,6 +287,24 @@
         },
         {
             "type": "vless",
+            "server": "45.12.31.10",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vpnAndroid2\/",
+                "headers": {
+                    "Host": "45.12.31.10"
+                },
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "vless",
             "server": "190.93.247.172",
             "server_port": 443,
             "uuid": "f055d270-0e76-4a41-a53f-871bbb51b003",
@@ -311,24 +329,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "what.zhonghuoxing.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-9"
-        },
-        {
-            "type": "vless",
-            "server": "62.60.193.221",
-            "server_port": 32774,
-            "uuid": "6603a779-07c9-4bc9-8f61-4a09c238653a",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/6603a779",
-                "headers": {
-                    "Host": "62.60.193.221"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

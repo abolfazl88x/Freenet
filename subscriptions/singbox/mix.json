@@ -68,9 +68,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-6"
             ]
         },
         {
@@ -82,9 +80,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -181,9 +177,9 @@
         },
         {
             "type": "vless",
-            "server": "dl.dllavanddownload.ir",
-            "server_port": 3053,
-            "uuid": "d8c6ba07-2566-430b-b2a4-e8700347f686",
+            "server": "65.109.198.214",
+            "server_port": 19720,
+            "uuid": "1821e8ff-ef32-4e22-8b6a-37aaa7760e80",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
@@ -197,15 +193,6 @@
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "65.109.198.214",
-            "server_port": 19720,
-            "uuid": "1821e8ff-ef32-4e22-8b6a-37aaa7760e80",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -223,17 +210,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.139.24.24",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

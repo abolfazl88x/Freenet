@@ -66,7 +66,9 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ]
         },
         {
@@ -76,7 +78,9 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -172,6 +176,24 @@
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:e1d0::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-245",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "85.9.96.201",
+            "server_port": 4911,
+            "uuid": "d05596ed-288b-4708-9a01-b01635f4c91d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

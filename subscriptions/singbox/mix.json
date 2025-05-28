@@ -69,8 +69,7 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-7"
             ]
         },
         {
@@ -83,22 +82,12 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-7"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "vless",
-            "server": "ns.cloudflare.com",
-            "server_port": 2086,
-            "uuid": "8ed5d5c6-08c6-40ed-8f15-ff724c4ecad9",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "trojan",
@@ -120,7 +109,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "shadowsocks",
@@ -130,7 +119,7 @@
             "password": "yMX9WGPgUEcRZmlaa0YHHC",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -158,7 +147,7 @@
                     "short_id": ""
                 }
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -193,6 +182,16 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
+            "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "45.139.24.24",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-5"
         },
         {
@@ -214,23 +213,13 @@
             "tag": "@SiNAVM-6"
         },
         {
-            "type": "shadowsocks",
-            "server": "45.139.24.24",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
-        },
-        {
             "type": "vless",
-            "server": "85.9.96.201",
-            "server_port": 4911,
-            "uuid": "d05596ed-288b-4708-9a01-b01635f4c91d",
+            "server": "ns.cloudflare.com",
+            "server_port": 2086,
+            "uuid": "8ed5d5c6-08c6-40ed-8f15-ff724c4ecad9",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "direct",

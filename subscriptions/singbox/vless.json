@@ -66,8 +66,7 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ]
         },
         {
@@ -77,22 +76,12 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-4"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "vless",
-            "server": "ns.cloudflare.com",
-            "server_port": 2086,
-            "uuid": "8ed5d5c6-08c6-40ed-8f15-ff724c4ecad9",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -120,7 +109,7 @@
                     "short_id": ""
                 }
             },
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -155,7 +144,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -173,16 +162,16 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
-            "server": "85.9.96.201",
-            "server_port": 4911,
-            "uuid": "d05596ed-288b-4708-9a01-b01635f4c91d",
+            "server": "ns.cloudflare.com",
+            "server_port": 2086,
+            "uuid": "8ed5d5c6-08c6-40ed-8f15-ff724c4ecad9",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "direct",

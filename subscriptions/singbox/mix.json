@@ -182,6 +182,16 @@
             "tag": "@SiNAVM-4"
         },
         {
+            "type": "shadowsocks",
+            "server": "103.106.1.92",
+            "server_port": 23492,
+            "method": "chacha20-ietf-poly1305",
+            "password": "yMX9WGPgUEcRZmlaa0YHHC",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-5"
+        },
+        {
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
@@ -207,16 +217,6 @@
                     "short_id": ""
                 }
             },
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "103.106.1.92",
-            "server_port": 23492,
-            "method": "chacha20-ietf-poly1305",
-            "password": "yMX9WGPgUEcRZmlaa0YHHC",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-6"
         },
         {
@@ -294,6 +294,16 @@
             "tag": "@SiNAVM-9"
         },
         {
+            "type": "shadowsocks",
+            "server": "45.139.24.24",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-10"
+        },
+        {
             "type": "vless",
             "server": "46.203.248.224",
             "server_port": 20411,
@@ -319,16 +329,6 @@
                     "short_id": ""
                 }
             },
-            "tag": "@SiNAVM-10"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.139.24.24",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-11"
         },
         {

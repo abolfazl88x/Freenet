@@ -111,14 +111,14 @@
         },
         {
             "type": "vless",
-            "server": "46.203.248.224",
-            "server_port": 20411,
-            "uuid": "54ffbe99-7aaf-4ceb-9a82-048fb2489757",
+            "server": "5.75.152.152",
+            "server_port": 2053,
+            "uuid": "0828386d-8a07-4f12-b582-5d2cf43969b8",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "www.tgju.org",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -131,8 +131,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
-                    "short_id": ""
+                    "public_key": "eR4J5FtMqaNxy-RvJb6JzcBoREYy7iDGC61J6xtQHkc",
+                    "short_id": "48"
                 }
             },
             "tag": "@SiNAVM-2"

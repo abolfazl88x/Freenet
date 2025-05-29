@@ -105,18 +105,18 @@
         },
         {
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "e7b2d457-40e2-4f6e-d2d2-5de7f7ac180e",
+            "uuid": "telegram-id-ArV2ray9",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "151.101.64.155"
                 },
-                "max_early_data": 1024,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-2"

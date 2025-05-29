@@ -63,53 +63,19 @@
             "tag": "Internet",
             "outbounds": [
                 "Best Latency",
-                "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-1"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
             "outbounds": [
-                "@SiNAVM-1",
-                "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-1"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "vless",
-            "server": "tr.lunarmc.ir",
-            "server_port": 30561,
-            "uuid": "77fa8a82-4c73-47e6-a518-e4768e7a1e80",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "H1HfMqwks7GIdi-LoswMO4xxR7fJihqN_xLolycIWX8",
-                    "short_id": "95ac1a9f19"
-                }
-            },
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -137,63 +103,7 @@
                     "short_id": "e54b5ad736ae4c38"
                 }
             },
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
-            "server": "vpnmizban.systemgamingirani.ir",
-            "server_port": 443,
-            "uuid": "b27adc11-c7d7-4eef-9ef5-633ee951759b",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "46.203.248.224",
-            "server_port": 20411,
-            "uuid": "54ffbe99-7aaf-4ceb-9a82-048fb2489757",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
-                    "short_id": ""
-                }
-            },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "direct",

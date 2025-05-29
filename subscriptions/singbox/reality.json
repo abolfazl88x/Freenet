@@ -83,9 +83,9 @@
         },
         {
             "type": "vless",
-            "server": "public.misvn.ir",
+            "server": "5.75.182.251",
             "server_port": 443,
-            "uuid": "SVNTEAM-3",
+            "uuid": "9f74c887-ccfc-44bb-b084-b10f13a3a354",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -103,8 +103,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
-                    "short_id": ""
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             },
             "tag": "@SiNAVM-1"
@@ -139,9 +139,9 @@
         },
         {
             "type": "vless",
-            "server": "5.75.182.251",
+            "server": "public.misvn.ir",
             "server_port": 443,
-            "uuid": "9f74c887-ccfc-44bb-b084-b10f13a3a354",
+            "uuid": "SVNTEAM-3",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -159,8 +159,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
+                    "short_id": ""
                 }
             },
             "tag": "@SiNAVM-3"

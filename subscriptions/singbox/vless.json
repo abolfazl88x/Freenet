@@ -68,9 +68,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-6"
             ]
         },
         {
@@ -82,9 +80,7 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8"
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -129,21 +125,49 @@
         },
         {
             "type": "vless",
-            "server": "Join.VPNCUSTOMIZE.cloud1.hosting-ip.com",
-            "server_port": 8880,
-            "uuid": "0868d2e0-7ea0-4652-9d69-e1f4b8fa87f0",
+            "server": "ufc.ru",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram—VPNCUSTOMIZE",
+                "path": "\/Channel-MOSIV2--MOSIV2--Channel-MOSIV2--MOSIV2",
                 "headers": {
-                    "Host": "Join.VPNCUSTOMIZE.cloud1.hosting-ip.com"
+                    "Host": "ufc.ru"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-3"
+        },
+        {
+            "type": "vless",
+            "server": "public.misvn.ir",
+            "server_port": 443,
+            "uuid": "SVNTEAM-3",
+            "packet_encoding": "xudp",
+            "domain_strategy": "ipv6_only",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
+                    "short_id": ""
+                }
+            },
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
@@ -173,72 +197,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "tr.lunarmc.ir",
-            "server_port": 30561,
-            "uuid": "77fa8a82-4c73-47e6-a518-e4768e7a1e80",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "H1HfMqwks7GIdi-LoswMO4xxR7fJihqN_xLolycIWX8",
-                    "short_id": "95ac1a9f19"
-                }
-            },
             "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "5.75.182.251",
-            "server_port": 443,
-            "uuid": "9f74c887-ccfc-44bb-b084-b10f13a3a354",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            },
-            "tag": "@SiNAVM-6"
-        },
-        {
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "7979b82a-a615-4e4e-b4ce-34260f6e8bd6",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
         },
         {
             "type": "vless",
@@ -256,7 +215,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

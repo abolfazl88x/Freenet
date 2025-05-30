@@ -63,16 +63,14 @@
             "tag": "Internet",
             "outbounds": [
                 "Best Latency",
-                "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-1"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
             "outbounds": [
-                "@SiNAVM-1",
-                "@SiNAVM-2"
+                "@SiNAVM-1"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -81,23 +79,13 @@
         },
         {
             "type": "vmess",
-            "server": "51.38.64.209",
-            "server_port": 44023,
-            "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
+            "server": "94.136.185.230",
+            "server_port": 10534,
+            "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vmess",
-            "server": "135.125.182.74",
-            "server_port": 28213,
-            "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
         },
         {
             "type": "direct",

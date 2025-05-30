@@ -68,7 +68,8 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-6",
+                "@SiNAVM-7"
             ]
         },
         {
@@ -80,7 +81,8 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-6",
+                "@SiNAVM-7"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -107,23 +109,32 @@
         },
         {
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "server": "Join.VPNCUSTOMIZE.cloud1.hosting-ip.com",
+            "server_port": 8880,
+            "uuid": "0868d2e0-7ea0-4652-9d69-e1f4b8fa87f0",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram—VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "Join.VPNCUSTOMIZE.cloud1.hosting-ip.com"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
             "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
-            "server": "95.164.16.166",
-            "server_port": 2087,
-            "uuid": "dc008584-5304-40c9-a3d5-9977c76fce43",
+            "server": "tr.lunarmc.ir",
+            "server_port": 30561,
+            "uuid": "77fa8a82-4c73-47e6-a518-e4768e7a1e80",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "stackoverflow.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -136,16 +147,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "UmfiIOjfgdKF7C2cWhO-rzHeKHHxONToNSjTNpilA00",
-                    "short_id": "34f2"
+                    "public_key": "H1HfMqwks7GIdi-LoswMO4xxR7fJihqN_xLolycIWX8",
+                    "short_id": "95ac1a9f19"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             },
             "tag": "@SiNAVM-3"
         },
@@ -181,14 +185,14 @@
         },
         {
             "type": "vless",
-            "server": "tr.lunarmc.ir",
-            "server_port": 30561,
-            "uuid": "77fa8a82-4c73-47e6-a518-e4768e7a1e80",
+            "server": "95.164.16.166",
+            "server_port": 2087,
+            "uuid": "dc008584-5304-40c9-a3d5-9977c76fce43",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "www.cdn77.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -201,9 +205,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "H1HfMqwks7GIdi-LoswMO4xxR7fJihqN_xLolycIWX8",
-                    "short_id": "95ac1a9f19"
+                    "public_key": "UmfiIOjfgdKF7C2cWhO-rzHeKHHxONToNSjTNpilA00",
+                    "short_id": "34f2"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-5"
         },
@@ -224,6 +235,15 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "direct",

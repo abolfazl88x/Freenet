@@ -67,8 +67,7 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-5"
             ]
         },
         {
@@ -79,8 +78,7 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-5"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -191,15 +189,6 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "37.32.42.22",
-            "server_port": 443,
-            "uuid": "eb1920ff-d816-4ca1-b832-4683cddebaa6",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

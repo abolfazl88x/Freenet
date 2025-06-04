@@ -81,14 +81,14 @@
         },
         {
             "type": "vless",
-            "server": "3.235.84.76",
-            "server_port": 2083,
-            "uuid": "17cbb923-e800-4a7d-a87f-9311de30a7b9",
+            "server": "arvancloud.de.ir.systemgamingirani.ir",
+            "server_port": 443,
+            "uuid": "ed4ac7bf-9ec8-4a7a-b45a-72b62f1e18dc",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "tgju.org",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -101,8 +101,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PWHU3h4DYzwqnvZWK43K-xJvpUevCDv3qgndc59CjgU",
-                    "short_id": "18"
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             },
             "tag": "@SiNAVM-1"

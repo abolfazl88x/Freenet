@@ -68,7 +68,8 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-6",
+                "@SiNAVM-7"
             ]
         },
         {
@@ -80,21 +81,13 @@
                 "@SiNAVM-3",
                 "@SiNAVM-4",
                 "@SiNAVM-5",
-                "@SiNAVM-6"
+                "@SiNAVM-6",
+                "@SiNAVM-7"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
-        },
-        {
-            "type": "vless",
-            "server": "ns.cloudflare.com",
-            "server_port": 2086,
-            "uuid": "b20f8c7c-a47e-43b7-b4a4-bbab7d8014e3",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -112,7 +105,7 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -145,6 +138,15 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
+            "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "vless",
+            "server": "ns.cloudflare.com",
+            "server_port": 2086,
+            "uuid": "b20f8c7c-a47e-43b7-b4a4-bbab7d8014e3",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-3"
         },
         {
@@ -227,6 +229,38 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "whatismyipaddress.com",
+            "server_port": 2096,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s05.drlimit2.com",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s05.drlimit2.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "direct",

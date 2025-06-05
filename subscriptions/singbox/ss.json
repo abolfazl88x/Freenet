@@ -83,10 +83,10 @@
         },
         {
             "type": "shadowsocks",
-            "server": "69.50.93.113",
-            "server_port": 9101,
+            "server": "23.150.248.50",
+            "server_port": 8090,
             "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
+            "password": "PCnnH6SQSnfoS27",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-1"

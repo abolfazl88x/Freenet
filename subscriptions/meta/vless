@@ -120,7 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"❔XX | 🟢 | vless | @meli_proxyy | 2","type":"vless","server":"v07.vxlimir.com","port":1370,"udp":true,"uuid":"00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"refersion.com","reality-opts":{"public-key":"_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw","short-id":"e1afb93bfe75a34b"}}
+  - {"name":"🇮🇷IR | 🔴 | vless | @meli_proxyy | 3","type":"vless","server":"185.143.233.120","port":443,"udp":false,"uuid":"64b48f35-d81e-4227-8075-6337e6ef0b85","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"jmu.ac.ir","ws-opts":{"path":"/telegram-mitivpn-telegram-mitivpn-telegram-mitivpn","headers":{"host":"s1.api.ir-sub.fun"}}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @TEHRANARGO | 0","type":"vless","server":"84.201.20.248","port":45868,"udp":true,"uuid":"0549a04c-28ff-4a35-95c7-ed5651f4ee53","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"google.com","grpc-opts":{"grpc-service-name":"@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod"},"reality-opts":{"public-key":"Xf_flAxrxjR_kM0e6StsmGy3h5a-PDoYvYJrfP4KUTQ","short-id":"7f"}}
   - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 0","type":"vless","server":"NUFiLTER.fastly80-2.hosting-ip.com","port":80,"udp":false,"uuid":"41ec8f30-6cd7-4703-94e1-95913c1626fa","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80","headers":{"host":"arayeshgaham.com"}}}
   - {"name":"🇳🇱NL | 🔴 | vless | @TEHRANARGO | 1","type":"vless","server":"Netherland.mehrdadsadaf.com","port":7594,"udp":true,"uuid":"5dbd17f8-30af-4bcf-8469-3cc6184b0057","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":"7594vless"},"reality-opts":{"public-key":"AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw","short-id":"765e8e700426816c"}}
 proxy-groups:
@@ -129,7 +130,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🟢 | vless | @meli_proxyy | 2'
+      - '🇮🇷IR | 🔴 | vless | @meli_proxyy | 3'
+      - '🇩🇪DE | 🟢 | vless | @TEHRANARGO | 0'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 0'
       - '🇳🇱NL | 🔴 | vless | @TEHRANARGO | 1'
   - name: URL-TEST
@@ -138,7 +140,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🟢 | vless | @meli_proxyy | 2'
+      - '🇮🇷IR | 🔴 | vless | @meli_proxyy | 3'
+      - '🇩🇪DE | 🟢 | vless | @TEHRANARGO | 0'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 0'
       - '🇳🇱NL | 🔴 | vless | @TEHRANARGO | 1'
   - name: FALLBACK
@@ -146,7 +149,8 @@ proxy-groups:
     url: http://cp.cloudflare.com/
     interval: 60
     proxies:
-      - '❔XX | 🟢 | vless | @meli_proxyy | 2'
+      - '🇮🇷IR | 🔴 | vless | @meli_proxyy | 3'
+      - '🇩🇪DE | 🟢 | vless | @TEHRANARGO | 0'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 0'
       - '🇳🇱NL | 🔴 | vless | @TEHRANARGO | 1'
 rule-providers:

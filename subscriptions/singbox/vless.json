@@ -69,7 +69,8 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-7",
+                "@SiNAVM-8"
             ]
         },
         {
@@ -82,7 +83,8 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7"
+                "@SiNAVM-7",
+                "@SiNAVM-8"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -114,9 +116,9 @@
         },
         {
             "type": "vless",
-            "server": "tci.ir.cloud.us.systemgamingirani.ir",
+            "server": "arvancloud.de.ir.systemgamingirani.ir",
             "server_port": 443,
-            "uuid": "05d83460-c34e-4d1a-9bae-40f60e77cd95",
+            "uuid": "cf069ba9-3d6d-482f-9982-20fc55d04c9b",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -139,6 +141,22 @@
                 }
             },
             "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "vless",
+            "server": "n1.cafedorehami.shop",
+            "server_port": 80,
+            "uuid": "chanel",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "grpc",
+                "service_name": "n1.cafedorehami.shop",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -166,18 +184,18 @@
                     "short_id": "0817d6"
                 }
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-4"
         },
         {
             "type": "vless",
-            "server": "arvancloud.de.ir.systemgamingirani.ir",
-            "server_port": 443,
-            "uuid": "05d83460-c34e-4d1a-9bae-40f60e77cd95",
+            "server": "84.201.20.248",
+            "server_port": 45868,
+            "uuid": "4d705f5a-6db6-4528-85cf-f7e0da6ccb16",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "google.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -190,11 +208,18 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "Xf_flAxrxjR_kM0e6StsmGy3h5a-PDoYvYJrfP4KUTQ",
+                    "short_id": "7f"
                 }
             },
-            "tag": "@SiNAVM-4"
+            "transport": {
+                "type": "grpc",
+                "service_name": "@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            },
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -212,7 +237,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "vless",
@@ -230,7 +255,7 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "vless",
@@ -248,7 +273,7 @@
                 "max_early_data": 80,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-7"
+            "tag": "@SiNAVM-8"
         },
         {
             "type": "direct",

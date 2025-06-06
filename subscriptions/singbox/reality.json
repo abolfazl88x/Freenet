@@ -83,9 +83,9 @@
         },
         {
             "type": "vless",
-            "server": "tci.ir.cloud.us.systemgamingirani.ir",
+            "server": "arvancloud.de.ir.systemgamingirani.ir",
             "server_port": 443,
-            "uuid": "05d83460-c34e-4d1a-9bae-40f60e77cd95",
+            "uuid": "cf069ba9-3d6d-482f-9982-20fc55d04c9b",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
@@ -139,14 +139,14 @@
         },
         {
             "type": "vless",
-            "server": "arvancloud.de.ir.systemgamingirani.ir",
-            "server_port": 443,
-            "uuid": "05d83460-c34e-4d1a-9bae-40f60e77cd95",
+            "server": "84.201.20.248",
+            "server_port": 45868,
+            "uuid": "4d705f5a-6db6-4528-85cf-f7e0da6ccb16",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "google.com",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -159,9 +159,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "Xf_flAxrxjR_kM0e6StsmGy3h5a-PDoYvYJrfP4KUTQ",
+                    "short_id": "7f"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             },
             "tag": "@SiNAVM-3"
         },

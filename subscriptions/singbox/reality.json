@@ -65,9 +65,7 @@
                 "Best Latency",
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ]
         },
         {
@@ -76,9 +74,7 @@
             "outbounds": [
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -87,14 +83,14 @@
         },
         {
             "type": "vless",
-            "server": "185.255.112.147",
-            "server_port": 7580,
-            "uuid": "f7f95a02-ee99-11e4-d13b-d76c1410e702",
+            "server": "arvancloud.fr.ir.systemgamingirani.ir",
+            "server_port": 443,
+            "uuid": "8a58094b-d8c9-4629-96e5-d29f77f8e0c0",
             "packet_encoding": "xudp",
             "domain_strategy": "ipv6_only",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "tgju.org",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -107,8 +103,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ho00u1CNl0KjJKszyhKju2pKtY74AysLMkR7GNMzKSo",
-                    "short_id": ""
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             },
             "tag": "@SiNAVM-1"
@@ -143,7 +139,7 @@
         },
         {
             "type": "vless",
-            "server": "arvancloud.de.ir.systemgamingirani.ir",
+            "server": "arvancloud.fr.ir.systemgamingirani.ir",
             "server_port": 443,
             "uuid": "8a58094b-d8c9-4629-96e5-d29f77f8e0c0",
             "packet_encoding": "xudp",
@@ -168,62 +164,6 @@
                 }
             },
             "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "arvancloud.fr.ir.systemgamingirani.ir",
-            "server_port": 443,
-            "uuid": "8a58094b-d8c9-4629-96e5-d29f77f8e0c0",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "arvancloud.fr.ir.systemgamingirani.ir",
-            "server_port": 443,
-            "uuid": "8a58094b-d8c9-4629-96e5-d29f77f8e0c0",
-            "packet_encoding": "xudp",
-            "domain_strategy": "ipv6_only",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            },
-            "tag": "@SiNAVM-5"
         },
         {
             "type": "direct",

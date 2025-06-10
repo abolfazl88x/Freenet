@@ -123,7 +123,6 @@ proxies:
   - {"name":"🇳🇱NL | 🟢 | ss | @meli_proxyy | 14","type":"ss","server":"9.163.232.180","port":1490,"password":"ojcP36n1SouDcnBg9EOZP8","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6","type":"ss","server":"45.144.48.63","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13","type":"ss","server":"160.19.78.75","port":443,"password":"Nk9asglDzHzjktVzTkvhaA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7","type":"ss","server":"185.5.38.111","port":55988,"password":"T9VPet1fGhdb4JPmUS6SS5RNZ7NSgBvQNF4rkoQTdFhGWvmGedszfjBTgefmrQYhjhyB867P9RvyBQmtEjLUegm5CNymHC3i","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -136,7 +135,6 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | ss | @meli_proxyy | 14'
       - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18'
       - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6'
-      - '🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7'
   - name: URL-TEST
     type: url-test
@@ -149,7 +147,6 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | ss | @meli_proxyy | 14'
       - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18'
       - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6'
-      - '🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7'
   - name: FALLBACK
     type: fallback
@@ -161,7 +158,6 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | ss | @meli_proxyy | 14'
       - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18'
       - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6'
-      - '🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

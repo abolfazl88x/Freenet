@@ -7,8 +7,13 @@
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=/?ed=2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🇺🇸US | 🔴 | vless | @customv2ray | 0
 trojan://bpb-trojan@japan.com:443?path=/tr?ed=2560&security=tls&host=zamim340.ggff.net&type=ws&sni=zamim340.ggff.net#🇨🇦CA | 🔴 | trojan | @SiNAVM | 0
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.32.131.73:8880?flow=&type=grpc#🇺🇸US | 🔴 | vless | @OpenSSTPVpn | 0
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@67.220.95.102:8000#🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0
+trojan://telegram-id-directvpn@13.37.35.227:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷FR | 🟢 | trojan | @DirectVPN | 2
+vless://341a20b9-045b-4abd-94ab-6871f29ab05a@arvancloud.de.ir.systemgamingirani.ir:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=tgju.org&fp=chrome&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&sid=e54b5ad736ae4c38#🇩🇪DE | 🟢 | vless | @meli_proxyy | 1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvamNQMzZuMVNvdURjbkJnOUVPWlA4@9.163.232.180:1490#🇳🇱NL | 🟢 | ss | @ShadowProxy66 | 2
 vless://telegram-id-ArV2ray2@www.speedtest.net:80?path=/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry&security=none&encryption=none&host=www.speedtest.net.a.1.speedtest2029.com.&type=ws#🇺🇸US | 🔴 | vless | @ArV2ray | 0
 vless://cc038b26-d56c-4ea1-8e88-1c9f8e0d676b@84.201.20.248:45868?security=reality&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&pbk=Xf_flAxrxjR_kM0e6StsmGy3h5a-PDoYvYJrfP4KUTQ&fp=chrome&spx=/&type=grpc&serviceName=@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod&sni=google.com&sid=7f#🇩🇪DE | 🟢 | vless | @TEHRANARGO | 2
-vless://ed87c882-17f3-491a-810c-c0000e4b279e@zmaoz.faculty.ucdavis.edu:80?path=/olem/ws?ed=#/TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=foffmelo.com&type=ws#🇺🇸US | 🔴 | vless | @meli_proxyy | 0
+vless://ed87c882-17f3-491a-810c-c0000e4b279e@zmaoz.faculty.ucdavis.edu:80?path=/olem/ws?ed=#/TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=foffmelo.com&type=ws#🇺🇸US | 🔴 | vless | @meli_proxyy | 2
+vless://v2rayvpn_official@n1.cafedorehami.shop:80?security=&encryption=none&type=grpc&serviceName=n1.cafedorehami.shop#🇩🇪DE | 🔴 | vless | @meli_proxyy | 0
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5Q3BTSk1Za0ZRZXBHNG80UU5LeW83cW90cFJFSnp3UzFiYmt5SE5hdXBocktnWVVoVTNCTEUxbmJBZVRxWVpoOHJNOUtSZXhuWU5nRVdCbXRaSDFyanhkMmJpRHFYSk0=@185.5.38.111:55988#🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.141:8080#🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 3
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@67.220.95.102:8000#🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0

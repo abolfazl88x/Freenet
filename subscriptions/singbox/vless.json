@@ -66,7 +66,8 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5"
             ]
         },
         {
@@ -76,7 +77,8 @@
                 "@SiNAVM-1",
                 "@SiNAVM-2",
                 "@SiNAVM-3",
-                "@SiNAVM-4"
+                "@SiNAVM-4",
+                "@SiNAVM-5"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -153,6 +155,15 @@
         },
         {
             "type": "vless",
+            "server": "84.201.20.248",
+            "server_port": 8763,
+            "uuid": "c7d6121f-82b5-4907-a92b-4eb72504c899",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "vless",
             "server": "n1.cafedorehami.shop",
             "server_port": 80,
             "uuid": "v2rayvpn_official",
@@ -165,7 +176,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "@SiNAVM-4"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "direct",

@@ -67,7 +67,8 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ]
         },
         {
@@ -78,12 +79,31 @@
                 "@SiNAVM-2",
                 "@SiNAVM-3",
                 "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-5",
+                "@SiNAVM-6"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
+        },
+        {
+            "type": "vless",
+            "server": "Join.VPNCUSTOMIZE.cloud1.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "9cc0db84-9437-4740-b4a6-da27d37cad7b",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "Join.VPNCUSTOMIZE.cloud1.hosting-ip.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -115,7 +135,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-1"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -133,7 +153,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-2"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "vless",
@@ -160,24 +180,6 @@
                     "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
                     "short_id": "e54b5ad736ae4c38"
                 }
-            },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "d78628e8-5b51-4452-b3ce-79f3249b5755",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-4"
         },
@@ -208,6 +210,24 @@
                 }
             },
             "tag": "@SiNAVM-5"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "d78628e8-5b51-4452-b3ce-79f3249b5755",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-6"
         },
         {
             "type": "direct",

@@ -121,7 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | 🟢 | vless | @customv2ray | 7","type":"vless","server":"arvancloud.fn.ir.systemgamingirani.ir","port":443,"udp":true,"uuid":"99e7663b-3c55-46a3-8b84-f174d814cc93","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8","short-id":"e54b5ad736ae4c38"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @TEHRANARGO | 8","type":"vless","server":"84.201.20.248","port":45868,"udp":true,"uuid":"cc038b26-d56c-4ea1-8e88-1c9f8e0d676b","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"google.com","grpc-opts":{"grpc-service-name":"@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod-@FergalVpnMod"},"reality-opts":{"public-key":"Xf_flAxrxjR_kM0e6StsmGy3h5a-PDoYvYJrfP4KUTQ","short-id":"7f"}}
   - {"name":"🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9","type":"vless","server":"arvancloud.fr.ir.systemgamingirani.ir","port":443,"udp":true,"uuid":"8a58094b-d8c9-4629-96e5-d29f77f8e0c0","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tgju.org","reality-opts":{"public-key":"tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8","short-id":"e54b5ad736ae4c38"}}
   - {"name":"❔XX | 🟢 | vless | @meli_proxyy | 17","type":"vless","server":"FASTSHOVPNTELEGRAM.vinamarketcenter.ir","port":2053,"udp":true,"uuid":"a48d508e-1659-4ca0-a29a-5d931b053bf1","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"J_hakbFY6qXqGMQr2hSQx686SjqZn4CU4d1BUai7G0Q","short-id":"b5"}}
   - {"name":"❔XX | 🟢 | vless | @DailyV2RY | 270","type":"vless","server":"v02.vxlimir.com","port":1370,"udp":true,"uuid":"90f12f7c-6c24-42d3-98bb-9f598dca0589","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"refersion.com","reality-opts":{"public-key":"_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw","short-id":"e1afb93bfe75a34b"}}
@@ -133,7 +132,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 7'
-      - '🇩🇪DE | 🟢 | vless | @TEHRANARGO | 8'
       - '🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9'
       - '❔XX | 🟢 | vless | @meli_proxyy | 17'
       - '❔XX | 🟢 | vless | @DailyV2RY | 270'
@@ -145,7 +143,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 7'
-      - '🇩🇪DE | 🟢 | vless | @TEHRANARGO | 8'
       - '🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9'
       - '❔XX | 🟢 | vless | @meli_proxyy | 17'
       - '❔XX | 🟢 | vless | @DailyV2RY | 270'
@@ -156,7 +153,6 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 7'
-      - '🇩🇪DE | 🟢 | vless | @TEHRANARGO | 8'
       - '🇫🇷FR | 🟢 | vless | @TEHRANARGO | 9'
       - '❔XX | 🟢 | vless | @meli_proxyy | 17'
       - '❔XX | 🟢 | vless | @DailyV2RY | 270'

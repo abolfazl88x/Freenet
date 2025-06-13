@@ -69,10 +69,7 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8",
-                "@SiNAVM-9",
-                "@SiNAVM-10"
+                "@SiNAVM-7"
             ]
         },
         {
@@ -85,15 +82,30 @@
                 "@SiNAVM-4",
                 "@SiNAVM-5",
                 "@SiNAVM-6",
-                "@SiNAVM-7",
-                "@SiNAVM-8",
-                "@SiNAVM-9",
-                "@SiNAVM-10"
+                "@SiNAVM-7"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
             "tolerance": 1,
             "idle_timeout": "9m0s"
+        },
+        {
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8080,
+            "uuid": "690ab90e-3f21-422b-8cb1-bc9845c7af1e",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "@SiNAVM-1"
         },
         {
             "type": "vless",
@@ -111,17 +123,25 @@
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-1"
+            "tag": "@SiNAVM-2"
         },
         {
-            "type": "shadowsocks",
-            "server": "45.87.175.188",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u",
-            "udp_over_tcp": true,
+            "type": "vless",
+            "server": "astram.abletodothingsorg.com",
+            "server_port": 80,
+            "uuid": "57413029-5035-4de8-8681-e74d00d7ee72",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-2"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "astram.abletodothingsorg.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "trojan",
@@ -152,24 +172,6 @@
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-3"
-        },
-        {
-            "type": "vless",
-            "server": "astram.abletodothingsorg.com",
-            "server_port": 80,
-            "uuid": "57413029-5035-4de8-8681-e74d00d7ee72",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "astram.abletodothingsorg.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
             "tag": "@SiNAVM-4"
         },
         {
@@ -184,54 +186,13 @@
         },
         {
             "type": "shadowsocks",
-            "server": "85.210.120.237",
+            "server": "api.namasha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "password": "u17T3BvpYaaiuW2c",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-6"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "45.158.171.141",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-7"
-        },
-        {
-            "type": "trojan",
-            "server": "15.237.165.62",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "@SiNAVM-8"
-        },
-        {
-            "type": "vless",
-            "server": "84.201.20.248",
-            "server_port": 8763,
-            "uuid": "c7d6121f-82b5-4907-a92b-4eb72504c899",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-9"
         },
         {
             "type": "vless",
@@ -249,7 +210,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "direct",

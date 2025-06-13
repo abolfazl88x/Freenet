@@ -71,7 +71,9 @@
                 "@SiNAVM-6",
                 "@SiNAVM-7",
                 "@SiNAVM-8",
-                "@SiNAVM-9"
+                "@SiNAVM-9",
+                "@SiNAVM-10",
+                "@SiNAVM-11"
             ]
         },
         {
@@ -86,7 +88,9 @@
                 "@SiNAVM-6",
                 "@SiNAVM-7",
                 "@SiNAVM-8",
-                "@SiNAVM-9"
+                "@SiNAVM-9",
+                "@SiNAVM-10",
+                "@SiNAVM-11"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -145,19 +149,32 @@
             "tag": "@SiNAVM-2"
         },
         {
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
+            "type": "trojan",
+            "server": "japan.com",
+            "server_port": 443,
+            "password": "bpb-trojan",
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "zamim340.ggff.net",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI",
+                "path": "\/tr",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "zamim340.ggff.net"
                 },
-                "max_early_data": 512,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-3"
@@ -195,63 +212,22 @@
             "tag": "@SiNAVM-4"
         },
         {
-            "type": "trojan",
-            "server": "japan.com",
-            "server_port": 443,
-            "password": "bpb-trojan",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "58e596b3-e7e6-43c5-9c03-b1e90db428a9",
+            "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "zamim340.ggff.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/tr",
+                "path": "\/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2",
                 "headers": {
-                    "Host": "zamim340.ggff.net"
+                    "Host": "www.speedtest.net"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "shadowsocks",
-            "server": "9.163.232.180",
-            "server_port": 1490,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ojcP36n1SouDcnBg9EOZP8",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-6"
-        },
-        {
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "a574d389-322f-4820-a713-da96d0ad28af",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-7"
         },
         {
             "type": "shadowsocks",
@@ -261,7 +237,17 @@
             "password": "u17T3BvpYaaiuW2c",
             "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-8"
+            "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "shadowsocks",
+            "server": "9.163.232.180",
+            "server_port": 1490,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ojcP36n1SouDcnBg9EOZP8",
+            "udp_over_tcp": true,
+            "domain_strategy": "prefer_ipv4",
+            "tag": "@SiNAVM-7"
         },
         {
             "type": "vless",
@@ -279,7 +265,65 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
+            "tag": "@SiNAVM-8"
+        },
+        {
+            "type": "vless",
+            "server": "57.129.41.217",
+            "server_port": 80,
+            "uuid": "4004b4f2-d973-432f-8376-043a52cec187",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/",
+                "headers": {
+                    "Host": "57.129.41.217"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-9"
+        },
+        {
+            "type": "vless",
+            "server": "194.76.18.50",
+            "server_port": 80,
+            "uuid": "f2a72ad0-d23f-4eed-96cb-7d970b1e784d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/",
+                "headers": {
+                    "Host": "194.76.18.50"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-10"
+        },
+        {
+            "type": "trojan",
+            "server": "18.196.146.50",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": false,
+                "alpn": [
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "@SiNAVM-11"
         },
         {
             "type": "direct",

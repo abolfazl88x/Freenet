@@ -157,15 +157,6 @@
         },
         {
             "type": "vless",
-            "server": "84.201.20.248",
-            "server_port": 8763,
-            "uuid": "c7d6121f-82b5-4907-a92b-4eb72504c899",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
             "server": "webhook-receiver.4b3a.com",
             "server_port": 8443,
             "uuid": "acd867f1-a71b-4a17-a473-2b57930d8678",
@@ -190,6 +181,15 @@
                     "short_id": "6ba85179e30d4fc2"
                 }
             },
+            "tag": "@SiNAVM-4"
+        },
+        {
+            "type": "vless",
+            "server": "84.201.20.248",
+            "server_port": 8763,
+            "uuid": "c7d6121f-82b5-4907-a92b-4eb72504c899",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tag": "@SiNAVM-5"
         },
         {

@@ -65,9 +65,7 @@
                 "Best Latency",
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ]
         },
         {
@@ -76,9 +74,7 @@
             "outbounds": [
                 "@SiNAVM-1",
                 "@SiNAVM-2",
-                "@SiNAVM-3",
-                "@SiNAVM-4",
-                "@SiNAVM-5"
+                "@SiNAVM-3"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -102,24 +98,6 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
-        },
-        {
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "ba3797e0-31a5-4510-ea35-6e409c4953e5",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws",
-                "headers": {
-                    "Host": "speedtest.net"
-                },
-                "max_early_data": 1024,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -147,7 +125,7 @@
                     "short_id": "5fab0deb"
                 }
             },
-            "tag": "@SiNAVM-3"
+            "tag": "@SiNAVM-2"
         },
         {
             "type": "vless",
@@ -165,25 +143,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "@SiNAVM-4"
-        },
-        {
-            "type": "vless",
-            "server": "57.129.41.217",
-            "server_port": 80,
-            "uuid": "4004b4f2-d973-432f-8376-043a52cec187",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/",
-                "headers": {
-                    "Host": "57.129.41.217"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-5"
+            "tag": "@SiNAVM-3"
         },
         {
             "type": "direct",

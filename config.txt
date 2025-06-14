@@ -1,8 +1,7 @@
 vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@172.67.11.138:80?path=%2F%3Fed%3D2560%2F%3FJOKERRVPN&security=none&encryption=none&host=kssepa.sabzipolobamahi.dpdns.org&type=ws#🇺🇸US%20|%20🔴%20|%20vless%20|%20@meli_proxyy%20|%200
-vless://d78628e8-5b51-4452-b3ce-79f3249b5755@www.speedtest.net:80?path=%2FTelegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry%3Fed%3D2048&security=none&encryption=none&host=www.speedtest.net.1.developsp.ir.gebados.ir.&type=ws#🇺🇸US%20|%20🔴%20|%20vless%20|%20@customv2ray%20|%202
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@173.244.56.6:443#🇺🇸US%20|%20🟢%20|%20ss%20|%20@DeamNet_Proxy%20|%2011
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.179:8880?encryption=none&security=none&type=grpc&mode=gun#🇺🇸US%20|%20🔴%20|%20vless%20|%20@DeamNet_Proxy%20|%203
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#🇨🇦CA%20|%20🟢%20|%20ss%20|%20@meli_proxyy%20|%2010
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@173.244.56.6:443#🇺🇸US%20|%20🟢%20|%20ss%20|%20@DeamNet_Proxy%20|%2011
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@series-a2-me.varzesh360.co:443#🇬🇧GB%20|%20🟢%20|%20ss%20|%20@DeamNet_Proxy%20|%2016
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#🇳🇱NL%20|%20🟢%20|%20ss%20|%20@ShadowProxy66%20|%202
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.92:8080#🇺🇸US%20|%20🟢%20|%20ss%20|%20@meli_proxyy%20|%201

@@ -85,18 +85,18 @@
         },
         {
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "uuid": "542f694b-e8bd-4b9e-858c-ccb1c46a3316",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI",
+                "path": "\/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "www.speedtest.net"
                 },
-                "max_early_data": 512,
+                "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
@@ -135,18 +135,18 @@
         },
         {
             "type": "vless",
-            "server": "104.16.0.113",
+            "server": "104.17.147.22",
             "server_port": 80,
-            "uuid": "bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0",
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI",
                 "headers": {
-                    "Host": "104.16.0.113"
+                    "Host": "104.17.147.22"
                 },
-                "max_early_data": 2560,
+                "max_early_data": 512,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-3"

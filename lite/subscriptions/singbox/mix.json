@@ -113,7 +113,7 @@
         },
         {
             "type": "trojan",
-            "server": "3.120.64.92",
+            "server": "35.181.25.102",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -135,7 +135,7 @@
         },
         {
             "type": "trojan",
-            "server": "63.176.124.40",
+            "server": "3.120.64.92",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "domain_strategy": "prefer_ipv4",
@@ -156,53 +156,23 @@
             "tag": "@SiNAVM-2"
         },
         {
-            "type": "vless",
-            "server": "104.26.15.85",
-            "server_port": 8080,
-            "uuid": "56652249-2e67-4429-b86c-3df8b838ad85",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "64.227.144.190",
+            "server_port": 50690,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3PiNbHH0gSHsiXw7Qh4VYV",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.26.15.85"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
             "tag": "@SiNAVM-3"
         },
         {
-            "type": "vless",
-            "server": "zula.ir",
+            "type": "shadowsocks",
+            "server": "api.namasha.co",
             "server_port": 443,
-            "uuid": "169221de-6408-4143-9e66-6f77de385e94",
-            "packet_encoding": "xudp",
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "cassiusvpn-cassiusvpn-000.stat-4.workers.dev",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Cassiusvpn-@Cassiusvpn-@Cassiusvpn-@Cassiusvpn-@Cassiusvpn-",
-                "headers": {
-                    "Host": "cassiusvpn-cassiusvpn-000.stat-4.workers.dev"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
             "tag": "@SiNAVM-4"
         },
         {
@@ -298,16 +268,16 @@
         },
         {
             "type": "vless",
-            "server": "domain2025.dpdns.org",
-            "server_port": 2052,
+            "server": "104.21.75.66",
+            "server_port": 80,
             "uuid": "7fed5bf9-a1de-41a0-ab89-694265c4895f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Lx85HksDCHd0r7iR",
+                "path": "\/942voDlUa1wjdNSl",
                 "headers": {
-                    "Host": "domain2025.dpdns.org"
+                    "Host": "104.21.75.66"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -317,13 +287,13 @@
         {
             "type": "vless",
             "server": "104.21.75.66",
-            "server_port": 80,
+            "server_port": 8880,
             "uuid": "7fed5bf9-a1de-41a0-ab89-694265c4895f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/942voDlUa1wjdNSl",
+                "path": "\/lidvBfIUfPSHbm3n",
                 "headers": {
                     "Host": "104.21.75.66"
                 },

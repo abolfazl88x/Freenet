@@ -115,24 +115,6 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 512,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-2"
-        },
-        {
-            "type": "vless",
             "server": "104.17.147.22",
             "server_port": 443,
             "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -160,6 +142,24 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-2"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                },
+                "max_early_data": 512,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-3"
         },

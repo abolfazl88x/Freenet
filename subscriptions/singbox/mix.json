@@ -72,8 +72,7 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10",
-                "@SiNAVM-11"
+                "@SiNAVM-10"
             ]
         },
         {
@@ -89,8 +88,7 @@
                 "@SiNAVM-7",
                 "@SiNAVM-8",
                 "@SiNAVM-9",
-                "@SiNAVM-10",
-                "@SiNAVM-11"
+                "@SiNAVM-10"
             ],
             "url": "http:\/\/1.1.1.1\/",
             "interval": "3m0s",
@@ -99,18 +97,18 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "tgju.org",
             "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "uuid": "2a11c595-935d-4e1b-81d4-ab8dd1e10bff",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "tgju.org"
                 },
-                "max_early_data": 2560,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
@@ -200,25 +198,13 @@
             "tag": "@SiNAVM-5"
         },
         {
-            "type": "trojan",
-            "server": "3.70.117.124",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
+            "type": "shadowsocks",
+            "server": "admin.c2.webramz.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WstuSnlu4ieA9M0L",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": false,
-                "alpn": [
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "tag": "@SiNAVM-6"
         },
         {
@@ -275,16 +261,6 @@
             "tag": "@SiNAVM-8"
         },
         {
-            "type": "shadowsocks",
-            "server": "62.210.88.22",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "wc38sarAhi29p4Bp95mLXu",
-            "udp_over_tcp": true,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "@SiNAVM-9"
-        },
-        {
             "type": "vless",
             "server": "77.91.74.189",
             "server_port": 28495,
@@ -310,25 +286,17 @@
                     "short_id": "0ecc2c1392"
                 }
             },
-            "tag": "@SiNAVM-10"
+            "tag": "@SiNAVM-9"
         },
         {
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "bc95cd71-11ae-4ae5-dbd8-e96c291bfe9c",
-            "packet_encoding": "xudp",
+            "type": "shadowsocks",
+            "server": "62.210.88.22",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "wc38sarAhi29p4Bp95mLXu",
+            "udp_over_tcp": true,
             "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam",
-                "headers": {
-                    "Host": "151.101.64.155"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "@SiNAVM-11"
+            "tag": "@SiNAVM-10"
         },
         {
             "type": "direct",

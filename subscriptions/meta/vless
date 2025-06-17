@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"redfree8mahsang6.redfree8.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 4","type":"vless","server":"tgju.org","port":80,"udp":false,"uuid":"2a11c595-935d-4e1b-81d4-ab8dd1e10bff","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"DECENt-ReFerEnCE.ZUlAir.oRG."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Outline_Vpn | 0","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"3058e698-61fd-4d12-95bc-f1fe4c071713","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hOZori.iR","ws-opts":{"path":"/RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg","headers":{"host":"hozori.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @meli_proxyy | 0","type":"vless","server":"www.speedtest.net","port":8443,"udp":false,"uuid":"b1addf1e-6c1d-4410-bfa5-cf26328319d9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV","ws-opts":{"path":"/CmxkS1704Zcx8p3M?ed=2560","headers":{"host":"0hvsno270bvrxg6ekby8umsqn-6941fa.pages.dev"}}}
   - {"name":"🇫🇮FI | 🔴 | vless | @meli_proxyy | 1","type":"vless","server":"65.109.203.8","port":14787,"udp":true,"uuid":"29b198d6-25e1-4c15-9b53-feacf78ac3d0","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"tgju.org","grpc-opts":{"grpc-service-name":"digikala.ir"},"reality-opts":{"public-key":"---rivmiDN3OHmQHOpowqKDVft8FWrl4BqZ_gyImCR4","short-id":"be31134d"}}
@@ -131,7 +131,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0'
+      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 4'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
       - '🇺🇸US | 🔴 | vless | @meli_proxyy | 0'
       - '🇫🇮FI | 🔴 | vless | @meli_proxyy | 1'
@@ -142,7 +142,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0'
+      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 4'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
       - '🇺🇸US | 🔴 | vless | @meli_proxyy | 0'
       - '🇫🇮FI | 🔴 | vless | @meli_proxyy | 1'
@@ -152,7 +152,7 @@ proxy-groups:
     url: http://cp.cloudflare.com/
     interval: 60
     proxies:
-      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 0'
+      - '🇺🇸US | 🔴 | vless | @DeamNet_Proxy | 4'
       - '🇺🇸US | 🔴 | vless | @Outline_Vpn | 0'
       - '🇺🇸US | 🔴 | vless | @meli_proxyy | 0'
       - '🇫🇮FI | 🔴 | vless | @meli_proxyy | 1'

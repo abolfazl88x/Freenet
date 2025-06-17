@@ -93,19 +93,19 @@
         },
         {
             "type": "vless",
-            "server": "91.193.58.217",
+            "server": "bdok.ir",
             "server_port": 8880,
-            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "uuid": "51d3d249-9095-4cbd-8fd2-3e6c1039cab4",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳 @MxlShare @WangCai2 \/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "91.193.58.217"
+                    "Host": "bdok.ir"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": ""
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             },
             "tag": "@SiNAVM-1"
         },
@@ -129,16 +129,30 @@
         },
         {
             "type": "vless",
-            "server": "172.67.73.163",
-            "server_port": 8080,
-            "uuid": "6abbaf96-4b16-48d3-b996-a6067fc6eb2c",
+            "server": "104.17.147.22",
+            "server_port": 443,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "Wv2NhB0hVh.SoLiJoNiTo.CoM",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.73.163"
+                    "Host": "Wv2NhB0hVh.SoLiJoNiTo.CoM"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""
@@ -179,39 +193,7 @@
         },
         {
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 443,
-            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "Wv2NhB0hVh.SoLiJoNiTo.CoM",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Wv2NhB0hVh.SoLiJoNiTo.CoM"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "@SiNAVM-5"
-        },
-        {
-            "type": "vless",
-            "server": "156.238.18.214",
+            "server": "195.85.23.20",
             "server_port": 8880,
             "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
             "packet_encoding": "xudp",
@@ -220,12 +202,12 @@
                 "type": "ws",
                 "path": "\/Telegram🇨🇳 @MxlShare @WangCai2 \/",
                 "headers": {
-                    "Host": "156.238.18.214"
+                    "Host": "195.85.23.20"
                 },
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "@SiNAVM-6"
+            "tag": "@SiNAVM-5"
         },
         {
             "type": "vless",
@@ -239,6 +221,24 @@
                 "path": "\/",
                 "headers": {
                     "Host": "77.91.122.176"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "@SiNAVM-6"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/-Arfilter@Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@Arfilter",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": ""

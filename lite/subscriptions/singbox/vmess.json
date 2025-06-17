@@ -79,12 +79,35 @@
         },
         {
             "type": "vmess",
-            "server": "84.247.147.243",
-            "server_port": 51566,
-            "uuid": "ae6ae977-17f2-43fd-a336-20b3b3a9e791",
+            "server": "104.21.96.1",
+            "server_port": 443,
+            "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5",
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "hk2.lrzdx.uk",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/register",
+                "headers": {
+                    "Host": "hk2.lrzdx.uk"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-1"
         },
         {

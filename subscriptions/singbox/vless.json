@@ -169,11 +169,20 @@
         },
         {
             "type": "vless",
-            "server": "vip-82.f-sub.cfd",
-            "server_port": 5969,
-            "uuid": "953d71f0-9241-4903-95b4-cce61e90015e",
+            "server": "57.129.41.217",
+            "server_port": 80,
+            "uuid": "4004b4f2-d973-432f-8376-043a52cec187",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/",
+                "headers": {
+                    "Host": "57.129.41.217"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
             "tag": "@SiNAVM-4"
         },
         {

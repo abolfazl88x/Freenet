@@ -130,13 +130,11 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vless | @customv2ray | 1","type":"vless","server":"147.135.4.2","port":443,"udp":false,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"147135004002.sec20org.com"}
   - {"name":"❔XX | 🔴 | vless | @v2raybaz | 11","type":"vless","server":"digikalacomgooglecomsof98varzesh3com3.bestsoftware4you.com","port":45743,"udp":false,"uuid":"3c2e5f39-d738-40d4-929c-249ea568cb4a","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇷🇺RU | 🔴 | vless | @V2FETCH | 0","type":"vless","server":"client.bluwave.ir","port":80,"udp":false,"uuid":"e3eec9d9-ab70-4617-9e19-60860112c634","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=1861","headers":{"host":"Bluewave.ai"}}}
-  - {"name":"🇬🇧GB | 🟢 | vless | @TEHRANARGO | 4","type":"vless","server":"a1.graphapp.ir","port":2121,"udp":true,"uuid":"c0897efd-edb8-432a-bbbe-e5d2daff948e","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"journalofbigdata.springeropen.com","reality-opts":{"public-key":"8C0SElSc2U3jqim6AFkqwy2trWXhIAuh_5W1KOrSRF4"}}
-  - {"name":"🇬🇧GB | 🟢 | vless | @TEHRANARGO | 5","type":"vless","server":"a1.graphapp.ir","port":2121,"udp":true,"uuid":"c0897efd-edb8-432a-bbbe-e5d2daff948e","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"journalofbigdata.springeropen.com","reality-opts":{"public-key":"8C0SElSc2U3jqim6AFkqwy2trWXhIAuh_5W1KOrSRF4"}}
-  - {"name":"🇩🇪DE | 🔴 | vless | @meli_proxyy | 8","type":"vless","server":"142.93.168.151","port":8443,"udp":true,"uuid":"0636501b-7caa-4e85-92d6-d69f00184b3b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"journalofbigdata.springeropen.com","reality-opts":{"public-key":"jmJIrcH1e8ZRuWLVxngatpieUfew6vs_UrBl5gKkOxA","short-id":"9e0ef855491cb004"}}
-  - {"name":"🇳🇱NL | 🔴 | vless | @meli_proxyy | 9","type":"vless","server":"xen1.web.net-pardaze-iranian.ir","port":2095,"udp":false,"uuid":"cf8b42e6-d9dd-4599-9cb7-a6d27e1ea03b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"xen1.web.net-pardaze-iranian.ir"}
+  - {"name":"🇬🇧GB | 🔴 | vless | @TEHRANARGO | 3","type":"vless","server":"102.177.189.29","port":8880,"udp":false,"uuid":"fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf","tls":false,"network":"ws","client-fingerprint":"chrome","servername":"hk.laoyoutiao.link","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3","headers":{"host":"hk.laoyoutiao.link"}}}
+  - {"name":"🇫🇷FR | 🔴 | vless | @TEHRANARGO | 4","type":"vless","server":"all.qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com","port":443,"udp":false,"uuid":"be73d2e9-57a3-409d-872e-c5dacb7ea6a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"de22rp.qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com","ws-opts":{"path":"/ws?ed=2560","headers":{"host":"de22rp.qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com"}}}
   - {"name":"🇬🇧GB | 🟢 | ss | @OpenSSTPVpn | 0","type":"ss","server":"4.158.118.226","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 3","type":"vless","server":"zula.ir","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @redfree8 | 4","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @redfree8 | 4","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipsychO.SUEx12.Ir","ws-opts":{"path":"/re5IzbZ9IZZMddtw?ed=2560","headers":{"host":"ipsycho.suex12.ir"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -153,13 +151,11 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vless | @customv2ray | 1'
       - '❔XX | 🔴 | vless | @v2raybaz | 11'
       - '🇷🇺RU | 🔴 | vless | @V2FETCH | 0'
-      - '🇬🇧GB | 🟢 | vless | @TEHRANARGO | 4'
-      - '🇬🇧GB | 🟢 | vless | @TEHRANARGO | 5'
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 8'
-      - '🇳🇱NL | 🔴 | vless | @meli_proxyy | 9'
+      - '🇬🇧GB | 🔴 | vless | @TEHRANARGO | 3'
+      - '🇫🇷FR | 🔴 | vless | @TEHRANARGO | 4'
       - '🇬🇧GB | 🟢 | ss | @OpenSSTPVpn | 0'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 3'
-      - '🇨🇦CA | 🔴 | vless | @redfree8 | 4'
+      - '🇺🇸US | 🔴 | vless | @redfree8 | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -176,13 +172,11 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vless | @customv2ray | 1'
       - '❔XX | 🔴 | vless | @v2raybaz | 11'
       - '🇷🇺RU | 🔴 | vless | @V2FETCH | 0'
-      - '🇬🇧GB | 🟢 | vless | @TEHRANARGO | 4'
-      - '🇬🇧GB | 🟢 | vless | @TEHRANARGO | 5'
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 8'
-      - '🇳🇱NL | 🔴 | vless | @meli_proxyy | 9'
+      - '🇬🇧GB | 🔴 | vless | @TEHRANARGO | 3'
+      - '🇫🇷FR | 🔴 | vless | @TEHRANARGO | 4'
       - '🇬🇧GB | 🟢 | ss | @OpenSSTPVpn | 0'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 3'
-      - '🇨🇦CA | 🔴 | vless | @redfree8 | 4'
+      - '🇺🇸US | 🔴 | vless | @redfree8 | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -198,13 +192,11 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vless | @customv2ray | 1'
       - '❔XX | 🔴 | vless | @v2raybaz | 11'
       - '🇷🇺RU | 🔴 | vless | @V2FETCH | 0'
-      - '🇬🇧GB | 🟢 | vless | @TEHRANARGO | 4'
-      - '🇬🇧GB | 🟢 | vless | @TEHRANARGO | 5'
-      - '🇩🇪DE | 🔴 | vless | @meli_proxyy | 8'
-      - '🇳🇱NL | 🔴 | vless | @meli_proxyy | 9'
+      - '🇬🇧GB | 🔴 | vless | @TEHRANARGO | 3'
+      - '🇫🇷FR | 🔴 | vless | @TEHRANARGO | 4'
       - '🇬🇧GB | 🟢 | ss | @OpenSSTPVpn | 0'
       - '🇺🇸US | 🔴 | vless | @redfree8 | 3'
-      - '🇨🇦CA | 🔴 | vless | @redfree8 | 4'
+      - '🇺🇸US | 🔴 | vless | @redfree8 | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
